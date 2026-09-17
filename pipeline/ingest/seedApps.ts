@@ -114,3 +114,21 @@ export const SEED_APPS: Record<string, number[]> = {
 export function allSeedAppIds(): number[] {
   return [...new Set(Object.values(SEED_APPS).flat())];
 }
+
+// The distinctive Steam tag used to auto-thicken each market from real SteamSpy data
+// (top games by owners). Combo/broad markets (e.g. co-op horror) are omitted — a single
+// tag over-broadens them — and keep their hand-verified curated members only.
+export const THICKEN_TAGS: Record<string, string> = {
+  "cozy-automation": "Automation",
+  "survival-craft": "Survival",
+  "physics-puzzle": "Physics",
+  "roguelike-deckbuilder": "Deckbuilding",
+  "shop-management": "Shop Keeper",
+  "colony-sim": "Colony Sim",
+  "cozy-farm-sim": "Farming Sim",
+  "tower-defense": "Tower Defense",
+  "metroidvania": "Metroidvania",
+  "action-roguelite": "Action Roguelike",
+  "city-builder": "City Builder",
+  "creature-collector": "Creature Collector",
+};

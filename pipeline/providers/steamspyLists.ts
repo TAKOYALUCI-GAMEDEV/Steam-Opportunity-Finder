@@ -51,3 +51,20 @@ export async function fetchTop100(
   const list = await fetchList(`https://steamspy.com/api.php?request=${kind}`);
   return list.map((e) => e.appid);
 }
+
+/** Top `limit` apps carrying a given Steam tag, ranked by owner estimate. Filters out
+ *  apps with little review evidence. Real membership, no hand-guessed appIds. */
+export async function fetchTagTop(
+  tag: string,
+  limit: number,
+  minReviews = 500,
+): Promise<number[]> {
+  const list = await fetchList(
+    `https://steamspy.com/api.php?request=tag&tag=${encodeURIComponent(tag)}`,
+  );
+  return list
+    .filter((e) => e.positive + e.negative >= minReviews)
+    .sort((a, b) => ownersLower(b.owners) - ownersLower(a.owners))
+    .slice(0, limit)
+    .map((e) => e.appid);
+}

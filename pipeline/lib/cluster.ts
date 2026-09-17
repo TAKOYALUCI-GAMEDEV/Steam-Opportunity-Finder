@@ -115,13 +115,18 @@ export function assignGames(seed: ClusterSeed, games: Game[]): Game[] {
   });
 }
 
-function frequentTags(games: Game[], min = 2): string[] {
+// Characteristic tags of a market: tags shared by a MAJORITY-ish share of members, not
+// just any two. Prevents incidental tags from a few members inflating the requirement
+// profile when a market has many games.
+function frequentTags(games: Game[], minFrac = 0.35, cap = 10): string[] {
   const counts = new Map<string, number>();
   for (const g of games)
     for (const t of g.tags) counts.set(t, (counts.get(t) ?? 0) + 1);
+  const threshold = Math.max(2, Math.ceil(minFrac * games.length));
   return [...counts.entries()]
-    .filter(([, c]) => c >= min)
+    .filter(([, c]) => c >= threshold)
     .sort((a, b) => b[1] - a[1])
+    .slice(0, cap)
     .map(([t]) => t);
 }
 

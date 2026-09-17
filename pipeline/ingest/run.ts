@@ -13,7 +13,8 @@ import { CLUSTER_SEEDS } from "../../data/fixtures/clusterSeeds";
 import type { Game } from "../../src/types/dataset";
 import { assembleDataset, logClusterSummary } from "../lib/assemble";
 import { fetchGame } from "../providers/steam";
-import { allSeedAppIds, SEED_APPS } from "./seedApps";
+import { fetchTagTop } from "../providers/steamspyLists";
+import { SEED_APPS, THICKEN_TAGS } from "./seedApps";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PUBLIC_OUT = resolve(__dirname, "../../public/data/dataset.json");
@@ -21,10 +22,28 @@ const TRACKED_OUT = resolve(__dirname, "../../data/generated/dataset.json");
 const SNAPSHOTS = resolve(__dirname, "../../data/generated/snapshots.jsonl");
 
 const MIN_GAMES = 4;
+const TARGET_PER_MARKET = 14; // thicken each market to ~this many real games (§4)
 
 async function main() {
-  const appIds = allSeedAppIds();
-  console.log(`▸ ingesting ${appIds.length} apps from Steam (cached; polite rate limit)…`);
+  // Build per-market membership: curated anchors ∪ top-by-owners games carrying the
+  // market's distinctive tag (real SteamSpy data — no hand-guessed appIds).
+  console.log("▸ building market membership (curated ∪ SteamSpy tag top)…");
+  const membership = new Map<string, Set<number>>();
+  for (const slug of Object.keys(SEED_APPS)) {
+    const set = new Set<number>(SEED_APPS[slug]);
+    const tag = THICKEN_TAGS[slug];
+    if (tag) {
+      const top = await fetchTagTop(tag, TARGET_PER_MARKET);
+      top.forEach((id) => set.add(id));
+      console.log(`  · ${slug.padEnd(22)} tag="${tag}" → ${set.size} members`);
+    } else {
+      console.log(`  · ${slug.padEnd(22)} curated → ${set.size} members`);
+    }
+    membership.set(slug, set);
+  }
+
+  const appIds = [...new Set([...membership.values()].flatMap((s) => [...s]))];
+  console.log(`▸ ingesting ${appIds.length} unique apps from Steam (cached; polite rate limit)…`);
 
   const games: Game[] = [];
   let skipped = 0;
@@ -44,10 +63,14 @@ async function main() {
   }
   console.log(`▸ fetched ${games.length} games, skipped ${skipped}`);
 
-  // Explicit appId → market membership (spec §18 curated for V1).
-  const membership = new Map<string, Set<number>>();
-  for (const [slug, ids] of Object.entries(SEED_APPS))
-    membership.set(slug, new Set(ids));
+  // Membership filter: a game joins a market if it is a hand-verified curated anchor OR
+  // a tag-top candidate whose REAL tags actually contain the market's primary tag(s).
+  // This auto-removes off-theme games that merely carried a broad query tag (e.g. big
+  // shooters under "Physics", 7 Days to Die under "Tower Defense").
+  const norm = (s: string) => s.toLowerCase().replace(/-/g, " ").replace(/\s+/g, " ").trim();
+  const curatedSets = new Map(
+    Object.entries(SEED_APPS).map(([slug, ids]) => [slug, new Set(ids)]),
+  );
 
   const { dataset } = assembleDataset({
     games,
@@ -55,8 +78,15 @@ async function main() {
     source: "steam",
     minGames: MIN_GAMES,
     assign: (seed, gs) => {
-      const set = membership.get(seed.slug) ?? new Set();
-      return gs.filter((g) => set.has(g.appId));
+      const cand = membership.get(seed.slug) ?? new Set();
+      const curated = curatedSets.get(seed.slug) ?? new Set();
+      const primary = seed.primaryTags.map(norm);
+      return gs.filter((g) => {
+        if (!cand.has(g.appId)) return false;
+        if (curated.has(g.appId)) return true;
+        const gt = new Set(g.tags.map(norm));
+        return primary.every((t) => gt.has(t));
+      });
     },
     notes: `steam ingestion, ${games.length} games, minGames=${MIN_GAMES}`,
   });
