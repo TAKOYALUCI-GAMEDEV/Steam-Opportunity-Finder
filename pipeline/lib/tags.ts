@@ -7,6 +7,7 @@ import type { Game, TagInfo } from "../../src/types/dataset";
 // Low-information tags (spec §17). Down-weighted, not removed.
 export const GENERIC_TAGS = new Set(
   [
+    // Top-level genres / catch-alls
     "Indie",
     "Singleplayer",
     "Action",
@@ -16,14 +17,42 @@ export const GENERIC_TAGS = new Set(
     "Strategy",
     "RPG",
     "Multiplayer",
+    // Broad structural descriptors (not market-defining on their own)
+    "Co-op",
+    "Online Co-Op",
+    "Local Co-Op",
+    "Local Multiplayer",
+    "PvP",
+    "PvE",
+    "Open World",
+    "Sandbox",
+    "First-Person",
+    "Third Person",
+    "Free to Play",
+    "Massively Multiplayer",
+    "Exploration",
+    "Story Rich",
+    "Difficult",
+    "Moddable",
+    "Realistic",
+    "Controller",
+    "Early Access",
+    // Flavor / presentation
     "Great Soundtrack",
     "Atmospheric",
     "2D",
     "3D",
+    "2.5D",
+    "Pixel Graphics",
     "Colorful",
     "Cute",
     "Funny",
+    "Comedy",
     "Family Friendly",
+    "Nudity",
+    "Violent",
+    "Gore",
+    "Anime",
   ].map((t) => t.toLowerCase()),
 );
 

@@ -63,8 +63,23 @@ Data source: **39 real Steam games** across 5 markets (fixtures remain as the
 deterministic fallback and test basis). Refresh: `npm run ingest`, or the weekly
 `Refresh Steam data` workflow.
 
+### Automatic market discovery (experimental — `npm run ingest:auto`)
+
+A working deterministic implementation of spec §18: builds a ~280-game pool from
+SteamSpy genre lists, fetches real tags, and mines markets by tag co-occurrence
+(Apriori) with generic-tag down-weighting and a distinctive-anchor filter (§17
+inverse-frequency), producing ~28 discovered markets (e.g. _Action RPG + Character
+Customization_, _First Person + Physics_, _City Builder + Resource Management_).
+
+**Not shipped as the default**, deliberately. The candidate pool (genre top-by-owners)
+is blockbuster-biased, so discovered markets skew large-scope; a small team is then
+execution-blocked on nearly all of them and the Team Fit ranking loses its signal. Making
+auto-discovery product-useful needs a comprehensive catalog + better scope modeling —
+Phase 2 work (§49). Until then the **curated real dataset is the shipped experience**
+because it gives clean, differentiated Team Fit. The code is here and runnable.
+
 ### Not yet (Phase 2, spec §49–§52) — intentionally deferred
 
-- Automatic tag co-occurrence / FP-Growth clustering over a large catalog (curated seeds for now)
+- Comprehensive-catalog auto-discovery + scope modeling (mechanics done; see above)
 - Semantic embeddings, latent gap detection, natural-language Concept Validator
 - Real review-velocity/growth from accumulated snapshots (first snapshots now recording)

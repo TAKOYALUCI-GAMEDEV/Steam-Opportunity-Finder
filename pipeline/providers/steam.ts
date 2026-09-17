@@ -100,9 +100,13 @@ export async function fetchAppDetails(appId: number): Promise<AppDetails | null>
 }
 
 interface SteamSpyInfo {
+  name: string;
   developer: string;
   publisher: string;
   tags: string[]; // ordered by vote count desc (tag ranking, §13)
+  positive: number | null;
+  negative: number | null;
+  ccu: number | null;
 }
 
 export async function fetchSteamSpy(appId: number): Promise<SteamSpyInfo | null> {
@@ -119,9 +123,51 @@ export async function fetchSteamSpy(appId: number): Promise<SteamSpyInfo | null>
     tags = tagsRaw.map((t: string) => normalizeTag(t));
   }
   return {
+    name: j.name,
     developer: j.developer ?? "",
     publisher: j.publisher ?? "",
     tags,
+    positive: typeof j.positive === "number" ? j.positive : null,
+    negative: typeof j.negative === "number" ? j.negative : null,
+    ccu: typeof j.ccu === "number" ? j.ccu : null,
+  };
+}
+
+// Lighter game fetch for bulk auto-clustering: store appdetails (release/genres/price)
+// + SteamSpy (tags, reviews, ccu). Two calls/app instead of five — no official
+// appreviews/CCU, so recent velocity is left null (lifetime signals still available).
+export async function fetchGameLite(appId: number): Promise<Game | null> {
+  const [details, spy] = await Promise.all([fetchAppDetails(appId), fetchSteamSpy(appId)]);
+  if (!details && !spy) return null;
+  const positive = spy?.positive ?? null;
+  const negative = spy?.negative ?? null;
+  const total = positive != null && negative != null ? positive + negative : null;
+  const tags = spy?.tags?.length ? spy.tags : (details?.genres ?? []);
+  return {
+    appId,
+    name: details?.name ?? spy?.name ?? `App ${appId}`,
+    developer: spy?.developer ? [spy.developer] : [],
+    publisher: spy?.publisher ? [spy.publisher] : [],
+    releaseDate: details?.releaseIso ?? null,
+    comingSoon: details?.comingSoon ?? false,
+    earlyAccess: details?.earlyAccess ?? false,
+    price: details?.price ?? null,
+    currency: details?.currency ?? "EUR",
+    genres: details?.genres ?? [],
+    categories: details?.categories ?? [],
+    tags,
+    shortDescription: details?.shortDescription ?? "",
+    reviewPositive: positive,
+    reviewNegative: negative,
+    reviewTotal: total,
+    reviewScorePercent: total && total > 0 ? Math.round((positive! / total) * 100) : null,
+    currentPlayers: spy?.ccu ?? null,
+    reviewVelocity30d: null,
+    provenance: {
+      provider: "steamspy+appdetails",
+      fetchedAt: new Date().toISOString(),
+      confidence: details && spy ? 75 : 55,
+    },
   };
 }
 

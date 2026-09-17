@@ -11,6 +11,7 @@
     "preview": "vite preview",
     "data": "tsx pipeline/build-dataset.ts",
     "ingest": "tsx pipeline/ingest/run.ts",
+    "ingest:auto": "tsx pipeline/ingest/runAuto.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
   },
