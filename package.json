@@ -6,10 +6,11 @@
   "description": "Find underserved Steam markets that fit what your team can actually build.",
   "scripts": {
     "dev": "vite",
-    "build": "npm run data && tsc --noEmit && vite build",
+    "build": "tsx pipeline/prepare-data.ts && tsc --noEmit && vite build",
     "build:app": "tsc --noEmit && vite build",
     "preview": "vite preview",
     "data": "tsx pipeline/build-dataset.ts",
+    "ingest": "tsx pipeline/ingest/run.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
   },

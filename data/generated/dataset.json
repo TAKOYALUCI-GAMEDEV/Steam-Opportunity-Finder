@@ -1,0 +1,5686 @@
+{
+  "meta": {
+    "analyticsVersion": "market_v0.1",
+    "generatedAt": "2026-09-17T15:20:47.122Z",
+    "source": "steam",
+    "gameCount": 39,
+    "clusterCount": 5,
+    "notes": "steam ingestion, 39 games, minGames=4"
+  },
+  "games": [
+    {
+      "appId": 427520,
+      "name": "Factorio",
+      "developer": [
+        "Wube Software LTD."
+      ],
+      "publisher": [
+        "Wube Software LTD."
+      ],
+      "releaseDate": "2020-08-13",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 32,
+      "currency": "EUR",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op",
+        "Cross-Platform Multiplayer",
+        "Steam Achievements",
+        "Adjustable Text Size",
+        "Camera Comfort",
+        "Custom Volume Controls",
+        "Adjustable Difficulty",
+        "Playable without Timed Input",
+        "DualShock Controller Support",
+        "DualShock Controller Support",
+        "DualSense Controller Support",
+        "DualSense Controller Support",
+        "Save Anytime",
+        "Subtitle Options",
+        "Partial Controller Support",
+        "Steam Cloud",
+        "Includes level editor",
+        "Remote Play on Tablet",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Automation",
+        "Base Building",
+        "Resource Management",
+        "Sandbox",
+        "Crafting",
+        "Strategy",
+        "Multiplayer",
+        "Survival",
+        "Management",
+        "Open World",
+        "Building",
+        "Co op",
+        "2D",
+        "Moddable",
+        "Singleplayer",
+        "Trains",
+        "Simulation",
+        "Pixel Graphics",
+        "City Builder",
+        "Indie"
+      ],
+      "shortDescription": "Factorio is a game about building and creating automated factories to produce items of increasing complexity, within an infinite 2D world. Use your imagination to design your factory, combine simple elements into ingenious structures, and finally protect it from the creatures who don't really like y",
+      "reviewPositive": 228891,
+      "reviewNegative": 5832,
+      "reviewTotal": 234723,
+      "reviewScorePercent": 98,
+      "currentPlayers": 16607,
+      "reviewVelocity30d": 51.5,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.059Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 526870,
+      "name": "Satisfactory",
+      "developer": [
+        "Coffee Stain Studios"
+      ],
+      "publisher": [
+        "Coffee Stain Publishing"
+      ],
+      "releaseDate": "2024-09-09",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 38.99,
+      "currency": "EUR",
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Cross-Platform Multiplayer",
+        "Steam Achievements",
+        "Adjustable Text Size",
+        "Camera Comfort",
+        "Color Alternatives",
+        "Custom Volume Controls",
+        "Adjustable Difficulty",
+        "Playable without Timed Input",
+        "DualShock Controller Support",
+        "DualShock Controller Support",
+        "DualSense Controller Support",
+        "DualSense Controller Support",
+        "Save Anytime",
+        "Stereo Sound",
+        "Surround Sound",
+        "Partial Controller Support",
+        "Steam Cloud",
+        "Remote Play on Tablet",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Base Building",
+        "Automation",
+        "Open World",
+        "Multiplayer",
+        "Crafting",
+        "Co op",
+        "Building",
+        "Resource Management",
+        "Sandbox",
+        "Exploration",
+        "Adventure",
+        "Open World Survival Craft",
+        "Survival",
+        "First Person",
+        "Simulation",
+        "Strategy",
+        "Sci fi",
+        "Singleplayer",
+        "Early Access",
+        "Indie"
+      ],
+      "shortDescription": "Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!",
+      "reviewPositive": 271861,
+      "reviewNegative": 7643,
+      "reviewTotal": 279504,
+      "reviewScorePercent": 97,
+      "currentPlayers": 13309,
+      "reviewVelocity30d": 46,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.061Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1366540,
+      "name": "Dyson Sphere Program",
+      "developer": [
+        "Youthcat Studio"
+      ],
+      "publisher": [
+        "Gamirror Games"
+      ],
+      "releaseDate": "2021-01-19",
+      "comingSoon": false,
+      "earlyAccess": true,
+      "price": 16.79,
+      "currency": "EUR",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Automation",
+        "Space",
+        "Base Building",
+        "Building",
+        "Open World",
+        "Resource Management",
+        "Simulation",
+        "Sci fi",
+        "Management",
+        "Sandbox",
+        "City Builder",
+        "Strategy",
+        "Singleplayer",
+        "Space Sim",
+        "3D",
+        "Third Person",
+        "Early Access",
+        "Indie",
+        "RTS",
+        "Casual"
+      ],
+      "shortDescription": "Build the most efficient intergalactic factory in space simulation strategy game Dyson Sphere Program! Harness the power of stars, collect resources, plan and design production lines and develop your interstellar factory from a small space workshop to a galaxy-wide industrial empire.",
+      "reviewPositive": 89362,
+      "reviewNegative": 2365,
+      "reviewTotal": 91727,
+      "reviewScorePercent": 97,
+      "currentPlayers": 3784,
+      "reviewVelocity30d": 9.7,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.063Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1457320,
+      "name": "Techtonica",
+      "developer": [
+        "Fire Hose Games"
+      ],
+      "publisher": [
+        "Fire Hose Games"
+      ],
+      "releaseDate": "2024-11-06",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 28.99,
+      "currency": "EUR",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Automation",
+        "Simulation",
+        "Building",
+        "Base Building",
+        "Strategy",
+        "Resource Management",
+        "Sandbox",
+        "City Builder",
+        "Crafting",
+        "Management",
+        "Exploration",
+        "Multiplayer",
+        "First Person",
+        "Immersive Sim",
+        "Co op",
+        "Online Co Op",
+        "Colorful",
+        "Sci fi",
+        "Singleplayer",
+        "Early Access"
+      ],
+      "shortDescription": "Techtonica is a first-person factory automation game with a gripping mystery about mining your way out from the depths of an alien planet. Explore bioluminescent caves, mold destructible terrain, construct a massive subterranean factory. Dig your way toward answers &amp; discover the secrets of Caly",
+      "reviewPositive": 2111,
+      "reviewNegative": 1157,
+      "reviewTotal": 3268,
+      "reviewScorePercent": 65,
+      "currentPlayers": 29,
+      "reviewVelocity30d": 0.6,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.065Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1594320,
+      "name": "Captain of Industry",
+      "developer": [
+        "MaFi Games"
+      ],
+      "publisher": [
+        "MaFi Games"
+      ],
+      "releaseDate": "2022-05-30",
+      "comingSoon": false,
+      "earlyAccess": true,
+      "price": 33.99,
+      "currency": "EUR",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
+      "categories": [
+        "Single-player",
+        "Adjustable Text Size",
+        "Camera Comfort",
+        "Custom Volume Controls",
+        "Adjustable Difficulty",
+        "Mouse Only Option",
+        "#category_playable_at_your_own_pace",
+        "Playable without Timed Input",
+        "Save Anytime",
+        "Stereo Sound",
+        "Steam Cloud",
+        "Includes level editor",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Base Building",
+        "Automation",
+        "Resource Management",
+        "Management",
+        "Simulation",
+        "Economy",
+        "Mining",
+        "City Builder",
+        "Survival",
+        "Colony Sim",
+        "Strategy",
+        "Realistic",
+        "Transportation",
+        "Building",
+        "Early Access",
+        "Logic",
+        "Singleplayer",
+        "Agriculture",
+        "3D",
+        "Moddable"
+      ],
+      "shortDescription": "Build an industrial empire on a remote island. Mine resources, reshape terrain with excavators, grow food, construct factories, lay train tracks, and trade with the outside world. Research 100+ technologies to advance from basic metal smelting all the way to nuclear power and space flight.",
+      "reviewPositive": 10468,
+      "reviewNegative": 1128,
+      "reviewTotal": 11596,
+      "reviewScorePercent": 90,
+      "currentPlayers": 2965,
+      "reviewVelocity30d": 6,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.067Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 983870,
+      "name": "FOUNDRY",
+      "developer": [
+        "Channel 3 Entertainment"
+      ],
+      "publisher": [
+        "Paradox Interactive"
+      ],
+      "releaseDate": "2024-05-01",
+      "comingSoon": false,
+      "earlyAccess": true,
+      "price": 29.99,
+      "currency": "EUR",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy",
+        "Early Access"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op",
+        "DualShock Controller Support",
+        "Partial Controller Support",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Early Access",
+        "Automation",
+        "Base Building",
+        "Sandbox",
+        "Resource Management",
+        "Crafting",
+        "Building",
+        "Open World",
+        "Robots",
+        "Voxel",
+        "Co op",
+        "Procedural Generation",
+        "Multiplayer",
+        "Online Co Op",
+        "Simulation",
+        "First Person",
+        "Strategy",
+        "Singleplayer",
+        "Sci fi",
+        "Moddable"
+      ],
+      "shortDescription": "Build a sophisticated robot factory optimized to perfection in an infinite voxel world. Mine and harvest resources, automate your production lines and manage complex systems while researching your way to become the galaxy’s leading robotics megacorp.",
+      "reviewPositive": 3181,
+      "reviewNegative": 752,
+      "reviewTotal": 3933,
+      "reviewScorePercent": 81,
+      "currentPlayers": 170,
+      "reviewVelocity30d": 1.3,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.068Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1127400,
+      "name": "Mindustry",
+      "developer": [
+        "AnukenDev"
+      ],
+      "publisher": [
+        "AnukenDev"
+      ],
+      "releaseDate": "2019-09-25",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 9.99,
+      "currency": "EUR",
+      "genres": [
+        "Strategy"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "PvP",
+        "Online PvP",
+        "Co-op",
+        "Online Co-op",
+        "Cross-Platform Multiplayer",
+        "Steam Achievements",
+        "Steam Workshop",
+        "Steam Cloud",
+        "Stats",
+        "Includes level editor",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Base Building",
+        "Resource Management",
+        "Tower Defense",
+        "Strategy",
+        "Automation",
+        "Multiplayer",
+        "Sandbox",
+        "Building",
+        "Co op",
+        "2D",
+        "RTS",
+        "Online Co Op",
+        "Pixel Graphics",
+        "Singleplayer",
+        "PvE",
+        "Survival",
+        "Indie",
+        "PvP",
+        "Management",
+        "Action"
+      ],
+      "shortDescription": "An open-ended factory management game with RTS and tower defense elements.",
+      "reviewPositive": 26923,
+      "reviewNegative": 1205,
+      "reviewTotal": 28128,
+      "reviewScorePercent": 96,
+      "currentPlayers": 1136,
+      "reviewVelocity30d": 10.3,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.070Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 892970,
+      "name": "Valheim",
+      "developer": [
+        "Iron Gate AB"
+      ],
+      "publisher": [
+        "Coffee Stain Publishing"
+      ],
+      "releaseDate": "2026-09-08",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 29.99,
+      "currency": "EUR",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Steam Achievements",
+        "Full controller support",
+        "Camera Comfort",
+        "Custom Volume Controls",
+        "Adjustable Difficulty",
+        "DualShock Controller Support",
+        "DualShock Controller Support",
+        "DualSense Controller Support",
+        "DualSense Controller Support",
+        "Save Anytime",
+        "Stereo Sound",
+        "Steam Cloud",
+        "Stats",
+        "Remote Play on Tablet",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Open World Survival Craft",
+        "Survival",
+        "Online Co Op",
+        "Open World",
+        "Multiplayer",
+        "Building",
+        "Crafting",
+        "Base Building",
+        "Exploration",
+        "Co op",
+        "Adventure",
+        "Difficult",
+        "Mythology",
+        "Sandbox",
+        "PvE",
+        "Third Person",
+        "Action",
+        "Singleplayer",
+        "Early Access",
+        "Indie"
+      ],
+      "shortDescription": "A collaborative exploration and survival game for 1-10 players, set in a procedurally generated afterlife inspired by Viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
+      "reviewPositive": 515763,
+      "reviewNegative": 33767,
+      "reviewTotal": 549530,
+      "reviewScorePercent": 94,
+      "currentPlayers": 164933,
+      "reviewVelocity30d": 876.7,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.072Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 252490,
+      "name": "Rust",
+      "developer": [
+        "Facepunch Studios"
+      ],
+      "publisher": [
+        "Facepunch Studios"
+      ],
+      "releaseDate": "2018-02-07",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 19.99,
+      "currency": "EUR",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "Massively Multiplayer",
+        "RPG"
+      ],
+      "categories": [
+        "Multi-player",
+        "MMO",
+        "PvP",
+        "Online PvP",
+        "Co-op",
+        "Online Co-op",
+        "Cross-Platform Multiplayer",
+        "Steam Achievements",
+        "Steam Trading Cards",
+        "Steam Workshop",
+        "In-App Purchases",
+        "Adjustable Text Size",
+        "Camera Comfort",
+        "Color Alternatives",
+        "Custom Volume Controls",
+        "Adjustable Difficulty",
+        "Stereo Sound",
+        "Subtitle Options",
+        "Surround Sound",
+        "Valve Anti-Cheat enabled",
+        "Stats",
+        "Remote Play on Tablet"
+      ],
+      "tags": [
+        "Survival",
+        "Crafting",
+        "Multiplayer",
+        "Open World",
+        "Open World Survival Craft",
+        "Building",
+        "PvP",
+        "Sandbox",
+        "Adventure",
+        "First Person",
+        "Action",
+        "Nudity",
+        "FPS",
+        "Shooter",
+        "Co op",
+        "Online Co Op",
+        "Indie",
+        "Post apocalyptic",
+        "Early Access",
+        "Simulation"
+      ],
+      "shortDescription": "The only aim in Rust is to survive. Everything wants you to die - the island’s wildlife, other inhabitants, the environment, and other survivors. Do whatever it takes to last another night.",
+      "reviewPositive": 1213132,
+      "reviewNegative": 185747,
+      "reviewTotal": 1398879,
+      "reviewScorePercent": 87,
+      "currentPlayers": 112755,
+      "reviewVelocity30d": 471.7,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.074Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 346110,
+      "name": "ARK: Survival Evolved",
+      "developer": [
+        "Studio Wildcard, Instinct Games, Efecto Studios, Virtual Basement LLC"
+      ],
+      "publisher": [
+        "Studio Wildcard, Snail Games USA"
+      ],
+      "releaseDate": "2017-08-26",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 14.79,
+      "currency": "EUR",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "Massively Multiplayer",
+        "RPG"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "MMO",
+        "Co-op",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Workshop",
+        "Steam Cloud",
+        "Valve Anti-Cheat enabled",
+        "Includes level editor",
+        "Remote Play on Tablet",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Open World Survival Craft",
+        "Survival",
+        "Multiplayer",
+        "Open World",
+        "Dinosaurs",
+        "Crafting",
+        "Building",
+        "Adventure",
+        "Base Building",
+        "Co op",
+        "Action",
+        "Sandbox",
+        "First Person",
+        "Massively Multiplayer",
+        "Singleplayer",
+        "Early Access",
+        "RPG",
+        "Dragons",
+        "Sci fi",
+        "Indie"
+      ],
+      "shortDescription": "Stranded on the shores of a mysterious island, you must learn to survive. Use your cunning to kill or tame the primeval creatures roaming the land, and encounter other players to survive, dominate... and escape!",
+      "reviewPositive": 648206,
+      "reviewNegative": 129630,
+      "reviewTotal": 777836,
+      "reviewScorePercent": 83,
+      "currentPlayers": 17491,
+      "reviewVelocity30d": 64.2,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.076Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 962130,
+      "name": "Grounded",
+      "developer": [
+        "Obsidian Entertainment"
+      ],
+      "publisher": [
+        "Xbox Game Studios"
+      ],
+      "releaseDate": "2022-09-26",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 39.99,
+      "currency": "EUR",
+      "genres": [
+        "Action",
+        "Adventure"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Full controller support",
+        "Steam Trading Cards",
+        "Steam Cloud",
+        "Remote Play on Tablet",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Survival",
+        "Multiplayer",
+        "Co op",
+        "Open World Survival Craft",
+        "Base Building",
+        "Crafting",
+        "Adventure",
+        "Open World",
+        "Horror",
+        "Online Co Op",
+        "Exploration",
+        "Action",
+        "Sandbox",
+        "First Person",
+        "Singleplayer",
+        "RPG",
+        "Third Person",
+        "Cute",
+        "Funny",
+        "Early Access"
+      ],
+      "shortDescription": "The world is a vast, beautiful and dangerous place – especially when you have been shrunk to the size of an ant. Can you thrive alongside the hordes of giant insects, fighting to survive the perils of the backyard?",
+      "reviewPositive": 86012,
+      "reviewNegative": 9825,
+      "reviewTotal": 95837,
+      "reviewScorePercent": 90,
+      "currentPlayers": 2807,
+      "reviewVelocity30d": 15.2,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.077Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1623730,
+      "name": "Palworld",
+      "developer": [
+        "Pocketpair"
+      ],
+      "publisher": [
+        "Pocketpair"
+      ],
+      "releaseDate": "2026-07-08",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 28.99,
+      "currency": "EUR",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Cross-Platform Multiplayer",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Trading Cards",
+        "Steam Workshop",
+        "DualShock Controller Support",
+        "DualShock Controller Support",
+        "DualSense Controller Support",
+        "DualSense Controller Support",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Open World",
+        "Survival",
+        "Creature Collector",
+        "Multiplayer",
+        "Open World Survival Craft",
+        "Online Co Op",
+        "Crafting",
+        "Co op",
+        "Adventure",
+        "Base Building",
+        "Sandbox",
+        "Building",
+        "Third Person Shooter",
+        "Automation",
+        "Action",
+        "RPG",
+        "Anime",
+        "Early Access",
+        "Exploration",
+        "Farming"
+      ],
+      "shortDescription": "Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quot; in this completely new multiplayer, open world survival and crafting game!",
+      "reviewPositive": 461920,
+      "reviewNegative": 26506,
+      "reviewTotal": 488426,
+      "reviewScorePercent": 95,
+      "currentPlayers": 80517,
+      "reviewVelocity30d": 178.7,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.079Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 242760,
+      "name": "The Forest",
+      "developer": [
+        "Endnight Games Ltd"
+      ],
+      "publisher": [
+        "Endnight Games Ltd"
+      ],
+      "releaseDate": "2018-04-29",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 16.79,
+      "currency": "EUR",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "Simulation"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op",
+        "Tracked Controller Support",
+        "VR Supported",
+        "Partial Controller Support",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Open World Survival Craft",
+        "Survival",
+        "Open World",
+        "Horror",
+        "Crafting",
+        "Adventure",
+        "Building",
+        "Survival Horror",
+        "First Person",
+        "Action",
+        "Exploration",
+        "Sandbox",
+        "Singleplayer",
+        "Atmospheric",
+        "Simulation",
+        "Gore",
+        "Realistic",
+        "Indie",
+        "Zombies",
+        "Early Access"
+      ],
+      "shortDescription": "As the lone survivor of a passenger jet crash, you find yourself in a mysterious forest battling to stay alive against a society of cannibalistic mutants. Build, explore, survive in this terrifying first person survival horror simulator.",
+      "reviewPositive": 652124,
+      "reviewNegative": 30549,
+      "reviewTotal": 682673,
+      "reviewScorePercent": 96,
+      "currentPlayers": 4674,
+      "reviewVelocity30d": 98.4,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.081Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1326470,
+      "name": "Sons Of The Forest",
+      "developer": [
+        "Endnight Games Ltd"
+      ],
+      "publisher": [
+        "Newnight "
+      ],
+      "releaseDate": "2024-02-21",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 28.99,
+      "currency": "EUR",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "Simulation"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Steam Achievements",
+        "Full controller support",
+        "DualShock Controller Support",
+        "DualShock Controller Support",
+        "DualSense Controller Support",
+        "DualSense Controller Support",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Survival",
+        "Open World",
+        "Multiplayer",
+        "Co op",
+        "Survival Horror",
+        "Base Building",
+        "Horror",
+        "Crafting",
+        "First Person",
+        "Building",
+        "Exploration",
+        "Adventure",
+        "Singleplayer",
+        "Atmospheric",
+        "Sandbox",
+        "Action Adventure",
+        "Action",
+        "Simulation",
+        "Immersive Sim",
+        "Early Access"
+      ],
+      "shortDescription": "Sent to find a missing billionaire on a remote island, you find yourself in a cannibal-infested hellscape. Craft, build, and struggle to survive, alone or with friends, in this terrifying new open-world survival horror simulator.",
+      "reviewPositive": 283318,
+      "reviewNegative": 36954,
+      "reviewTotal": 320272,
+      "reviewScorePercent": 88,
+      "currentPlayers": 10051,
+      "reviewVelocity30d": 104.3,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.082Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1604030,
+      "name": "V Rising",
+      "developer": [
+        "Stunlock Studios"
+      ],
+      "publisher": [
+        "Stunlock Studios"
+      ],
+      "releaseDate": "2024-05-07",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 34.99,
+      "currency": "EUR",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Massively Multiplayer"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "PvP",
+        "Online PvP",
+        "LAN PvP",
+        "Co-op",
+        "Online Co-op",
+        "LAN Co-op",
+        "Steam Achievements",
+        "Camera Comfort",
+        "Custom Volume Controls",
+        "Adjustable Difficulty",
+        "Playable without Timed Input",
+        "DualShock Controller Support",
+        "DualShock Controller Support",
+        "DualSense Controller Support",
+        "DualSense Controller Support",
+        "Save Anytime",
+        "Stereo Sound",
+        "Subtitle Options",
+        "Surround Sound",
+        "Partial Controller Support",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Survival",
+        "Open World",
+        "Base Building",
+        "Vampire",
+        "Multiplayer",
+        "Crafting",
+        "Online Co Op",
+        "PvP",
+        "PvE",
+        "Building",
+        "Hack and Slash",
+        "Sandbox",
+        "Exploration",
+        "Massively Multiplayer",
+        "Dark Fantasy",
+        "Action Adventure",
+        "Singleplayer",
+        "Action",
+        "Adventure",
+        "Co op"
+      ],
+      "shortDescription": "Awaken as a Vampire. Hunt for blood in nearby settlements to regain your strength and evade the scorching sun to survive. Raise your castle and thrive in an ever-changing, open world full of mystery. Gain allies online and conquer the land of the living.",
+      "reviewPositive": 122021,
+      "reviewNegative": 15150,
+      "reviewTotal": 137171,
+      "reviewScorePercent": 89,
+      "currentPlayers": 3092,
+      "reviewVelocity30d": 20.2,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.084Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1203620,
+      "name": "Enshrouded",
+      "developer": [
+        "Keen Games GmbH"
+      ],
+      "publisher": [
+        "Keen Games GmbH"
+      ],
+      "releaseDate": "2024-01-23",
+      "comingSoon": false,
+      "earlyAccess": true,
+      "price": 39.99,
+      "currency": "EUR",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Early Access"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Steam Achievements",
+        "Full controller support",
+        "Adjustable Text Size",
+        "Camera Comfort",
+        "Color Alternatives",
+        "Custom Volume Controls",
+        "Adjustable Difficulty",
+        "DualShock Controller Support",
+        "DualShock Controller Support",
+        "DualSense Controller Support",
+        "DualSense Controller Support",
+        "Stereo Sound",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Open World",
+        "Survival",
+        "Base Building",
+        "Multiplayer",
+        "Online Co Op",
+        "Crafting",
+        "RPG",
+        "Adventure",
+        "Action RPG",
+        "Exploration",
+        "Building",
+        "Singleplayer",
+        "Fantasy",
+        "Sandbox",
+        "Character Customization",
+        "Early Access",
+        "PvE",
+        "Action",
+        "3D",
+        "Indie"
+      ],
+      "shortDescription": "You are Flameborn, last ember of hope of a dying race. Awaken, survive the terror of a corrupting fog, and reclaim the lost beauty of your kingdom. Venture into a vast world, vanquish punishing bosses, build grand halls and forge your path in this co-op survival action RPG for up to 16 players.",
+      "reviewPositive": 90656,
+      "reviewNegative": 15017,
+      "reviewTotal": 105673,
+      "reviewScorePercent": 86,
+      "currentPlayers": 6844,
+      "reviewVelocity30d": 37,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.086Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1149460,
+      "name": "ICARUS",
+      "developer": [
+        "RocketWerkz"
+      ],
+      "publisher": [
+        "RocketWerkz"
+      ],
+      "releaseDate": "2021-12-02",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 33.99,
+      "currency": "EUR",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Simulation"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Steam Achievements",
+        "Steam Trading Cards",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Survival",
+        "Open World Survival Craft",
+        "Multiplayer",
+        "Base Building",
+        "Online Co Op",
+        "Crafting",
+        "Open World",
+        "Exploration",
+        "Building",
+        "Co op",
+        "PvE",
+        "First Person",
+        "Space",
+        "Realistic",
+        "Mining",
+        "Third Person",
+        "Sandbox",
+        "Adventure",
+        "Nature",
+        "Science"
+      ],
+      "shortDescription": "ICARUS is a solo or multiplayer PvE survival game. Explore a savage wilderness in the aftermath of terraforming gone wrong. Complete narrative quests as either Open World operations or Individual Missions. Explore, build, craft and hunt while seeking your fortune and prospecting for exotic matter.",
+      "reviewPositive": 51167,
+      "reviewNegative": 17361,
+      "reviewTotal": 68528,
+      "reviewScorePercent": 75,
+      "currentPlayers": 6672,
+      "reviewVelocity30d": 28.5,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.088Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 648800,
+      "name": "Raft",
+      "developer": [
+        "Redbeet Interactive"
+      ],
+      "publisher": [
+        "Axolot Games"
+      ],
+      "releaseDate": "2022-06-19",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 20.49,
+      "currency": "EUR",
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Simulation"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Steam Achievements",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Survival",
+        "Multiplayer",
+        "Open World Survival Craft",
+        "Co op",
+        "Crafting",
+        "Open World",
+        "Building",
+        "Base Building",
+        "Online Co Op",
+        "Adventure",
+        "Sandbox",
+        "First Person",
+        "Singleplayer",
+        "Underwater",
+        "Simulation",
+        "Early Access",
+        "Action",
+        "Indie",
+        "Strategy",
+        "Massively Multiplayer"
+      ],
+      "shortDescription": "Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!",
+      "reviewPositive": 352102,
+      "reviewNegative": 26531,
+      "reviewTotal": 378633,
+      "reviewScorePercent": 93,
+      "currentPlayers": 8582,
+      "reviewVelocity30d": 45.5,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.089Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 477160,
+      "name": "Human Fall Flat",
+      "developer": [
+        "No Brakes Games"
+      ],
+      "publisher": [
+        "Curve Games"
+      ],
+      "releaseDate": "2016-07-21",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 5.99,
+      "currency": "EUR",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "PvP",
+        "Online PvP",
+        "Co-op",
+        "Shared/Split Screen Co-op",
+        "Shared/Split Screen",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Trading Cards",
+        "Steam Workshop",
+        "Color Alternatives",
+        "Custom Volume Controls",
+        "Keyboard Only Option",
+        "Playable without Timed Input",
+        "Stereo Sound",
+        "Surround Sound",
+        "Steam Cloud",
+        "Stats",
+        "Remote Play on TV",
+        "Remote Play Together",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Co op",
+        "Funny",
+        "Puzzle",
+        "Adventure",
+        "Physics",
+        "Multiplayer",
+        "Sandbox",
+        "Puzzle Platformer",
+        "Action",
+        "Open World",
+        "Local Co Op",
+        "Indie",
+        "Local Multiplayer",
+        "Comedy",
+        "Parkour",
+        "Casual",
+        "Split Screen",
+        "Singleplayer",
+        "3D Platformer",
+        "Simulation"
+      ],
+      "shortDescription": "Human Fall Flat is a hilarious, light-hearted platformer set in floating dreamscapes that can be played solo or with up to 8 players online. Free new levels keep its vibrant community rewarded.",
+      "reviewPositive": 214678,
+      "reviewNegative": 12216,
+      "reviewTotal": 226894,
+      "reviewScorePercent": 95,
+      "currentPlayers": 7148,
+      "reviewVelocity30d": 49.9,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.091Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 367450,
+      "name": "Poly Bridge",
+      "developer": [
+        "Dry Cactus"
+      ],
+      "publisher": [
+        "Dry Cactus"
+      ],
+      "releaseDate": "2016-07-11",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 8.19,
+      "currency": "EUR",
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Steam Trading Cards",
+        "Steam Workshop",
+        "Steam Cloud",
+        "Stats",
+        "Steam Leaderboards",
+        "Includes level editor",
+        "Remote Play on Phone",
+        "Remote Play on Tablet",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Building",
+        "Simulation",
+        "Physics",
+        "Puzzle",
+        "Singleplayer",
+        "Sandbox",
+        "Difficult",
+        "Indie",
+        "Funny",
+        "Family Friendly",
+        "Level Editor",
+        "Great Soundtrack",
+        "Education",
+        "Cartoon",
+        "Crafting",
+        "Colorful",
+        "Cute",
+        "Stylized",
+        "Strategy",
+        "Choices Matter"
+      ],
+      "shortDescription": "Unleash your engineering creativity with an engaging and fresh bridge-building simulator with all the bells and whistles. Enjoy hours of physics-based puzzle solving in the Campaign and then jump in the Sandbox to create your own bridge designs and puzzles!",
+      "reviewPositive": 17210,
+      "reviewNegative": 1719,
+      "reviewTotal": 18929,
+      "reviewScorePercent": 91,
+      "currentPlayers": 82,
+      "reviewVelocity30d": 3.1,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.092Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1062160,
+      "name": "Poly Bridge 2",
+      "developer": [
+        "Dry Cactus"
+      ],
+      "publisher": [
+        "Dry Cactus"
+      ],
+      "releaseDate": "2020-05-27",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 12.49,
+      "currency": "EUR",
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Steam Cloud",
+        "Includes level editor",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Building",
+        "Simulation",
+        "Puzzle",
+        "Physics",
+        "Crafting",
+        "Difficult",
+        "Sandbox",
+        "Singleplayer",
+        "Level Editor",
+        "Indie",
+        "Education",
+        "Strategy",
+        "Great Soundtrack",
+        "Family Friendly",
+        "Funny",
+        "Cartoony",
+        "Stylized",
+        "Sequel",
+        "Cute",
+        "Choices Matter"
+      ],
+      "shortDescription": "The acclaimed bridge-building indie-hit is back! More levels, more features, more physics fun!",
+      "reviewPositive": 7829,
+      "reviewNegative": 411,
+      "reviewTotal": 8240,
+      "reviewScorePercent": 95,
+      "currentPlayers": 62,
+      "reviewVelocity30d": 1.1,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.094Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 346010,
+      "name": "Besiege",
+      "developer": [
+        "Spiderling Studios"
+      ],
+      "publisher": [
+        "Spiderling Studios"
+      ],
+      "releaseDate": "2020-02-17",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 14.79,
+      "currency": "EUR",
+      "genres": [
+        "Indie",
+        "Simulation"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "PvP",
+        "Online PvP",
+        "LAN PvP",
+        "Co-op",
+        "Steam Achievements",
+        "Steam Trading Cards",
+        "Steam Workshop",
+        "Steam Leaderboards",
+        "Includes level editor",
+        "Remote Play on Tablet",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Simulation",
+        "Sandbox",
+        "Destruction",
+        "Physics",
+        "Medieval",
+        "Building",
+        "Moddable",
+        "Real Time with Pause",
+        "Multiplayer",
+        "Puzzle",
+        "Flight",
+        "Replay Value",
+        "Logic",
+        "PvE",
+        "Robots",
+        "Level Editor",
+        "Vehicular Combat",
+        "LEGO",
+        "Naval Combat",
+        "Dark Humor"
+      ],
+      "shortDescription": "Besiege is a physics building game about constructing medieval machines to annihilate armies, obliterate castles and overcome challenging obstacles. Conquer the campaign or skirmish with friends in Multiplayer!",
+      "reviewPositive": 50661,
+      "reviewNegative": 2592,
+      "reviewTotal": 53253,
+      "reviewScorePercent": 95,
+      "currentPlayers": 245,
+      "reviewVelocity30d": 5.4,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.096Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1167630,
+      "name": "Teardown",
+      "developer": [
+        "Tuxedo Labs"
+      ],
+      "publisher": [
+        "Tuxedo Labs"
+      ],
+      "releaseDate": "2022-04-20",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 29.99,
+      "currency": "EUR",
+      "genres": [
+        "Action",
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "PvP",
+        "Online PvP",
+        "Co-op",
+        "Online Co-op",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Workshop",
+        "Steam Cloud",
+        "Includes level editor",
+        "Remote Play on Tablet",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Destruction",
+        "Physics",
+        "Sandbox",
+        "Voxel",
+        "First Person",
+        "Singleplayer",
+        "Open World",
+        "Heist",
+        "Realistic",
+        "3D",
+        "Simulation",
+        "Action",
+        "Puzzle",
+        "Driving",
+        "Indie",
+        "Replay Value",
+        "Multiplayer",
+        "Tactical",
+        "Immersive Sim",
+        "Puzzle Platformer"
+      ],
+      "shortDescription": "Prepare the perfect heist in a fully destructible, simulated voxel world. Tear down walls with vehicles or use explosives to create your own shortcuts. Shape the environment to your advantage in the most creative ways you can imagine. Play solo or with up to 12 players in multiplayer.",
+      "reviewPositive": 130477,
+      "reviewNegative": 5649,
+      "reviewTotal": 136126,
+      "reviewScorePercent": 96,
+      "currentPlayers": 2913,
+      "reviewVelocity30d": 37.4,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.098Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 508440,
+      "name": "Totally Accurate Battle Simulator",
+      "developer": [
+        "Landfall"
+      ],
+      "publisher": [
+        "Landfall"
+      ],
+      "releaseDate": "2021-03-31",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 18.99,
+      "currency": "EUR",
+      "genres": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "PvP",
+        "Online PvP",
+        "Steam Achievements",
+        "Partial Controller Support",
+        "Remote Play on Phone",
+        "Remote Play on Tablet",
+        "Remote Play Together",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Sandbox",
+        "Simulation",
+        "Funny",
+        "War",
+        "Physics",
+        "Strategy",
+        "Singleplayer",
+        "Realistic",
+        "Indie",
+        "Adventure",
+        "Colorful",
+        "Fantasy",
+        "3D",
+        "Comedy",
+        "Action",
+        "Historical",
+        "Family Friendly",
+        "Wargame",
+        "Cute",
+        "Memes"
+      ],
+      "shortDescription": "Be the leader of wobblers from ancient lands, spooky places, and fantasy worlds. Watch them fight in simulations made with the wobbliest physics system ever created, make your own wobblers in the unit creator and send your army off to fight your friends in multiplayer.",
+      "reviewPositive": 150672,
+      "reviewNegative": 3357,
+      "reviewTotal": 154029,
+      "reviewScorePercent": 98,
+      "currentPlayers": 1627,
+      "reviewVelocity30d": 25.4,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.100Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 285900,
+      "name": "Gang Beasts",
+      "developer": [
+        "Boneloaf, Rocket Science"
+      ],
+      "publisher": [
+        "Boneloaf"
+      ],
+      "releaseDate": "2017-12-11",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 18.99,
+      "currency": "EUR",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "categories": [
+        "Multi-player",
+        "PvP",
+        "Online PvP",
+        "Shared/Split Screen PvP",
+        "Shared/Split Screen",
+        "Steam Achievements",
+        "Full controller support",
+        "Remote Play on Phone",
+        "Remote Play on Tablet",
+        "Remote Play on TV",
+        "Remote Play Together",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Funny",
+        "Physics",
+        "Multiplayer",
+        "Colorful",
+        "Party Game",
+        "Local Multiplayer",
+        "Party",
+        "Fighting",
+        "Comedy",
+        "3D Fighter",
+        "Casual",
+        "Soundtrack",
+        "4 Player Local",
+        "Co op",
+        "Family Friendly",
+        "Beat 'em up",
+        "Memes",
+        "Third Person",
+        "Singleplayer",
+        "Indie"
+      ],
+      "shortDescription": "Gang Beasts is a silly multiplayer party game with surly gelatinous characters, brutal slapstick fight sequences, and absurd hazardous environments, set in the mean streets of Beef City.",
+      "reviewPositive": 57735,
+      "reviewNegative": 9754,
+      "reviewTotal": 67489,
+      "reviewScorePercent": 86,
+      "currentPlayers": 236,
+      "reviewVelocity30d": 12.9,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.102Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 646570,
+      "name": "Slay the Spire",
+      "developer": [
+        "Mega Crit"
+      ],
+      "publisher": [
+        "Mega Crit"
+      ],
+      "releaseDate": "2019-01-22",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 5.74,
+      "currency": "EUR",
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Trading Cards",
+        "Steam Workshop",
+        "Adjustable Text Size",
+        "Custom Volume Controls",
+        "Mouse Only Option",
+        "Playable without Timed Input",
+        "Save Anytime",
+        "Touch Only Option",
+        "Steam Cloud",
+        "Stats",
+        "Steam Leaderboards",
+        "Remote Play on Phone",
+        "Remote Play on Tablet",
+        "Remote Play on TV",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Roguelike Deckbuilder",
+        "Card Game",
+        "Card Battler",
+        "Rogue like",
+        "Deckbuilding",
+        "Turn Based",
+        "Strategy",
+        "Singleplayer",
+        "Rogue lite",
+        "Replay Value",
+        "Indie",
+        "Difficult",
+        "Dungeon Crawler",
+        "RPG",
+        "Mouse only",
+        "2D",
+        "Great Soundtrack",
+        "Procedural Generation",
+        "Fantasy",
+        "Casual"
+      ],
+      "shortDescription": "We fused card games and roguelikes together to make the best single player deckbuilder we could. Craft a unique deck, encounter bizarre creatures, discover relics of immense power, and Slay the Spire!",
+      "reviewPositive": 212972,
+      "reviewNegative": 5544,
+      "reviewTotal": 218516,
+      "reviewScorePercent": 97,
+      "currentPlayers": 10357,
+      "reviewVelocity30d": 37,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.103Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1102190,
+      "name": "Monster Train",
+      "developer": [
+        "Shiny Shoe"
+      ],
+      "publisher": [
+        "Good Shepherd Entertainment"
+      ],
+      "releaseDate": "2020-05-20",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 4.9,
+      "currency": "EUR",
+      "genres": [
+        "Strategy"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "PvP",
+        "Online PvP",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Trading Cards",
+        "Steam Cloud",
+        "Remote Play on Phone",
+        "Remote Play on Tablet",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Card Battler",
+        "Rogue lite",
+        "Card Game",
+        "Turn Based Tactics",
+        "Deckbuilding",
+        "Rogue like",
+        "Turn Based Strategy",
+        "PvP",
+        "Strategy",
+        "Difficult",
+        "Roguelike Deckbuilder",
+        "Turn Based Combat",
+        "RPG",
+        "Choices Matter",
+        "Procedural Generation",
+        "Colorful",
+        "Fantasy",
+        "Demons",
+        "Magic",
+        "Trains"
+      ],
+      "shortDescription": "Monster Train is a strategic roguelike deck building game with a twist. Set on a train to hell, you’ll use tactical decision making to defend multiple vertical battlegrounds. With real time competitive multiplayer and endless replayability, Monster Train is always on time.",
+      "reviewPositive": 21996,
+      "reviewNegative": 952,
+      "reviewTotal": 22948,
+      "reviewScorePercent": 96,
+      "currentPlayers": 228,
+      "reviewVelocity30d": 1.3,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.104Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1092790,
+      "name": "Inscryption",
+      "developer": [
+        "Daniel Mullins Games"
+      ],
+      "publisher": [
+        "Devolver Digital"
+      ],
+      "releaseDate": "2021-10-18",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 19.99,
+      "currency": "EUR",
+      "genres": [
+        "Adventure",
+        "Indie",
+        "Strategy"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Steam Trading Cards",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Card Battler",
+        "Card Game",
+        "Story Rich",
+        "Deckbuilding",
+        "Horror",
+        "Dark",
+        "Puzzle",
+        "Rogue lite",
+        "Strategy",
+        "Rogue like",
+        "Psychological",
+        "Surreal",
+        "Experimental",
+        "First Person",
+        "Point & Click",
+        "3D",
+        "2D",
+        "Pixel Graphics",
+        "FMV",
+        "Adventure"
+      ],
+      "shortDescription": "Inscryption is an inky black card-based odyssey that blends the deckbuilding roguelike, escape-room style puzzles, and psychological horror into a blood-laced smoothie. Darker still are the secrets inscrybed upon the cards...",
+      "reviewPositive": 143872,
+      "reviewNegative": 4725,
+      "reviewTotal": 148597,
+      "reviewScorePercent": 97,
+      "currentPlayers": 1021,
+      "reviewVelocity30d": 26.3,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.105Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 2379780,
+      "name": "Balatro",
+      "developer": [
+        "LocalThunk"
+      ],
+      "publisher": [
+        "Playstack"
+      ],
+      "releaseDate": "2024-02-19",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 13.99,
+      "currency": "EUR",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Strategy"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Trading Cards",
+        "Color Alternatives",
+        "Custom Volume Controls",
+        "Mouse Only Option",
+        "Playable without Timed Input",
+        "DualSense Controller Support",
+        "DualSense Controller Support",
+        "Touch Only Option",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Card Game",
+        "Roguelike Deckbuilder",
+        "Rogue like",
+        "Deckbuilding",
+        "Singleplayer",
+        "Strategy",
+        "Pixel Graphics",
+        "Replay Value",
+        "Rogue lite",
+        "Turn Based",
+        "Card Battler",
+        "Casual",
+        "Difficult",
+        "Choices Matter",
+        "2D",
+        "Turn Based Strategy",
+        "Indie",
+        "Relaxing",
+        "Arcade",
+        "Procedural Generation"
+      ],
+      "shortDescription": "The poker roguelike. Balatro is a hypnotically satisfying deckbuilder where you play illegal poker hands, discover game-changing jokers, and trigger adrenaline-pumping, outrageous combos.",
+      "reviewPositive": 194314,
+      "reviewNegative": 4302,
+      "reviewTotal": 198616,
+      "reviewScorePercent": 98,
+      "currentPlayers": 7932,
+      "reviewVelocity30d": 49.5,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.107Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1385380,
+      "name": "Across the Obelisk",
+      "developer": [
+        "Dreamsite Games"
+      ],
+      "publisher": [
+        "Paradox Interactive, Paradox Arc"
+      ],
+      "releaseDate": "2022-08-15",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 9.99,
+      "currency": "EUR",
+      "genres": [
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Steam Achievements",
+        "Steam Cloud",
+        "Steam Leaderboards",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Rogue like",
+        "Strategy",
+        "2D",
+        "Fantasy",
+        "Roguelike Deckbuilder",
+        "Card Game",
+        "Singleplayer",
+        "RPG",
+        "Card Battler",
+        "Multiplayer",
+        "Co op",
+        "Deckbuilding",
+        "Turn Based",
+        "Rogue lite",
+        "Dungeon Crawler",
+        "Replay Value",
+        "Difficult",
+        "Class Based",
+        "Turn Based Combat",
+        "Mouse only"
+      ],
+      "shortDescription": "Set forth in a co-op roguelite deckbuilder where every choice matters! Craft decks of breathtaking power. Journey alone or with up to three friends. Plot your party’s path to glory and face powerful enemies in deep tactical combat on your quest to save the kingdom of Senenthia in Across the Obelisk!",
+      "reviewPositive": 10515,
+      "reviewNegative": 2587,
+      "reviewTotal": 13102,
+      "reviewScorePercent": 80,
+      "currentPlayers": 256,
+      "reviewVelocity30d": 1.9,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.108Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1076200,
+      "name": "Roguebook",
+      "developer": [
+        "Abrakam Entertainment SA"
+      ],
+      "publisher": [
+        "Nacon"
+      ],
+      "releaseDate": "2021-06-16",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 24.99,
+      "currency": "EUR",
+      "genres": [
+        "Adventure",
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "tags": [
+        "RPG",
+        "Indie",
+        "Card Game",
+        "Deckbuilding",
+        "Strategy",
+        "Singleplayer",
+        "Rogue lite",
+        "Rogue like",
+        "Turn Based",
+        "Turn Based Tactics",
+        "Card Battler",
+        "Turn Based Combat",
+        "Roguelike Deckbuilder",
+        "2D",
+        "Difficult",
+        "Fantasy",
+        "Turn Based Strategy",
+        "Replay Value",
+        "Adventure",
+        "Magic"
+      ],
+      "shortDescription": "Embrace the challenge of a roguelike deckbuilder with unique mechanics from the developers of Faeria and Richard Garfield, creator of Magic: The Gathering™. Build a team of two heroes, unleash powerful combos and defeat the legends of the Roguebook!",
+      "reviewPositive": 3844,
+      "reviewNegative": 740,
+      "reviewTotal": 4584,
+      "reviewScorePercent": 84,
+      "currentPlayers": 60,
+      "reviewVelocity30d": 1.1,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.109Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 601840,
+      "name": "Griftlands",
+      "developer": [
+        "Klei Entertainment"
+      ],
+      "publisher": [
+        "Klei Entertainment"
+      ],
+      "releaseDate": "2021-05-31",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 16.79,
+      "currency": "EUR",
+      "genres": [
+        "Indie"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Workshop",
+        "Partial Controller Support",
+        "Steam Cloud",
+        "Remote Play on Tablet",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Card Battler",
+        "Rogue lite",
+        "Deckbuilding",
+        "Choices Matter",
+        "RPG",
+        "Turn Based",
+        "Story Rich",
+        "Card Game",
+        "Strategy",
+        "Dark Humor",
+        "Rogue like",
+        "Turn Based Combat",
+        "2D",
+        "Comic Book",
+        "Choose Your Own Adventure",
+        "Multiple Endings",
+        "Singleplayer",
+        "Hand drawn",
+        "Sci fi",
+        "Roguelike Deckbuilder"
+      ],
+      "shortDescription": "Griftlands is a deck-building roguelite where you negotiate, fight, steal or otherwise persuade others to get your way. Every decision is important, be it the jobs you take, the friends you make, or the cards you collect.",
+      "reviewPositive": 13541,
+      "reviewNegative": 929,
+      "reviewTotal": 14470,
+      "reviewScorePercent": 94,
+      "currentPlayers": 53,
+      "reviewVelocity30d": 1.2,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.111Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1811990,
+      "name": "Wildfrost",
+      "developer": [
+        "Deadpan Games, Gaziter"
+      ],
+      "publisher": [
+        "Chucklefish"
+      ],
+      "releaseDate": "2023-04-11",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 19.99,
+      "currency": "EUR",
+      "genres": [
+        "Indie",
+        "Strategy"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Workshop",
+        "Steam Workshop",
+        "DualShock Controller Support",
+        "DualShock Controller Support",
+        "DualSense Controller Support",
+        "DualSense Controller Support",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Card Battler",
+        "Difficult",
+        "Roguelike Deckbuilder",
+        "Card Game",
+        "Turn Based Tactics",
+        "Rogue lite",
+        "Deckbuilding",
+        "Rogue like",
+        "Singleplayer",
+        "Turn Based",
+        "Unforgiving",
+        "Perma Death",
+        "Turn Based Strategy",
+        "Replay Value",
+        "Procedural Generation",
+        "Strategy",
+        "Colorful",
+        "Controller",
+        "Fantasy",
+        "Base Building"
+      ],
+      "shortDescription": "Take on the elements in Wildfrost, a tactical roguelike deckbuilder! Journey across a frozen tundra, collecting cards strong enough to banish the eternal winter…",
+      "reviewPositive": 7339,
+      "reviewNegative": 1511,
+      "reviewTotal": 8850,
+      "reviewScorePercent": 83,
+      "currentPlayers": 61,
+      "reviewVelocity30d": 1.4,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.112Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 2670630,
+      "name": "Supermarket Simulator",
+      "developer": [
+        "Nokta Games"
+      ],
+      "publisher": [
+        "Nokta Games"
+      ],
+      "releaseDate": "2025-06-18",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 19.99,
+      "currency": "EUR",
+      "genres": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Simulation",
+        "Management",
+        "Economy",
+        "Singleplayer",
+        "Multiplayer",
+        "Trading",
+        "Immersive Sim",
+        "First Person",
+        "Life Sim",
+        "Building",
+        "Capitalism",
+        "Resource Management",
+        "3D",
+        "Sandbox",
+        "Realistic",
+        "Casual",
+        "Inventory Management",
+        "Early Access",
+        "Indie",
+        "Driving"
+      ],
+      "shortDescription": "Run your own supermarket! Stock shelves, set your prices, take payments, hire staff, expand your store, handle shoplifters, and design your layout. Purchase goods from online or local markets around town, and personally deliver online orders to your customers.",
+      "reviewPositive": 77376,
+      "reviewNegative": 6684,
+      "reviewTotal": 84060,
+      "reviewScorePercent": 92,
+      "currentPlayers": 2584,
+      "reviewVelocity30d": 14.7,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.114Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 3070070,
+      "name": "TCG Card Shop Simulator",
+      "developer": [
+        "OPNeon Games"
+      ],
+      "publisher": [
+        "OPNeon Games"
+      ],
+      "releaseDate": "2026-09-13",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 17.41,
+      "currency": "EUR",
+      "genres": [
+        "Simulation"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Trading Cards",
+        "Camera Comfort",
+        "Custom Volume Controls",
+        "Playable without Timed Input",
+        "DualShock Controller Support",
+        "DualSense Controller Support",
+        "Save Anytime",
+        "Steam Cloud",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Simulation",
+        "Management",
+        "Economy",
+        "Singleplayer",
+        "Collectathon",
+        "Capitalism",
+        "Trading Card Game",
+        "Early Access",
+        "Card Game",
+        "Trading",
+        "3D",
+        "Life Sim",
+        "Immersive Sim",
+        "Relaxing",
+        "First Person",
+        "Casual",
+        "Shop Keeper",
+        "Job Simulator",
+        "Co op"
+      ],
+      "shortDescription": "Open your own local game store. Stock shelves with the latest booster packs, or crack them and collect the cards for yourself. Set your own prices, hire staff, host events, and expand your card shop.",
+      "reviewPositive": 48024,
+      "reviewNegative": 1773,
+      "reviewTotal": 49797,
+      "reviewScorePercent": 96,
+      "currentPlayers": 8781,
+      "reviewVelocity30d": 61.9,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.115Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1599600,
+      "name": "PlateUp!",
+      "developer": [
+        "It's happening"
+      ],
+      "publisher": [
+        "Yogscast Games, Gamersky Games"
+      ],
+      "releaseDate": "2022-08-03",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 19.5,
+      "currency": "EUR",
+      "genres": [
+        "Action",
+        "Casual",
+        "Indie",
+        "Strategy"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "Co-op",
+        "Online Co-op",
+        "Shared/Split Screen Co-op",
+        "Shared/Split Screen",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Workshop",
+        "Steam Cloud",
+        "Remote Play on TV",
+        "Remote Play Together",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Co op",
+        "Management",
+        "Cooking",
+        "Rogue lite",
+        "Building",
+        "Local Co Op",
+        "Rogue like",
+        "Cute",
+        "Procedural Generation",
+        "Funny",
+        "Base Building",
+        "Casual",
+        "4 Player Local",
+        "Online Co Op",
+        "Controller",
+        "Strategy",
+        "Action Roguelike",
+        "Top Down",
+        "Singleplayer",
+        "Action"
+      ],
+      "shortDescription": "Cook and serve your dishes, design and decorate your restaurants, and expand your culinary kingdom with new unlocks, abilities and dishes in procedurally-generated locations. Classic cooking action with permanent roguelite progression. Hire your friends - or do it all yourself!",
+      "reviewPositive": 25749,
+      "reviewNegative": 1425,
+      "reviewTotal": 27174,
+      "reviewScorePercent": 95,
+      "currentPlayers": 987,
+      "reviewVelocity30d": 6.8,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.116Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 1258080,
+      "name": "Shop Titans",
+      "developer": [
+        "Kabam Games, Inc."
+      ],
+      "publisher": [
+        "Kabam Games, Inc."
+      ],
+      "releaseDate": "2020-05-04",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 0,
+      "currency": "EUR",
+      "genres": [
+        "Adventure",
+        "Casual",
+        "RPG",
+        "Simulation",
+        "Free To Play"
+      ],
+      "categories": [
+        "Single-player",
+        "Multi-player",
+        "MMO",
+        "Co-op",
+        "Online Co-op",
+        "Cross-Platform Multiplayer",
+        "Steam Achievements",
+        "Steam Trading Cards",
+        "In-App Purchases",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Idler",
+        "Shop Keeper",
+        "Medieval",
+        "Crafting",
+        "Base Building",
+        "Management",
+        "Economy",
+        "Trading",
+        "Character Customization",
+        "RPG",
+        "Simulation",
+        "Job Simulator",
+        "Casual",
+        "Online Co Op",
+        "Fantasy",
+        "Free to Play",
+        "Family Friendly",
+        "Cozy",
+        "Resource Management",
+        "Collectathon"
+      ],
+      "shortDescription": "Shop Titans is the ultimate RPG shopkeeper simulation. Craft powerful equipment, stock your shop and sell to aspiring heroes… at a markup! Hire heroes and explore dungeons to gather valuable materials to craft with. There’s never a dull moment in the world of Shop Titans!",
+      "reviewPositive": 13990,
+      "reviewNegative": 4000,
+      "reviewTotal": 17990,
+      "reviewScorePercent": 78,
+      "currentPlayers": 3947,
+      "reviewVelocity30d": 2.5,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.117Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 70400,
+      "name": "Recettear: An Item Shop's Tale",
+      "developer": [
+        "EasyGameStation"
+      ],
+      "publisher": [
+        "Carpe Fulgur LLC"
+      ],
+      "releaseDate": "2010-10-14",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 14.99,
+      "currency": "EUR",
+      "genres": [
+        "RPG",
+        "Indie"
+      ],
+      "categories": [
+        "Single-player",
+        "Partial Controller Support",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Capitalism",
+        "Anime",
+        "RPG",
+        "Dungeon Crawler",
+        "JRPG",
+        "Indie",
+        "Singleplayer",
+        "Cute",
+        "Simulation",
+        "Female Protagonist",
+        "Management",
+        "Comedy",
+        "Action RPG",
+        "Fantasy",
+        "Strategy",
+        "Action",
+        "Shop Keeper",
+        "Adventure",
+        "Hack and Slash",
+        "2D"
+      ],
+      "shortDescription": "Recettear is the story of an item shop, the girl who lives in it, and the fairy who turned her life upside down. Recette Lemongrass finds herself in charge of an item shop built into her house, in order to pay back a loan her father took and then skipped out on - and Tear, her newfound fairy \"compan",
+      "reviewPositive": 7228,
+      "reviewNegative": 299,
+      "reviewTotal": 7527,
+      "reviewScorePercent": 96,
+      "currentPlayers": 10,
+      "reviewVelocity30d": 0.6,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.119Z",
+        "confidence": 90
+      }
+    },
+    {
+      "appId": 606150,
+      "name": "Moonlighter",
+      "developer": [
+        "Digital Sun"
+      ],
+      "publisher": [
+        "11 bit studios"
+      ],
+      "releaseDate": "2018-05-28",
+      "comingSoon": false,
+      "earlyAccess": false,
+      "price": 19.99,
+      "currency": "EUR",
+      "genres": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "categories": [
+        "Single-player",
+        "Steam Achievements",
+        "Full controller support",
+        "Steam Trading Cards",
+        "Steam Cloud",
+        "Remote Play on Phone",
+        "Remote Play on Tablet",
+        "Remote Play on TV",
+        "Family Sharing"
+      ],
+      "tags": [
+        "Hack and Slash",
+        "Pixel Graphics",
+        "Dungeon Crawler",
+        "Rogue lite",
+        "Action Roguelike",
+        "Rogue like",
+        "RPG",
+        "Management",
+        "Action RPG",
+        "Character Action Game",
+        "Procedural Generation",
+        "Adventure",
+        "Controller",
+        "Singleplayer",
+        "Exploration",
+        "Top Down",
+        "Action",
+        "Simulation",
+        "Fantasy",
+        "2D"
+      ],
+      "shortDescription": "Moonlighter is an Action RPG with rogue-lite elements that demonstrates two sides of the coin – revealing everyday routines of Will, an adventurous shopkeeper that secretly dreams of becoming a hero.",
+      "reviewPositive": 19886,
+      "reviewNegative": 4553,
+      "reviewTotal": 24439,
+      "reviewScorePercent": 81,
+      "currentPlayers": 648,
+      "reviewVelocity30d": 15.2,
+      "provenance": {
+        "provider": "steam+steamspy",
+        "fetchedAt": "2026-09-17T15:20:47.121Z",
+        "confidence": 90
+      }
+    }
+  ],
+  "tags": [
+    {
+      "name": "Space Sim",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Colony Sim",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Transportation",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Agriculture",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Tower Defense",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Mythology",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Nudity",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "FPS",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Shooter",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Post apocalyptic",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Dinosaurs",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Dragons",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Creature Collector",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Third Person Shooter",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Farming",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Gore",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Zombies",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Vampire",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Dark Fantasy",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Nature",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Science",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Underwater",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Parkour",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Split Screen",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "3D Platformer",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Cartoon",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Cartoony",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Sequel",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Real Time with Pause",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Flight",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Vehicular Combat",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "LEGO",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Naval Combat",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Heist",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Tactical",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "War",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Historical",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Wargame",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Party Game",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Party",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Fighting",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "3D Fighter",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Soundtrack",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Beat 'em up",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Demons",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Dark",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Psychological",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Surreal",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Experimental",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Point & Click",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "FMV",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Arcade",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Class Based",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Comic Book",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Choose Your Own Adventure",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Multiple Endings",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Hand drawn",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Unforgiving",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Perma Death",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Inventory Management",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Trading Card Game",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Cooking",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Idler",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Free to Play",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Cozy",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "JRPG",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Female Protagonist",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Character Action Game",
+      "informationWeight": 1,
+      "gameCount": 1,
+      "generic": false
+    },
+    {
+      "name": "Trains",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Space",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "RTS",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Mining",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Logic",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Robots",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Voxel",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Anime",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Survival Horror",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Action Adventure",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Character Customization",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Puzzle Platformer",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Local Co Op",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Local Multiplayer",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Education",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Stylized",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Destruction",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Medieval",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Dark Humor",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Driving",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Memes",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "4 Player Local",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Mouse only",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Magic",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Story Rich",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Relaxing",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Life Sim",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Collectathon",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Job Simulator",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Action Roguelike",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Top Down",
+      "informationWeight": 0.81,
+      "gameCount": 2,
+      "generic": false
+    },
+    {
+      "name": "Massively Multiplayer",
+      "informationWeight": 0.7,
+      "gameCount": 3,
+      "generic": false
+    },
+    {
+      "name": "Hack and Slash",
+      "informationWeight": 0.7,
+      "gameCount": 3,
+      "generic": false
+    },
+    {
+      "name": "Action RPG",
+      "informationWeight": 0.7,
+      "gameCount": 3,
+      "generic": false
+    },
+    {
+      "name": "Level Editor",
+      "informationWeight": 0.7,
+      "gameCount": 3,
+      "generic": false
+    },
+    {
+      "name": "Turn Based Tactics",
+      "informationWeight": 0.7,
+      "gameCount": 3,
+      "generic": false
+    },
+    {
+      "name": "Controller",
+      "informationWeight": 0.7,
+      "gameCount": 3,
+      "generic": false
+    },
+    {
+      "name": "Trading",
+      "informationWeight": 0.7,
+      "gameCount": 3,
+      "generic": false
+    },
+    {
+      "name": "Capitalism",
+      "informationWeight": 0.7,
+      "gameCount": 3,
+      "generic": false
+    },
+    {
+      "name": "Shop Keeper",
+      "informationWeight": 0.7,
+      "gameCount": 3,
+      "generic": false
+    },
+    {
+      "name": "Moddable",
+      "informationWeight": 0.62,
+      "gameCount": 4,
+      "generic": false
+    },
+    {
+      "name": "City Builder",
+      "informationWeight": 0.62,
+      "gameCount": 4,
+      "generic": false
+    },
+    {
+      "name": "Economy",
+      "informationWeight": 0.62,
+      "gameCount": 4,
+      "generic": false
+    },
+    {
+      "name": "PvP",
+      "informationWeight": 0.62,
+      "gameCount": 4,
+      "generic": false
+    },
+    {
+      "name": "Horror",
+      "informationWeight": 0.62,
+      "gameCount": 4,
+      "generic": false
+    },
+    {
+      "name": "Comedy",
+      "informationWeight": 0.62,
+      "gameCount": 4,
+      "generic": false
+    },
+    {
+      "name": "Dungeon Crawler",
+      "informationWeight": 0.62,
+      "gameCount": 4,
+      "generic": false
+    },
+    {
+      "name": "Turn Based Strategy",
+      "informationWeight": 0.62,
+      "gameCount": 4,
+      "generic": false
+    },
+    {
+      "name": "Turn Based Combat",
+      "informationWeight": 0.62,
+      "gameCount": 4,
+      "generic": false
+    },
+    {
+      "name": "Pixel Graphics",
+      "informationWeight": 0.56,
+      "gameCount": 5,
+      "generic": false
+    },
+    {
+      "name": "Third Person",
+      "informationWeight": 0.56,
+      "gameCount": 5,
+      "generic": false
+    },
+    {
+      "name": "Immersive Sim",
+      "informationWeight": 0.56,
+      "gameCount": 5,
+      "generic": false
+    },
+    {
+      "name": "Choices Matter",
+      "informationWeight": 0.56,
+      "gameCount": 5,
+      "generic": false
+    },
+    {
+      "name": "Sci fi",
+      "informationWeight": 0.51,
+      "gameCount": 6,
+      "generic": false
+    },
+    {
+      "name": "Realistic",
+      "informationWeight": 0.51,
+      "gameCount": 6,
+      "generic": false
+    },
+    {
+      "name": "PvE",
+      "informationWeight": 0.51,
+      "gameCount": 6,
+      "generic": false
+    },
+    {
+      "name": "Puzzle",
+      "informationWeight": 0.51,
+      "gameCount": 6,
+      "generic": false
+    },
+    {
+      "name": "Turn Based",
+      "informationWeight": 0.51,
+      "gameCount": 6,
+      "generic": false
+    },
+    {
+      "name": "Procedural Generation",
+      "informationWeight": 0.47,
+      "gameCount": 7,
+      "generic": false
+    },
+    {
+      "name": "Physics",
+      "informationWeight": 0.47,
+      "gameCount": 7,
+      "generic": false
+    },
+    {
+      "name": "Replay Value",
+      "informationWeight": 0.47,
+      "gameCount": 7,
+      "generic": false
+    },
+    {
+      "name": "Roguelike Deckbuilder",
+      "informationWeight": 0.47,
+      "gameCount": 7,
+      "generic": false
+    },
+    {
+      "name": "Automation",
+      "informationWeight": 0.43,
+      "gameCount": 8,
+      "generic": false
+    },
+    {
+      "name": "Card Battler",
+      "informationWeight": 0.43,
+      "gameCount": 8,
+      "generic": false
+    },
+    {
+      "name": "Deckbuilding",
+      "informationWeight": 0.43,
+      "gameCount": 8,
+      "generic": false
+    },
+    {
+      "name": "Resource Management",
+      "informationWeight": 0.4,
+      "gameCount": 9,
+      "generic": false
+    },
+    {
+      "name": "Open World Survival Craft",
+      "informationWeight": 0.4,
+      "gameCount": 9,
+      "generic": false
+    },
+    {
+      "name": "Difficult",
+      "informationWeight": 0.4,
+      "gameCount": 9,
+      "generic": false
+    },
+    {
+      "name": "Card Game",
+      "informationWeight": 0.4,
+      "gameCount": 9,
+      "generic": false
+    },
+    {
+      "name": "Fantasy",
+      "informationWeight": 0.37,
+      "gameCount": 10,
+      "generic": false
+    },
+    {
+      "name": "Rogue like",
+      "informationWeight": 0.37,
+      "gameCount": 10,
+      "generic": false
+    },
+    {
+      "name": "Rogue lite",
+      "informationWeight": 0.37,
+      "gameCount": 10,
+      "generic": false
+    },
+    {
+      "name": "Management",
+      "informationWeight": 0.35,
+      "gameCount": 11,
+      "generic": false
+    },
+    {
+      "name": "Exploration",
+      "informationWeight": 0.35,
+      "gameCount": 11,
+      "generic": false
+    },
+    {
+      "name": "Online Co Op",
+      "informationWeight": 0.3,
+      "gameCount": 13,
+      "generic": false
+    },
+    {
+      "name": "First Person",
+      "informationWeight": 0.28,
+      "gameCount": 14,
+      "generic": false
+    },
+    {
+      "name": "Survival",
+      "informationWeight": 0.26,
+      "gameCount": 15,
+      "generic": false
+    },
+    {
+      "name": "Early Access",
+      "informationWeight": 0.24,
+      "gameCount": 16,
+      "generic": false
+    },
+    {
+      "name": "Open World",
+      "informationWeight": 0.23,
+      "gameCount": 17,
+      "generic": false
+    },
+    {
+      "name": "Crafting",
+      "informationWeight": 0.21,
+      "gameCount": 18,
+      "generic": false
+    },
+    {
+      "name": "Base Building",
+      "informationWeight": 0.2,
+      "gameCount": 19,
+      "generic": false
+    },
+    {
+      "name": "Co op",
+      "informationWeight": 0.2,
+      "gameCount": 19,
+      "generic": false
+    },
+    {
+      "name": "Building",
+      "informationWeight": 0.16,
+      "gameCount": 22,
+      "generic": false
+    },
+    {
+      "name": "Atmospheric",
+      "informationWeight": 0.16,
+      "gameCount": 2,
+      "generic": true
+    },
+    {
+      "name": "Great Soundtrack",
+      "informationWeight": 0.14,
+      "gameCount": 3,
+      "generic": true
+    },
+    {
+      "name": "Sandbox",
+      "informationWeight": 0.13,
+      "gameCount": 24,
+      "generic": false
+    },
+    {
+      "name": "Family Friendly",
+      "informationWeight": 0.11,
+      "gameCount": 5,
+      "generic": true
+    },
+    {
+      "name": "Colorful",
+      "informationWeight": 0.1,
+      "gameCount": 6,
+      "generic": true
+    },
+    {
+      "name": "Cute",
+      "informationWeight": 0.1,
+      "gameCount": 6,
+      "generic": true
+    },
+    {
+      "name": "3D",
+      "informationWeight": 0.09,
+      "gameCount": 8,
+      "generic": true
+    },
+    {
+      "name": "Funny",
+      "informationWeight": 0.09,
+      "gameCount": 7,
+      "generic": true
+    },
+    {
+      "name": "Casual",
+      "informationWeight": 0.08,
+      "gameCount": 9,
+      "generic": true
+    },
+    {
+      "name": "2D",
+      "informationWeight": 0.07,
+      "gameCount": 10,
+      "generic": true
+    },
+    {
+      "name": "RPG",
+      "informationWeight": 0.06,
+      "gameCount": 12,
+      "generic": true
+    },
+    {
+      "name": "Action",
+      "informationWeight": 0.05,
+      "gameCount": 17,
+      "generic": true
+    },
+    {
+      "name": "Adventure",
+      "informationWeight": 0.04,
+      "gameCount": 18,
+      "generic": true
+    },
+    {
+      "name": "Strategy",
+      "informationWeight": 0.03,
+      "gameCount": 21,
+      "generic": true
+    },
+    {
+      "name": "Multiplayer",
+      "informationWeight": 0.03,
+      "gameCount": 21,
+      "generic": true
+    },
+    {
+      "name": "Simulation",
+      "informationWeight": 0.03,
+      "gameCount": 21,
+      "generic": true
+    },
+    {
+      "name": "Indie",
+      "informationWeight": 0.03,
+      "gameCount": 21,
+      "generic": true
+    },
+    {
+      "name": "Singleplayer",
+      "informationWeight": 0.01,
+      "gameCount": 32,
+      "generic": true
+    }
+  ],
+  "clusters": [
+    {
+      "id": "cl_cozy-automation",
+      "slug": "cozy-automation",
+      "name": "Cozy Automation Builders",
+      "description": "Relaxing factory/automation games with base building and a low-stress tone. Systemic depth without twitch or content-heavy demands.",
+      "primaryTags": [
+        "Automation",
+        "Base Building"
+      ],
+      "secondaryTags": [
+        "Relaxing",
+        "Cozy",
+        "Crafting",
+        "Farming",
+        "Management"
+      ],
+      "gameAppIds": [
+        427520,
+        526870,
+        1366540,
+        1457320,
+        1594320,
+        983870,
+        1127400
+      ],
+      "gameCount": 7,
+      "releasedGameCount": 7,
+      "upcomingGameCount": 0,
+      "demandScore": {
+        "value": 48.7,
+        "confidence": 68.4,
+        "components": [
+          {
+            "key": "reviewVelocity",
+            "label": "Review Velocity",
+            "weight": 0.3,
+            "value": 30
+          },
+          {
+            "key": "currentPlayers",
+            "label": "Current Player Strength",
+            "weight": 0.25,
+            "value": 70
+          },
+          {
+            "key": "releaseAdjReviews",
+            "label": "Release-Adjusted Review Performance",
+            "weight": 0.2,
+            "value": 30
+          },
+          {
+            "key": "reviewVolume",
+            "label": "Review Volume",
+            "weight": 0.15,
+            "value": 50
+          },
+          {
+            "key": "reviewQuality",
+            "label": "Review Quality",
+            "weight": 0.1,
+            "value": 86.7
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "demandGrowthScore": {
+        "value": 10,
+        "confidence": 38,
+        "components": [
+          {
+            "key": "velocityTrend",
+            "label": "Recent vs Older Velocity",
+            "weight": 0.6,
+            "value": 10
+          },
+          {
+            "key": "recentCohortMomentum",
+            "label": "Newest Cohort Momentum",
+            "weight": 0.4,
+            "value": 10
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "supplyPressureScore": {
+        "value": 22,
+        "confidence": 64.6,
+        "components": [
+          {
+            "key": "releaseVolume",
+            "label": "Release Volume (12m)",
+            "weight": 0.6,
+            "value": 30
+          },
+          {
+            "key": "releaseGrowth",
+            "label": "Release Growth (YoY)",
+            "weight": 0.4,
+            "value": 10
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "supplyGrowthScore": {
+        "value": 10,
+        "confidence": 53.2,
+        "components": [
+          {
+            "key": "releaseGrowth",
+            "label": "Release Growth (YoY)",
+            "weight": 1,
+            "value": 10
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "successBreadthScore": {
+        "value": 10,
+        "confidence": 68.4,
+        "components": [
+          {
+            "key": "pctAbove500",
+            "label": "% above 500 reviews",
+            "weight": 0.4,
+            "value": 100
+          },
+          {
+            "key": "pctAbove2000",
+            "label": "% above 2,000 reviews",
+            "weight": 0.35,
+            "value": 100
+          },
+          {
+            "key": "pctAbove10000",
+            "label": "% above 10,000 reviews",
+            "weight": 0.25,
+            "value": 71.4
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "timingScore": {
+        "value": 42,
+        "confidence": 34.2,
+        "components": [
+          {
+            "key": "demandGrowth",
+            "label": "Demand Growth",
+            "weight": 0.6,
+            "value": 10
+          },
+          {
+            "key": "invSupplyGrowth",
+            "label": "Inverse Supply Growth (proxy for upcoming)",
+            "weight": 0.4,
+            "value": 90
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "marketAttractivenessScore": {
+        "value": 37.1,
+        "confidence": 60.8,
+        "components": [
+          {
+            "key": "demand",
+            "label": "Demand",
+            "weight": 0.35,
+            "value": 48.7
+          },
+          {
+            "key": "demandGrowth",
+            "label": "Demand Growth",
+            "weight": 0.25,
+            "value": 10
+          },
+          {
+            "key": "successBreadth",
+            "label": "Success Breadth",
+            "weight": 0.2,
+            "value": 10
+          },
+          {
+            "key": "invSupply",
+            "label": "Inverse Supply Pressure",
+            "weight": 0.2,
+            "value": 78
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "gapScore": {
+        "value": 35.7,
+        "confidence": 57,
+        "components": [
+          {
+            "key": "demand",
+            "label": "Demand",
+            "weight": 0.4,
+            "value": 48.7
+          },
+          {
+            "key": "demandGrowth",
+            "label": "Demand Growth",
+            "weight": 0.25,
+            "value": 10
+          },
+          {
+            "key": "successBreadth",
+            "label": "Success Breadth",
+            "weight": 0.2,
+            "value": 10
+          },
+          {
+            "key": "invSupply",
+            "label": "Inverse Supply Pressure",
+            "weight": 0.15,
+            "value": 78
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "concentration": {
+        "top1Share": 0.4281099560561758,
+        "top3Share": 0.9281260386687273,
+        "top10Share": 1,
+        "band": "Moderately Concentrated"
+      },
+      "successDistribution": {
+        "tierCounts": {
+          "Tiny": 0,
+          "Small": 0,
+          "Viable": 0,
+          "Successful": 2,
+          "Breakout": 5
+        },
+        "pctAbove500": 100,
+        "pctAbove2000": 100,
+        "pctAbove10000": 71.42857142857143,
+        "medianReviews": 28128,
+        "p25": 7764.5,
+        "p50": 28128,
+        "p75": 163225,
+        "p90": 252635.40000000002
+      },
+      "confidenceScore": 76,
+      "requirementProfile": {
+        "values": {
+          "gameplaySystems": 5,
+          "networking": 3,
+          "backend": 0,
+          "procedural": 5,
+          "optimization": 2,
+          "art2d": 0,
+          "art3d": 5,
+          "animationVfx": 0,
+          "levelContent": 5,
+          "narrative": 0,
+          "audio": 2,
+          "systemsDesign": 5,
+          "uxui": 4,
+          "qa": 3,
+          "liveops": 0
+        },
+        "details": {
+          "gameplaySystems": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Base building needs placement systems and systemic depth."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Building mechanics need interaction systems."
+            }
+          ],
+          "uxui": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Management sims need economy design and strong UX for dense info."
+            }
+          ],
+          "qa": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Multiplayer requires replication and synchronization work."
+            }
+          ],
+          "audio": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            }
+          ],
+          "art3d": [
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Open worlds carry heavy world-content and streaming/perf demands."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Survival mixes simulation, systems and 3D world content."
+            }
+          ],
+          "systemsDesign": [
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 4,
+              "source": "rule",
+              "reason": "Automation depends on deep systems design and simulation."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Survival mixes simulation, systems and 3D world content."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Crafting economies need systems/economy design."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Base building needs placement systems and systemic depth."
+            },
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Building mechanics need interaction systems."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Simulation depth requires simulation systems and design."
+            },
+            {
+              "value": 3,
+              "source": "rule",
+              "reason": "Management sims need economy design and strong UX for dense info."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Farming loops need progression/economy design."
+            }
+          ],
+          "networking": [
+            {
+              "value": 3,
+              "source": "rule",
+              "reason": "Multiplayer requires replication and synchronization work."
+            }
+          ],
+          "levelContent": [
+            {
+              "value": 4,
+              "source": "rule",
+              "reason": "Open worlds carry heavy world-content and streaming/perf demands."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Survival mixes simulation, systems and 3D world content."
+            }
+          ],
+          "optimization": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Open worlds carry heavy world-content and streaming/perf demands."
+            }
+          ],
+          "procedural": [
+            {
+              "value": 4,
+              "source": "rule",
+              "reason": "Automation depends on deep systems design and simulation."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Survival mixes simulation, systems and 3D world content."
+            },
+            {
+              "value": 3,
+              "source": "rule",
+              "reason": "Simulation depth requires simulation systems and design."
+            }
+          ]
+        },
+        "confidence": 90,
+        "scopeClass": "Large"
+      },
+      "createdAt": "2026-09-17T15:20:47.122Z",
+      "updatedAt": "2026-09-17T15:20:47.122Z"
+    },
+    {
+      "id": "cl_survival-craft",
+      "slug": "survival-craft",
+      "name": "Open-World Survival Craft",
+      "description": "Large multiplayer survival-crafting sandboxes. High demand but crowded and dominated by long-tail giants; heavy production and networking burden.",
+      "primaryTags": [
+        "Survival",
+        "Crafting"
+      ],
+      "secondaryTags": [
+        "Open World",
+        "Multiplayer",
+        "Base Building",
+        "PvP",
+        "Exploration"
+      ],
+      "gameAppIds": [
+        892970,
+        252490,
+        346110,
+        962130,
+        1623730,
+        242760,
+        1326470,
+        1604030,
+        1203620,
+        1149460,
+        648800
+      ],
+      "gameCount": 11,
+      "releasedGameCount": 11,
+      "upcomingGameCount": 0,
+      "demandScore": {
+        "value": 87.3,
+        "confidence": 76.5,
+        "components": [
+          {
+            "key": "reviewVelocity",
+            "label": "Review Velocity",
+            "weight": 0.3,
+            "value": 90
+          },
+          {
+            "key": "currentPlayers",
+            "label": "Current Player Strength",
+            "weight": 0.25,
+            "value": 90
+          },
+          {
+            "key": "releaseAdjReviews",
+            "label": "Release-Adjusted Review Performance",
+            "weight": 0.2,
+            "value": 90
+          },
+          {
+            "key": "reviewVolume",
+            "label": "Review Volume",
+            "weight": 0.15,
+            "value": 90
+          },
+          {
+            "key": "reviewQuality",
+            "label": "Review Quality",
+            "weight": 0.1,
+            "value": 63.3
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "demandGrowthScore": {
+        "value": 54,
+        "confidence": 42.5,
+        "components": [
+          {
+            "key": "velocityTrend",
+            "label": "Recent vs Older Velocity",
+            "weight": 0.6,
+            "value": 30
+          },
+          {
+            "key": "recentCohortMomentum",
+            "label": "Newest Cohort Momentum",
+            "weight": 0.4,
+            "value": 90
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "supplyPressureScore": {
+        "value": 90,
+        "confidence": 72.3,
+        "components": [
+          {
+            "key": "releaseVolume",
+            "label": "Release Volume (12m)",
+            "weight": 0.6,
+            "value": 90
+          },
+          {
+            "key": "releaseGrowth",
+            "label": "Release Growth (YoY)",
+            "weight": 0.4,
+            "value": 90
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "supplyGrowthScore": {
+        "value": 90,
+        "confidence": 59.5,
+        "components": [
+          {
+            "key": "releaseGrowth",
+            "label": "Release Growth (YoY)",
+            "weight": 1,
+            "value": 90
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "successBreadthScore": {
+        "value": 90,
+        "confidence": 76.5,
+        "components": [
+          {
+            "key": "pctAbove500",
+            "label": "% above 500 reviews",
+            "weight": 0.4,
+            "value": 100
+          },
+          {
+            "key": "pctAbove2000",
+            "label": "% above 2,000 reviews",
+            "weight": 0.35,
+            "value": 100
+          },
+          {
+            "key": "pctAbove10000",
+            "label": "% above 10,000 reviews",
+            "weight": 0.25,
+            "value": 100
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "timingScore": {
+        "value": 36.4,
+        "confidence": 38.3,
+        "components": [
+          {
+            "key": "demandGrowth",
+            "label": "Demand Growth",
+            "weight": 0.6,
+            "value": 54
+          },
+          {
+            "key": "invSupplyGrowth",
+            "label": "Inverse Supply Growth (proxy for upcoming)",
+            "weight": 0.4,
+            "value": 10
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "marketAttractivenessScore": {
+        "value": 64.1,
+        "confidence": 68,
+        "components": [
+          {
+            "key": "demand",
+            "label": "Demand",
+            "weight": 0.35,
+            "value": 87.3
+          },
+          {
+            "key": "demandGrowth",
+            "label": "Demand Growth",
+            "weight": 0.25,
+            "value": 54
+          },
+          {
+            "key": "successBreadth",
+            "label": "Success Breadth",
+            "weight": 0.2,
+            "value": 90
+          },
+          {
+            "key": "invSupply",
+            "label": "Inverse Supply Pressure",
+            "weight": 0.2,
+            "value": 10
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "gapScore": {
+        "value": 67.9,
+        "confidence": 63.8,
+        "components": [
+          {
+            "key": "demand",
+            "label": "Demand",
+            "weight": 0.4,
+            "value": 87.3
+          },
+          {
+            "key": "demandGrowth",
+            "label": "Demand Growth",
+            "weight": 0.25,
+            "value": 54
+          },
+          {
+            "key": "successBreadth",
+            "label": "Success Breadth",
+            "weight": 0.2,
+            "value": 90
+          },
+          {
+            "key": "invSupply",
+            "label": "Inverse Supply Pressure",
+            "weight": 0.15,
+            "value": 10
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "concentration": {
+        "top1Share": 0.27958244078395383,
+        "top3Share": 0.571482362797889,
+        "top10Share": 0.9863038722419575,
+        "band": "Distributed"
+      },
+      "successDistribution": {
+        "tierCounts": {
+          "Tiny": 0,
+          "Small": 0,
+          "Viable": 0,
+          "Successful": 0,
+          "Breakout": 11
+        },
+        "pctAbove500": 100,
+        "pctAbove2000": 100,
+        "pctAbove10000": 100,
+        "medianReviews": 378633,
+        "p25": 121422,
+        "p50": 378633,
+        "p75": 616101.5,
+        "p90": 777836
+      },
+      "confidenceScore": 85,
+      "requirementProfile": {
+        "values": {
+          "gameplaySystems": 5,
+          "networking": 5,
+          "backend": 0,
+          "procedural": 5,
+          "optimization": 2,
+          "art2d": 0,
+          "art3d": 5,
+          "animationVfx": 0,
+          "levelContent": 5,
+          "narrative": 0,
+          "audio": 2,
+          "systemsDesign": 5,
+          "uxui": 2,
+          "qa": 5,
+          "liveops": 2
+        },
+        "details": {
+          "gameplaySystems": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Base building needs placement systems and systemic depth."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Building mechanics need interaction systems."
+            }
+          ],
+          "uxui": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            }
+          ],
+          "qa": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Multiplayer requires replication and synchronization work."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Competitive PvP raises networking, QA and live-balance burden."
+            }
+          ],
+          "audio": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            }
+          ],
+          "art3d": [
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Open worlds carry heavy world-content and streaming/perf demands."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Survival mixes simulation, systems and 3D world content."
+            }
+          ],
+          "systemsDesign": [
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Survival mixes simulation, systems and 3D world content."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Crafting economies need systems/economy design."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Base building needs placement systems and systemic depth."
+            },
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Building mechanics need interaction systems."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Simulation depth requires simulation systems and design."
+            }
+          ],
+          "networking": [
+            {
+              "value": 3,
+              "source": "rule",
+              "reason": "Multiplayer requires replication and synchronization work."
+            },
+            {
+              "value": 3,
+              "source": "rule",
+              "reason": "Competitive PvP raises networking, QA and live-balance burden."
+            }
+          ],
+          "liveops": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Competitive PvP raises networking, QA and live-balance burden."
+            }
+          ],
+          "levelContent": [
+            {
+              "value": 4,
+              "source": "rule",
+              "reason": "Open worlds carry heavy world-content and streaming/perf demands."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Survival mixes simulation, systems and 3D world content."
+            }
+          ],
+          "optimization": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Open worlds carry heavy world-content and streaming/perf demands."
+            }
+          ],
+          "procedural": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Survival mixes simulation, systems and 3D world content."
+            },
+            {
+              "value": 3,
+              "source": "rule",
+              "reason": "Simulation depth requires simulation systems and design."
+            }
+          ]
+        },
+        "confidence": 90,
+        "scopeClass": "Very Large"
+      },
+      "createdAt": "2026-09-17T15:20:47.122Z",
+      "updatedAt": "2026-09-17T15:20:47.122Z"
+    },
+    {
+      "id": "cl_physics-puzzle",
+      "slug": "physics-puzzle",
+      "name": "Physics Puzzle Comedy",
+      "description": "Small, charming physics-driven puzzle and comedy games. Low supply, modest but stable demand; light content footprint.",
+      "primaryTags": [
+        "Physics",
+        "Puzzle"
+      ],
+      "secondaryTags": [
+        "Comedy",
+        "Casual",
+        "Sandbox",
+        "Building",
+        "Funny"
+      ],
+      "gameAppIds": [
+        477160,
+        367450,
+        1062160,
+        346010,
+        1167630,
+        508440,
+        285900
+      ],
+      "gameCount": 7,
+      "releasedGameCount": 7,
+      "upcomingGameCount": 0,
+      "demandScore": {
+        "value": 61.3,
+        "confidence": 68.4,
+        "components": [
+          {
+            "key": "reviewVelocity",
+            "label": "Review Velocity",
+            "weight": 0.3,
+            "value": 70
+          },
+          {
+            "key": "currentPlayers",
+            "label": "Current Player Strength",
+            "weight": 0.25,
+            "value": 30
+          },
+          {
+            "key": "releaseAdjReviews",
+            "label": "Release-Adjusted Review Performance",
+            "weight": 0.2,
+            "value": 70
+          },
+          {
+            "key": "reviewVolume",
+            "label": "Review Volume",
+            "weight": 0.15,
+            "value": 70
+          },
+          {
+            "key": "reviewQuality",
+            "label": "Review Quality",
+            "weight": 0.1,
+            "value": 83.3
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "demandGrowthScore": {
+        "value": 58,
+        "confidence": 38,
+        "components": [
+          {
+            "key": "velocityTrend",
+            "label": "Recent vs Older Velocity",
+            "weight": 0.6,
+            "value": 50
+          },
+          {
+            "key": "recentCohortMomentum",
+            "label": "Newest Cohort Momentum",
+            "weight": 0.4,
+            "value": 70
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "supplyPressureScore": {
+        "value": 38,
+        "confidence": 64.6,
+        "components": [
+          {
+            "key": "releaseVolume",
+            "label": "Release Volume (12m)",
+            "weight": 0.6,
+            "value": 30
+          },
+          {
+            "key": "releaseGrowth",
+            "label": "Release Growth (YoY)",
+            "weight": 0.4,
+            "value": 50
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "supplyGrowthScore": {
+        "value": 50,
+        "confidence": 53.2,
+        "components": [
+          {
+            "key": "releaseGrowth",
+            "label": "Release Growth (YoY)",
+            "weight": 1,
+            "value": 50
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "successBreadthScore": {
+        "value": 70,
+        "confidence": 68.4,
+        "components": [
+          {
+            "key": "pctAbove500",
+            "label": "% above 500 reviews",
+            "weight": 0.4,
+            "value": 100
+          },
+          {
+            "key": "pctAbove2000",
+            "label": "% above 2,000 reviews",
+            "weight": 0.35,
+            "value": 100
+          },
+          {
+            "key": "pctAbove10000",
+            "label": "% above 10,000 reviews",
+            "weight": 0.25,
+            "value": 85.7
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "timingScore": {
+        "value": 54.8,
+        "confidence": 34.2,
+        "components": [
+          {
+            "key": "demandGrowth",
+            "label": "Demand Growth",
+            "weight": 0.6,
+            "value": 58
+          },
+          {
+            "key": "invSupplyGrowth",
+            "label": "Inverse Supply Growth (proxy for upcoming)",
+            "weight": 0.4,
+            "value": 50
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "marketAttractivenessScore": {
+        "value": 62.4,
+        "confidence": 60.8,
+        "components": [
+          {
+            "key": "demand",
+            "label": "Demand",
+            "weight": 0.35,
+            "value": 61.3
+          },
+          {
+            "key": "demandGrowth",
+            "label": "Demand Growth",
+            "weight": 0.25,
+            "value": 58
+          },
+          {
+            "key": "successBreadth",
+            "label": "Success Breadth",
+            "weight": 0.2,
+            "value": 70
+          },
+          {
+            "key": "invSupply",
+            "label": "Inverse Supply Pressure",
+            "weight": 0.2,
+            "value": 62
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "gapScore": {
+        "value": 62.3,
+        "confidence": 57,
+        "components": [
+          {
+            "key": "demand",
+            "label": "Demand",
+            "weight": 0.4,
+            "value": 61.3
+          },
+          {
+            "key": "demandGrowth",
+            "label": "Demand Growth",
+            "weight": 0.25,
+            "value": 58
+          },
+          {
+            "key": "successBreadth",
+            "label": "Success Breadth",
+            "weight": 0.2,
+            "value": 70
+          },
+          {
+            "key": "invSupply",
+            "label": "Inverse Supply Pressure",
+            "weight": 0.15,
+            "value": 62
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "concentration": {
+        "top1Share": 0.3412145091434071,
+        "top3Share": 0.7775640640038498,
+        "top10Share": 1,
+        "band": "Distributed"
+      },
+      "successDistribution": {
+        "tierCounts": {
+          "Tiny": 0,
+          "Small": 0,
+          "Viable": 0,
+          "Successful": 1,
+          "Breakout": 6
+        },
+        "pctAbove500": 100,
+        "pctAbove2000": 100,
+        "pctAbove10000": 85.71428571428571,
+        "medianReviews": 67489,
+        "p25": 36091,
+        "p50": 67489,
+        "p75": 145077.5,
+        "p90": 183175.00000000003
+      },
+      "confidenceScore": 76,
+      "requirementProfile": {
+        "values": {
+          "gameplaySystems": 5,
+          "networking": 3,
+          "backend": 0,
+          "procedural": 3,
+          "optimization": 2,
+          "art2d": 0,
+          "art3d": 3,
+          "animationVfx": 0,
+          "levelContent": 4,
+          "narrative": 0,
+          "audio": 2,
+          "systemsDesign": 5,
+          "uxui": 2,
+          "qa": 5,
+          "liveops": 0
+        },
+        "details": {
+          "gameplaySystems": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 4,
+              "source": "rule",
+              "reason": "Physics interactions require strong engineering and heavy QA."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Building mechanics need interaction systems."
+            }
+          ],
+          "uxui": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            }
+          ],
+          "qa": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Multiplayer requires replication and synchronization work."
+            },
+            {
+              "value": 3,
+              "source": "rule",
+              "reason": "Physics interactions require strong engineering and heavy QA."
+            }
+          ],
+          "audio": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            }
+          ],
+          "art3d": [
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Open worlds carry heavy world-content and streaming/perf demands."
+            }
+          ],
+          "systemsDesign": [
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Crafting economies need systems/economy design."
+            },
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Building mechanics need interaction systems."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Simulation depth requires simulation systems and design."
+            }
+          ],
+          "networking": [
+            {
+              "value": 3,
+              "source": "rule",
+              "reason": "Multiplayer requires replication and synchronization work."
+            }
+          ],
+          "levelContent": [
+            {
+              "value": 4,
+              "source": "rule",
+              "reason": "Open worlds carry heavy world-content and streaming/perf demands."
+            }
+          ],
+          "optimization": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Open worlds carry heavy world-content and streaming/perf demands."
+            }
+          ],
+          "procedural": [
+            {
+              "value": 3,
+              "source": "rule",
+              "reason": "Simulation depth requires simulation systems and design."
+            }
+          ]
+        },
+        "confidence": 90,
+        "scopeClass": "Medium"
+      },
+      "createdAt": "2026-09-17T15:20:47.122Z",
+      "updatedAt": "2026-09-17T15:20:47.122Z"
+    },
+    {
+      "id": "cl_roguelike-deckbuilder",
+      "slug": "roguelike-deckbuilder",
+      "name": "Roguelike Deckbuilders",
+      "description": "Card-based roguelike strategy. Proven distributed demand with recurring breakouts; systemic and UX heavy, low content burden.",
+      "primaryTags": [
+        "Deckbuilding",
+        "Roguelike"
+      ],
+      "secondaryTags": [
+        "Card Game",
+        "Strategy",
+        "Tactical RPG",
+        "Indie"
+      ],
+      "gameAppIds": [
+        646570,
+        1102190,
+        1092790,
+        2379780,
+        1385380,
+        1076200,
+        601840,
+        1811990
+      ],
+      "gameCount": 8,
+      "releasedGameCount": 8,
+      "upcomingGameCount": 0,
+      "demandScore": {
+        "value": 17.3,
+        "confidence": 71.1,
+        "components": [
+          {
+            "key": "reviewVelocity",
+            "label": "Review Velocity",
+            "weight": 0.3,
+            "value": 10
+          },
+          {
+            "key": "currentPlayers",
+            "label": "Current Player Strength",
+            "weight": 0.25,
+            "value": 10
+          },
+          {
+            "key": "releaseAdjReviews",
+            "label": "Release-Adjusted Review Performance",
+            "weight": 0.2,
+            "value": 10
+          },
+          {
+            "key": "reviewVolume",
+            "label": "Review Volume",
+            "weight": 0.15,
+            "value": 10
+          },
+          {
+            "key": "reviewQuality",
+            "label": "Review Quality",
+            "weight": 0.1,
+            "value": 83.3
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "demandGrowthScore": {
+        "value": 66,
+        "confidence": 39.5,
+        "components": [
+          {
+            "key": "velocityTrend",
+            "label": "Recent vs Older Velocity",
+            "weight": 0.6,
+            "value": 90
+          },
+          {
+            "key": "recentCohortMomentum",
+            "label": "Newest Cohort Momentum",
+            "weight": 0.4,
+            "value": 30
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "supplyPressureScore": {
+        "value": 38,
+        "confidence": 67.1,
+        "components": [
+          {
+            "key": "releaseVolume",
+            "label": "Release Volume (12m)",
+            "weight": 0.6,
+            "value": 30
+          },
+          {
+            "key": "releaseGrowth",
+            "label": "Release Growth (YoY)",
+            "weight": 0.4,
+            "value": 50
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "supplyGrowthScore": {
+        "value": 50,
+        "confidence": 55.3,
+        "components": [
+          {
+            "key": "releaseGrowth",
+            "label": "Release Growth (YoY)",
+            "weight": 1,
+            "value": 50
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "successBreadthScore": {
+        "value": 30,
+        "confidence": 71.1,
+        "components": [
+          {
+            "key": "pctAbove500",
+            "label": "% above 500 reviews",
+            "weight": 0.4,
+            "value": 100
+          },
+          {
+            "key": "pctAbove2000",
+            "label": "% above 2,000 reviews",
+            "weight": 0.35,
+            "value": 100
+          },
+          {
+            "key": "pctAbove10000",
+            "label": "% above 10,000 reviews",
+            "weight": 0.25,
+            "value": 75
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "timingScore": {
+        "value": 59.6,
+        "confidence": 35.6,
+        "components": [
+          {
+            "key": "demandGrowth",
+            "label": "Demand Growth",
+            "weight": 0.6,
+            "value": 66
+          },
+          {
+            "key": "invSupplyGrowth",
+            "label": "Inverse Supply Growth (proxy for upcoming)",
+            "weight": 0.4,
+            "value": 50
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "marketAttractivenessScore": {
+        "value": 41,
+        "confidence": 63.2,
+        "components": [
+          {
+            "key": "demand",
+            "label": "Demand",
+            "weight": 0.35,
+            "value": 17.3
+          },
+          {
+            "key": "demandGrowth",
+            "label": "Demand Growth",
+            "weight": 0.25,
+            "value": 66
+          },
+          {
+            "key": "successBreadth",
+            "label": "Success Breadth",
+            "weight": 0.2,
+            "value": 30
+          },
+          {
+            "key": "invSupply",
+            "label": "Inverse Supply Pressure",
+            "weight": 0.2,
+            "value": 62
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "gapScore": {
+        "value": 38.7,
+        "confidence": 59.3,
+        "components": [
+          {
+            "key": "demand",
+            "label": "Demand",
+            "weight": 0.4,
+            "value": 17.3
+          },
+          {
+            "key": "demandGrowth",
+            "label": "Demand Growth",
+            "weight": 0.25,
+            "value": 66
+          },
+          {
+            "key": "successBreadth",
+            "label": "Success Breadth",
+            "weight": 0.2,
+            "value": 30
+          },
+          {
+            "key": "invSupply",
+            "label": "Inverse Supply Pressure",
+            "weight": 0.15,
+            "value": 62
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "concentration": {
+        "top1Share": 0.347025408022767,
+        "top3Share": 0.8984346091604823,
+        "top10Share": 1,
+        "band": "Distributed"
+      },
+      "successDistribution": {
+        "tierCounts": {
+          "Tiny": 0,
+          "Small": 0,
+          "Viable": 0,
+          "Successful": 2,
+          "Breakout": 6
+        },
+        "pctAbove500": 100,
+        "pctAbove2000": 100,
+        "pctAbove10000": 75,
+        "medianReviews": 18709,
+        "p25": 12039,
+        "p50": 18709,
+        "p75": 161101.75,
+        "p90": 204586
+      },
+      "confidenceScore": 79,
+      "requirementProfile": {
+        "values": {
+          "gameplaySystems": 4,
+          "networking": 0,
+          "backend": 0,
+          "procedural": 2,
+          "optimization": 0,
+          "art2d": 2,
+          "art3d": 1,
+          "animationVfx": 0,
+          "levelContent": 0,
+          "narrative": 4,
+          "audio": 2,
+          "systemsDesign": 5,
+          "uxui": 5,
+          "qa": 2,
+          "liveops": 0
+        },
+        "details": {
+          "gameplaySystems": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Tactical combat needs systemic and gameplay engineering."
+            }
+          ],
+          "uxui": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Deckbuilders live on systems balance and card UX."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Card games need clear UI and 2D card art."
+            }
+          ],
+          "qa": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            }
+          ],
+          "audio": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            }
+          ],
+          "art3d": [
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            }
+          ],
+          "systemsDesign": [
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 3,
+              "source": "rule",
+              "reason": "Deckbuilders live on systems balance and card UX."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Roguelikes need procedural runs and systemic balance."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Tactical combat needs systemic and gameplay engineering."
+            }
+          ],
+          "narrative": [
+            {
+              "value": 4,
+              "source": "rule",
+              "reason": "Story-rich games need substantial writing."
+            }
+          ],
+          "art2d": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Card games need clear UI and 2D card art."
+            }
+          ],
+          "procedural": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Roguelikes need procedural runs and systemic balance."
+            }
+          ]
+        },
+        "confidence": 85,
+        "scopeClass": "Small"
+      },
+      "createdAt": "2026-09-17T15:20:47.122Z",
+      "updatedAt": "2026-09-17T15:20:47.122Z"
+    },
+    {
+      "id": "cl_shop-management",
+      "slug": "shop-management",
+      "name": "Co-op Shop Management",
+      "description": "First-person / management shop-keeping sims, increasingly with drop-in co-op. Fast-growing demand, still-manageable supply; strong fit for small systemic teams.",
+      "primaryTags": [
+        "Shop Keeper",
+        "Management"
+      ],
+      "secondaryTags": [
+        "Simulation",
+        "Co-op",
+        "Economy",
+        "First-Person",
+        "Singleplayer"
+      ],
+      "gameAppIds": [
+        2670630,
+        3070070,
+        1599600,
+        1258080,
+        70400,
+        606150
+      ],
+      "gameCount": 6,
+      "releasedGameCount": 6,
+      "upcomingGameCount": 0,
+      "demandScore": {
+        "value": 49.8,
+        "confidence": 65.7,
+        "components": [
+          {
+            "key": "reviewVelocity",
+            "label": "Review Velocity",
+            "weight": 0.3,
+            "value": 50
+          },
+          {
+            "key": "currentPlayers",
+            "label": "Current Player Strength",
+            "weight": 0.25,
+            "value": 50
+          },
+          {
+            "key": "releaseAdjReviews",
+            "label": "Release-Adjusted Review Performance",
+            "weight": 0.2,
+            "value": 50
+          },
+          {
+            "key": "reviewVolume",
+            "label": "Review Volume",
+            "weight": 0.15,
+            "value": 30
+          },
+          {
+            "key": "reviewQuality",
+            "label": "Review Quality",
+            "weight": 0.1,
+            "value": 78.3
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "demandGrowthScore": {
+        "value": 62,
+        "confidence": 36.5,
+        "components": [
+          {
+            "key": "velocityTrend",
+            "label": "Recent vs Older Velocity",
+            "weight": 0.6,
+            "value": 70
+          },
+          {
+            "key": "recentCohortMomentum",
+            "label": "Newest Cohort Momentum",
+            "weight": 0.4,
+            "value": 50
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "supplyPressureScore": {
+        "value": 62,
+        "confidence": 62.1,
+        "components": [
+          {
+            "key": "releaseVolume",
+            "label": "Release Volume (12m)",
+            "weight": 0.6,
+            "value": 70
+          },
+          {
+            "key": "releaseGrowth",
+            "label": "Release Growth (YoY)",
+            "weight": 0.4,
+            "value": 50
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "supplyGrowthScore": {
+        "value": 50,
+        "confidence": 51.1,
+        "components": [
+          {
+            "key": "releaseGrowth",
+            "label": "Release Growth (YoY)",
+            "weight": 1,
+            "value": 50
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "successBreadthScore": {
+        "value": 50,
+        "confidence": 65.7,
+        "components": [
+          {
+            "key": "pctAbove500",
+            "label": "% above 500 reviews",
+            "weight": 0.4,
+            "value": 100
+          },
+          {
+            "key": "pctAbove2000",
+            "label": "% above 2,000 reviews",
+            "weight": 0.35,
+            "value": 100
+          },
+          {
+            "key": "pctAbove10000",
+            "label": "% above 10,000 reviews",
+            "weight": 0.25,
+            "value": 83.3
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "timingScore": {
+        "value": 57.2,
+        "confidence": 32.9,
+        "components": [
+          {
+            "key": "demandGrowth",
+            "label": "Demand Growth",
+            "weight": 0.6,
+            "value": 62
+          },
+          {
+            "key": "invSupplyGrowth",
+            "label": "Inverse Supply Growth (proxy for upcoming)",
+            "weight": 0.4,
+            "value": 50
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "marketAttractivenessScore": {
+        "value": 50.5,
+        "confidence": 58.4,
+        "components": [
+          {
+            "key": "demand",
+            "label": "Demand",
+            "weight": 0.35,
+            "value": 49.8
+          },
+          {
+            "key": "demandGrowth",
+            "label": "Demand Growth",
+            "weight": 0.25,
+            "value": 62
+          },
+          {
+            "key": "successBreadth",
+            "label": "Success Breadth",
+            "weight": 0.2,
+            "value": 50
+          },
+          {
+            "key": "invSupply",
+            "label": "Inverse Supply Pressure",
+            "weight": 0.2,
+            "value": 38
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "gapScore": {
+        "value": 51.1,
+        "confidence": 54.8,
+        "components": [
+          {
+            "key": "demand",
+            "label": "Demand",
+            "weight": 0.4,
+            "value": 49.8
+          },
+          {
+            "key": "demandGrowth",
+            "label": "Demand Growth",
+            "weight": 0.25,
+            "value": 62
+          },
+          {
+            "key": "successBreadth",
+            "label": "Success Breadth",
+            "weight": 0.2,
+            "value": 50
+          },
+          {
+            "key": "invSupply",
+            "label": "Inverse Supply Pressure",
+            "weight": 0.15,
+            "value": 38
+          }
+        ],
+        "analyticsVersion": "market_v0.1"
+      },
+      "concentration": {
+        "top1Share": 0.3984131723755492,
+        "top3Share": 0.7632271182584709,
+        "top10Share": 1,
+        "band": "Moderately Concentrated"
+      },
+      "successDistribution": {
+        "tierCounts": {
+          "Tiny": 0,
+          "Small": 0,
+          "Viable": 0,
+          "Successful": 1,
+          "Breakout": 5
+        },
+        "pctAbove500": 100,
+        "pctAbove2000": 100,
+        "pctAbove10000": 83.33333333333334,
+        "medianReviews": 25806.5,
+        "p25": 19602.25,
+        "p50": 25806.5,
+        "p75": 44141.25,
+        "p90": 66928.5
+      },
+      "confidenceScore": 73,
+      "requirementProfile": {
+        "values": {
+          "gameplaySystems": 5,
+          "networking": 3,
+          "backend": 0,
+          "procedural": 3,
+          "optimization": 2,
+          "art2d": 0,
+          "art3d": 4,
+          "animationVfx": 1,
+          "levelContent": 0,
+          "narrative": 0,
+          "audio": 2,
+          "systemsDesign": 5,
+          "uxui": 5,
+          "qa": 2,
+          "liveops": 0
+        },
+        "details": {
+          "gameplaySystems": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Base building needs placement systems and systemic depth."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Building mechanics need interaction systems."
+            }
+          ],
+          "uxui": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Management sims need economy design and strong UX for dense info."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Shop sims need economy design and readable management UX."
+            }
+          ],
+          "qa": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            }
+          ],
+          "audio": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            }
+          ],
+          "art3d": [
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "First-person presentation raises 3D and performance bars."
+            },
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Shop sims need economy design and readable management UX."
+            }
+          ],
+          "systemsDesign": [
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Baseline production floor for any shippable game."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Base building needs placement systems and systemic depth."
+            },
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "Building mechanics need interaction systems."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Simulation depth requires simulation systems and design."
+            },
+            {
+              "value": 3,
+              "source": "rule",
+              "reason": "Management sims need economy design and strong UX for dense info."
+            },
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "Economy loops require balancing and reward design."
+            },
+            {
+              "value": 3,
+              "source": "rule",
+              "reason": "Shop sims need economy design and readable management UX."
+            }
+          ],
+          "networking": [
+            {
+              "value": 3,
+              "source": "rule",
+              "reason": "Online co-op requires networked session and state sync."
+            }
+          ],
+          "procedural": [
+            {
+              "value": 3,
+              "source": "rule",
+              "reason": "Simulation depth requires simulation systems and design."
+            }
+          ],
+          "optimization": [
+            {
+              "value": 2,
+              "source": "rule",
+              "reason": "First-person presentation raises 3D and performance bars."
+            }
+          ],
+          "animationVfx": [
+            {
+              "value": 1,
+              "source": "rule",
+              "reason": "First-person presentation raises 3D and performance bars."
+            }
+          ]
+        },
+        "confidence": 90,
+        "scopeClass": "Medium"
+      },
+      "createdAt": "2026-09-17T15:20:47.122Z",
+      "updatedAt": "2026-09-17T15:20:47.122Z"
+    }
+  ]
+}

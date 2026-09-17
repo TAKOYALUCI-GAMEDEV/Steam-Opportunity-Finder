@@ -135,15 +135,18 @@ export function computeTeamFit(
       code: "liveops",
       message: "Sustained LiveOps required but disallowed by team constraints.",
     });
-  if (c.maxDevelopmentMonths != null && req.months > c.maxDevelopmentMonths)
+  // Duration / budget are SOFT: they already lower ScopeFit (§36) and are surfaced as
+  // risks below. A hard wall only for an extreme mismatch (≥ 2× the team's cap), so the
+  // finder can still rank markets a team could stretch to reach.
+  if (c.maxDevelopmentMonths != null && req.months >= c.maxDevelopmentMonths * 2)
     hardBlockers.push({
       code: "duration",
-      message: `Market scope (${rp.scopeClass}) needs ~${req.months} months; team caps at ${c.maxDevelopmentMonths}.`,
+      message: `Market scope (${rp.scopeClass}) needs ~${req.months} months — far beyond the team's ${c.maxDevelopmentMonths}-month cap.`,
     });
-  if (c.maxBudget != null && req.budget > c.maxBudget)
+  if (c.maxBudget != null && req.budget >= c.maxBudget * 2)
     hardBlockers.push({
       code: "budget",
-      message: `Market scope (${rp.scopeClass}) needs ~€${req.budget.toLocaleString()}; team budget is €${c.maxBudget.toLocaleString()}.`,
+      message: `Market scope (${rp.scopeClass}) needs ~€${req.budget.toLocaleString()} — far beyond the team's €${c.maxBudget.toLocaleString()} budget.`,
     });
 
   // ── Final Team Fit (§37) ───────────────────────────────────────────────
@@ -166,7 +169,14 @@ export function computeTeamFit(
   }
   if (c.maxDevelopmentMonths == null || req.months <= (c.maxDevelopmentMonths ?? Infinity))
     strengths.push(`Fits the ${req.months}-month scope of a ${rp.scopeClass} market`);
-  else risks.push(`Production duration for a ${rp.scopeClass} market exceeds the team limit`);
+  else
+    risks.push(
+      `A ${rp.scopeClass} market typically needs ~${req.months} months vs the team's ${c.maxDevelopmentMonths}`,
+    );
+  if (c.maxBudget != null && req.budget > c.maxBudget)
+    risks.push(
+      `A ${rp.scopeClass} market typically needs ~€${req.budget.toLocaleString()} vs the team's €${c.maxBudget.toLocaleString()}`,
+    );
   for (const b of hardBlockers) risks.push(b.message);
 
   return {

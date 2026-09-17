@@ -79,7 +79,9 @@ export function scopeClassOf(
     values.networking * 1.2 +
     values.backend * 1.3 +
     values.liveops;
-  const scaleBoost = medianReviews > 20000 ? 3 : medianReviews > 5000 ? 1.5 : 0;
+  // Review scale nudges scope up a little, but must not let a few blockbuster exemplars
+  // make every market look Large — production load dominates.
+  const scaleBoost = medianReviews > 60000 ? 2.5 : medianReviews > 15000 ? 1 : 0;
   const s = load + scaleBoost;
   if (s >= 22) return "Very Large";
   if (s >= 16) return "Large";

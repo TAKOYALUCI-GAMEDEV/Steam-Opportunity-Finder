@@ -8,6 +8,12 @@ dist/
 # Generated dataset (rebuilt by `npm run data`; keep source fixtures in data/fixtures)
 public/data/dataset.json
 
+# HTTP cache for the ingestion pipeline
+.cache/
+
+# NOTE: data/generated/dataset.json + snapshots.jsonl ARE tracked on purpose —
+# that committed real Steam dataset is what the static site ships.
+
 # Env / secrets
 .env
 .env.local
