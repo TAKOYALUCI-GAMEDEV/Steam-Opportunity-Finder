@@ -37,7 +37,7 @@ interface Filters {
 }
 const DEFAULT_FILTERS: Filters = {
   minHD: 0, minConfidence: 0, maxSupplyPressure: 100, minOutperformers: 0,
-  minRepeatability: 0, excludeHighConcentration: false, minTeamFit: 0, experimental: false,
+  minRepeatability: 0, excludeHighConcentration: false, minTeamFit: 0, experimental: true,
 };
 
 const PRESETS: Record<string, Partial<Filters>> = {

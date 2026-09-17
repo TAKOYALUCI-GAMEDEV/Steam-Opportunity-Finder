@@ -109,6 +109,32 @@ export const SEED_APPS: Record<string, number[]> = {
     745920, // Temtem
     1289810, // Siralim Ultimate
   ],
+  "cleaning-sim": [
+    1290000, // PowerWash Simulator
+    613100, // House Flipper
+    246900, // Viscera Cleanup Detail
+    1161580, // Hardspace: Shipbreaker
+    1149620, // Gas Station Simulator
+  ],
+  "fishing-sim": [
+    1562430, // DREDGE
+    380600, // Fishing Planet
+    416880, // Cat Goes Fishing
+    3146520, // WEBFISHING
+  ],
+  "diving-sim": [
+    1868140, // DAVE THE DIVER
+    264710, // Subnautica
+    848450, // Subnautica: Below Zero
+    384190, // ABZU
+  ],
+  "detective-deduction": [
+    653530, // Return of the Obra Dinn
+    368370, // Her Story
+    632470, // Disco Elysium
+    1205520, // Pentiment
+    110800, // L.A. Noire
+  ],
 };
 
 export function allSeedAppIds(): number[] {
@@ -131,4 +157,7 @@ export const THICKEN_TAGS: Record<string, string> = {
   "action-roguelite": "Action Roguelike",
   "city-builder": "City Builder",
   "creature-collector": "Creature Collector",
+  // Niche "sleeper" markets stay CURATED-ONLY: their defining tags (Fishing, Underwater,
+  // Detective) are thematic, so auto tag-top drags in big off-theme titles where the theme
+  // is prominent but secondary (BioShock=Underwater, Batman=Detective, Stardew=Fishing).
 };

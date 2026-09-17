@@ -117,4 +117,39 @@ export const CLUSTER_SEEDS: ClusterSeed[] = [
     primaryTags: ["Creature Collector"],
     secondaryTags: ["Turn-Based", "Monster Taming", "Pixel Graphics", "Adventure"],
   },
+  // ── Niche "sleeper" markets — small, specific fantasies where a breakout can prove
+  //    unexpected demand (feature spec Hidden Demand). Curated to keep them genuinely
+  //    niche (auto tag-top would drown them in big off-theme titles). ────────────────
+  {
+    slug: "cleaning-sim",
+    name: "Cleaning & Chore Sim",
+    description:
+      "Oddly-satisfying cleaning / restoration sims (the PowerWash fantasy). Long a tiny niche until a breakout proved broad demand; very low production burden.",
+    primaryTags: ["Cleaning"],
+    secondaryTags: ["Relaxing", "Simulation", "Satisfying", "First-Person"],
+  },
+  {
+    slug: "fishing-sim",
+    name: "Fishing & Angling",
+    description:
+      "Dedicated fishing games — from cozy to eerie. A small, loyal niche with occasional breakouts that far outperform the field.",
+    primaryTags: ["Fishing"],
+    secondaryTags: ["Relaxing", "Simulation", "Adventure", "Atmospheric"],
+  },
+  {
+    slug: "diving-sim",
+    name: "Underwater & Diving",
+    description:
+      "Underwater exploration / diving. Atmospheric and content-forward, small in number but with standout performers.",
+    primaryTags: ["Underwater"],
+    secondaryTags: ["Diving", "Exploration", "Atmospheric", "Survival"],
+  },
+  {
+    slug: "detective-deduction",
+    name: "Detective & Deduction",
+    description:
+      "Investigation and deduction games built on evidence and reasoning. Niche but critically beloved, with breakouts that vastly outperform expectations.",
+    primaryTags: ["Detective"],
+    secondaryTags: ["Mystery", "Investigation", "Story Rich", "Puzzle"],
+  },
 ];

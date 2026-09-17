@@ -26,6 +26,8 @@ function encodingColor(enc: Encoding, v: number): string {
   const t = Math.max(0, Math.min(1, v / 100));
   if (enc === "teamFit")
     return scale3([220, 70, 90], [242, 193, 78], [52, 211, 153], t); // rose→amber→emerald
+  if (enc === "hiddenDemand")
+    return scale2([48, 60, 74], [52, 211, 153], t); // slate → bright emerald (distinct)
   return scale2([70, 90, 130], [242, 193, 78], t); // blue→amber
 }
 
@@ -82,8 +84,17 @@ export function OpportunityMapPage() {
                 ? c.confidenceScore
                 : c.marketAttractivenessScore.value;
       const blocked = (fit?.hardBlockers.length ?? 0) > 0;
-      const opacity =
-        mode === "team" ? 0.35 + 0.6 * ((fit?.teamFit ?? 0) / 100) : 0.92;
+      // When highlighting a market dimension (not team fit), let that dimension drive
+      // prominence so the encoding is clearly visible; otherwise use team-fit emphasis.
+      const encDrivesOpacity =
+        effectiveEncoding === "hiddenDemand" ||
+        effectiveEncoding === "growth" ||
+        effectiveEncoding === "confidence";
+      const opacity = encDrivesOpacity
+        ? 0.4 + 0.55 * (encVal / 100)
+        : mode === "team"
+          ? 0.35 + 0.6 * ((fit?.teamFit ?? 0) / 100)
+          : 0.92;
       return {
         name: c.name,
         slug: c.slug,
