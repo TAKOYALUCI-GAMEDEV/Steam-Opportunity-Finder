@@ -7,6 +7,7 @@ import { TeamProfilePage } from "@/pages/TeamProfilePage";
 import { ComparePage } from "@/pages/ComparePage";
 import { MarketExplorerPage } from "@/pages/MarketExplorerPage";
 import { ConceptValidatorPage } from "@/pages/ConceptValidatorPage";
+import { HiddenDemandPage } from "@/pages/HiddenDemandPage";
 
 export function App() {
   return (
@@ -15,6 +16,7 @@ export function App() {
         <Route index element={<OpportunityMapPage />} />
         <Route path="cluster/:slug" element={<ClusterDetailPage />} />
         <Route path="finder" element={<OpportunityFinderPage />} />
+        <Route path="hidden" element={<HiddenDemandPage />} />
         <Route path="explorer" element={<MarketExplorerPage />} />
         <Route path="team" element={<TeamProfilePage />} />
         <Route path="validator" element={<ConceptValidatorPage />} />

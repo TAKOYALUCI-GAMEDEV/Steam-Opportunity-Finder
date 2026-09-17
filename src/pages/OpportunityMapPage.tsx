@@ -7,7 +7,7 @@ import { useActiveTeam, useTeamStore } from "@/state/teamStore";
 import { computePersonalizedOpportunity, computeTeamFit } from "@/lib/teamFit";
 import type { MarketCluster } from "@/types/dataset";
 
-type Encoding = "attractiveness" | "teamFit" | "growth" | "confidence";
+type Encoding = "attractiveness" | "teamFit" | "hiddenDemand" | "growth" | "confidence";
 
 function activitySize(c: MarketCluster): number {
   const reviews = c.gameCount * Math.max(1, c.successDistribution.medianReviews);
@@ -74,11 +74,13 @@ export function OpportunityMapPage() {
       const encVal =
         effectiveEncoding === "teamFit"
           ? (fit?.teamFit ?? 0)
-          : effectiveEncoding === "growth"
-            ? c.demandGrowthScore.value
-            : effectiveEncoding === "confidence"
-              ? c.confidenceScore
-              : c.marketAttractivenessScore.value;
+          : effectiveEncoding === "hiddenDemand"
+            ? (c.hiddenDemand?.hiddenDemandScore.value ?? 0)
+            : effectiveEncoding === "growth"
+              ? c.demandGrowthScore.value
+              : effectiveEncoding === "confidence"
+                ? c.confidenceScore
+                : c.marketAttractivenessScore.value;
       const blocked = (fit?.hardBlockers.length ?? 0) > 0;
       const opacity =
         mode === "team" ? 0.35 + 0.6 * ((fit?.teamFit ?? 0) / 100) : 0.92;
@@ -216,6 +218,7 @@ export function OpportunityMapPage() {
   const encLabel: Record<Encoding, string> = {
     attractiveness: "Attractiveness",
     teamFit: "Team Fit",
+    hiddenDemand: "Hidden Demand",
     growth: "Growth",
     confidence: "Confidence",
   };

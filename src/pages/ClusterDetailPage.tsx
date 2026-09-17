@@ -174,6 +174,67 @@ export function ClusterDetailPage() {
         </div>
       </section>
 
+      {cluster.hiddenDemand && (
+        <section className="rounded-lg border border-edge bg-panel2/40 p-3">
+          <div className="flex items-baseline justify-between mb-2">
+            <span className="text-sm text-ink font-medium">Hidden Demand Analysis</span>
+            <span className="text-[11px] text-muted">
+              {cluster.hiddenDemand.sleeperMarketType.replace(/_/g, " ")} · HD{" "}
+              {cluster.hiddenDemand.hiddenDemandScore.value} · confidence{" "}
+              {cluster.hiddenDemand.confidence}
+            </span>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-3">
+            {[
+              ["Active Supply", cluster.hiddenDemand.activeSupply],
+              ["Median Reviews", cluster.hiddenDemand.medianReviewsPerGame.toLocaleString()],
+              ["P90 Reviews", cluster.hiddenDemand.p90ReviewsPerGame.toLocaleString()],
+              ["Best Outperformance", `${cluster.hiddenDemand.bestOutperformanceRatio}×`],
+              ["High Outperformers", `${cluster.hiddenDemand.highOutperformerCount} (${cluster.hiddenDemand.independentOutperformerCount} indep.)`],
+              ["Repeatability", cluster.hiddenDemand.repeatabilityScore.value],
+              ["First Proof", cluster.hiddenDemand.firstProofScore.value],
+              ["Supply Reaction", cluster.hiddenDemand.supplyReaction],
+            ].map(([k, v]) => (
+              <div key={k as string}>
+                <div className="text-base font-semibold tabular-nums text-ink">{v as string}</div>
+                <div className="text-[10px] text-muted">{k as string}</div>
+              </div>
+            ))}
+          </div>
+          {cluster.hiddenDemand.outperformingTitles.length > 0 && (
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead>
+                  <tr className="text-left text-[11px] text-muted border-b border-edge">
+                    <th className="py-1.5 pr-4 font-medium">Outperforming title</th>
+                    <th className="py-1.5 pr-4 font-medium text-right">Actual</th>
+                    <th className="py-1.5 pr-4 font-medium text-right">Expected</th>
+                    <th className="py-1.5 pr-4 font-medium text-right">Ratio</th>
+                    <th className="py-1.5 pr-4 font-medium">Confounders</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {cluster.hiddenDemand.outperformingTitles.map((t) => (
+                    <tr key={t.appId} className="border-b border-edge/40">
+                      <td className="py-1.5 pr-4 text-ink">{t.name}</td>
+                      <td className="py-1.5 pr-4 text-right tabular-nums text-muted">{t.actualReviews.toLocaleString()}</td>
+                      <td className="py-1.5 pr-4 text-right tabular-nums text-muted">{t.expectedReviews.toLocaleString()}</td>
+                      <td className="py-1.5 pr-4 text-right tabular-nums text-emerald-300">{t.ratio}×</td>
+                      <td className="py-1.5 pr-4 text-[11px] text-amber-300/80">{t.confounders.join(", ") || "—"}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+          <p className="text-[11px] text-muted mt-2">
+            Outperformance = actual reviews vs the median of a matched release cohort
+            (year · price band · paid/free · release age). Confounders may make a hit less
+            transferable.
+          </p>
+        </section>
+      )}
+
       <section className="rounded-lg border border-edge bg-panel2/40 p-3">
         <div className="text-sm text-ink font-medium mb-2">
           Representative Games ({games.length})

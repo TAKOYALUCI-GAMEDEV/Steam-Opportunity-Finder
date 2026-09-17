@@ -31,3 +31,12 @@ export type SuccessTier =
   | "Viable"
   | "Successful"
   | "Breakout";
+
+// Hidden Demand / Sleeper Market classification (feature spec §16).
+export type SleeperMarketType =
+  | "single_hit_anomaly"
+  | "first_proof_market"
+  | "repeatable_hidden_demand"
+  | "established_niche"
+  | "dead_niche"
+  | "insufficient_evidence";

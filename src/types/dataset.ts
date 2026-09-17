@@ -6,6 +6,7 @@ import type { CapabilityVector } from "@/lib/capabilities";
 import type {
   ConcentrationBand,
   ScoreValue,
+  SleeperMarketType,
   SuccessTier,
 } from "@shared/scores";
 
@@ -37,7 +38,73 @@ export interface Game {
   currentPlayers: number | null;
   // Derived per-game metrics used by cluster analytics.
   reviewVelocity30d?: number | null; // reviews/day, cohort-normalized upstream
+  outperformance?: GameOutperformance; // Hidden Demand analysis (feature spec §5–§7)
   provenance?: DataProvenance;
+}
+
+// ── Hidden Demand / Sleeper Market analysis (feature spec) ────────────────────
+
+// Reasons an outlier may not represent transferable market demand (§17/§18).
+export interface OutlierQualityCheck {
+  freeToPlay: boolean;
+  unusuallyLowPrice: boolean;
+  franchiseOrPublisherDominance: boolean;
+  longEarlyAccessHistory: boolean;
+  longReleaseAge: boolean;
+  majorPublisher: boolean | null; // unknown ≠ false (§17)
+  confounderCount: number;
+}
+
+export interface GameOutperformance {
+  appId: number;
+  cohortKey: string;
+  cohortSize: number;
+  expectedReviews: number;
+  actualReviews: number;
+  outperformanceRatio: number; // actual / expected (§7)
+  logOutperformance: number; // log2(1+ratio), winsorized
+  highOutperformer: boolean; // ratio≥3 & reviews≥500 (§12)
+  extremeOutperformer: boolean; // ratio≥8 & reviews≥2000
+  recentOutperformance: number | null; // velocity vs age peers (§8)
+  independentGroupId: string; // dev/publisher (§14)
+  quality: OutlierQualityCheck;
+  confidence: number; // 0..100 (cohort size driven)
+}
+
+export interface OutperformingTitle {
+  appId: number;
+  name: string;
+  actualReviews: number;
+  expectedReviews: number;
+  ratio: number;
+  recentVelocity: number | null;
+  confounders: string[];
+}
+
+export interface HiddenDemand {
+  activeSupply: number; // released within the window (§10)
+  reviewDensity: number; // total meaningful reviews / active supply (§9)
+  medianReviewsPerGame: number;
+  p75ReviewsPerGame: number;
+  p90ReviewsPerGame: number;
+
+  reviewOutperformanceScore: ScoreValue;
+  repeatabilityScore: ScoreValue;
+  hiddenDemandScore: ScoreValue;
+  firstProofScore: ScoreValue;
+
+  highOutperformerCount: number;
+  independentOutperformerCount: number;
+  extremeOutperformerCount: number;
+  recentBreakoutCount: number; // §30
+  bestOutperformanceRatio: number;
+
+  sleeperMarketType: SleeperMarketType;
+  confidence: number; // separate from the score (§20)
+
+  outperformingTitles: OutperformingTitle[];
+  supplyReaction: "weak" | "moderate" | "strong" | "unknown"; // §29
+  analyticsVersion: string;
 }
 
 // A requirement value on one of the 15 dimensions, with why it was inferred (§33, §34).
@@ -103,6 +170,8 @@ export interface MarketCluster {
   confidenceScore: number; // overall cluster confidence (§60)
 
   requirementProfile: RequirementProfile;
+
+  hiddenDemand?: HiddenDemand; // Hidden Demand / Sleeper analysis (feature spec)
 
   createdAt: string;
   updatedAt: string;

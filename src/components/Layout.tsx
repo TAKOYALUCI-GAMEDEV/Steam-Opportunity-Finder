@@ -3,6 +3,7 @@ import { NavLink, Outlet } from "react-router-dom";
 const NAV = [
   { to: "/", label: "Opportunity Map", end: true },
   { to: "/finder", label: "Opportunity Finder" },
+  { to: "/hidden", label: "Hidden Demand" },
   { to: "/explorer", label: "Market Explorer" },
   { to: "/validator", label: "Concept Validator" },
   { to: "/team", label: "Team Profile" },
