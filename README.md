@@ -48,15 +48,23 @@ and is recomputed client-side whenever the Team Profile changes (spec §42).
 - **Vercel** — import the repo; framework auto-detects Vite, build `npm run build`,
   output `dist`. No config needed (routing uses `HashRouter`).
 
-## Status
+## Status — MVP complete (spec §71)
 
-MVP milestones (spec §71), fixtures-first:
+**Live:** https://takoyaluci-gamedev.github.io/Steam-Opportunity-Finder/
 
-- [x] **M0 Foundation** — static SPA, offline pipeline, dataset contract, Opportunity Map
-- [ ] **M2 Analytics** — deepen scoring, tag co-occurrence clustering _(partial)_
-- [ ] **M3 Team Fit** — 15 capability dims, requirement rules, blockers, gates, explanations
-- [ ] **M4 Opportunity Map** — Global/My-Team modes, filters, encodings toggle
-- [ ] **M5 Opportunity Finder** — personalized ranking, compare, scenarios
-- [ ] **M1 Steam data layer** — real ingestion behind provider interfaces (last)
+- [x] **M0 Foundation** — static SPA, offline pipeline, dataset contract
+- [x] **M2 Analytics** — tag weights, curated clustering, demand/supply/growth/breadth/gap/timing/attractiveness (percentile-normalized, componentized)
+- [x] **M3 Team Fit** — 15 capability dims, requirement rules, coverage, scope fit, hard blockers, gates, explanations
+- [x] **M4 Opportunity Map** — Global/My-Team modes, encoding toggle, filters, team-fit emphasis
+- [x] **M5 Opportunity Finder** — personalized ranking, compare, scenario cloning; + Market Explorer
+- [x] **M1 Steam data layer** — live ingestion behind provider interfaces; weekly auto-refresh
 
-Phase 2 (semantic / concept validator) is out of scope until M0–M5 work end-to-end.
+Data source: **39 real Steam games** across 5 markets (fixtures remain as the
+deterministic fallback and test basis). Refresh: `npm run ingest`, or the weekly
+`Refresh Steam data` workflow.
+
+### Not yet (Phase 2, spec §49–§52) — intentionally deferred
+
+- Automatic tag co-occurrence / FP-Growth clustering over a large catalog (curated seeds for now)
+- Semantic embeddings, latent gap detection, natural-language Concept Validator
+- Real review-velocity/growth from accumulated snapshots (first snapshots now recording)
