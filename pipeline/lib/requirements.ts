@@ -52,6 +52,24 @@ const RULES: Rule[] = [
   { tag: "First-Person", effects: { art3d: 2, optimization: 2, animationVfx: 1 }, reason: "First-person presentation raises 3D and performance bars." },
   { tag: "Shop Keeper", effects: { systemsDesign: 3, uxui: 2, art3d: 1 }, reason: "Shop sims need economy design and readable management UX." },
   { tag: "Farming", effects: { systemsDesign: 2 }, reason: "Farming loops need progression/economy design." },
+  // New-market rules (tag strings as normalized from Steam: hyphens → spaces).
+  { tag: "City Builder", effects: { systemsDesign: 3, gameplaySystems: 2, optimization: 2, uxui: 2, levelContent: 2 }, reason: "City builders need deep systems, dense UX and performance at scale." },
+  { tag: "Resource Management", effects: { systemsDesign: 2 }, reason: "Resource loops need economy/balance design." },
+  { tag: "Colony Sim", effects: { procedural: 4, systemsDesign: 4, gameplaySystems: 2 }, reason: "Colony sims are simulation- and systems-heavy with emergent AI." },
+  { tag: "Metroidvania", effects: { levelContent: 4, animationVfx: 2, gameplaySystems: 2, art2d: 2 }, reason: "Metroidvanias need a large handcrafted interconnected world and animation." },
+  { tag: "Souls-like", effects: { gameplaySystems: 2, qa: 2, animationVfx: 2 }, reason: "Souls-like combat needs tight systems, animation and heavy tuning." },
+  { tag: "Platformer", effects: { gameplaySystems: 2, levelContent: 2, animationVfx: 2 }, reason: "Platformers need responsive systems and handcrafted levels." },
+  { tag: "Tower Defense", effects: { systemsDesign: 3, gameplaySystems: 2, uxui: 2 }, reason: "Tower defense lives on systemic balance and readable UX." },
+  { tag: "Action Roguelike", effects: { gameplaySystems: 3, procedural: 2, systemsDesign: 2 }, reason: "Action roguelikes need strong gameplay engineering and procedural runs." },
+  { tag: "Rogue-lite", effects: { procedural: 2, systemsDesign: 2 }, reason: "Roguelites need procedural runs and systemic balance." },
+  { tag: "Rogue-like", effects: { procedural: 2, systemsDesign: 2 }, reason: "Roguelikes need procedural runs and systemic balance." },
+  { tag: "Hack and Slash", effects: { gameplaySystems: 2, animationVfx: 2 }, reason: "Hack-and-slash needs combat engineering and animation." },
+  { tag: "Farming Sim", effects: { systemsDesign: 2, art2d: 2, levelContent: 2 }, reason: "Farming sims are content-forward with progression design." },
+  { tag: "Life Sim", effects: { narrative: 2, systemsDesign: 2, art2d: 2 }, reason: "Life sims need writing, systemic loops and cozy art." },
+  { tag: "Horror", effects: { audio: 3, levelContent: 2, art3d: 2 }, reason: "Horror leans on audio, atmosphere and environment content." },
+  { tag: "Survival Horror", effects: { audio: 2, levelContent: 2 }, reason: "Survival horror needs tense audio and handcrafted spaces." },
+  { tag: "Online Co-Op", effects: { networking: 3 }, reason: "Online co-op requires networked sessions and state sync." },
+  { tag: "Moddable", effects: { gameplaySystems: 1, backend: 1 }, reason: "Mod support needs stable APIs and tooling." },
 ];
 
 function applyEffects(
@@ -81,11 +99,11 @@ export function scopeClassOf(
     values.liveops;
   // Review scale nudges scope up a little, but must not let a few blockbuster exemplars
   // make every market look Large — production load dominates.
-  const scaleBoost = medianReviews > 60000 ? 2.5 : medianReviews > 15000 ? 1 : 0;
+  const scaleBoost = medianReviews > 150000 ? 2 : medianReviews > 40000 ? 1 : 0;
   const s = load + scaleBoost;
-  if (s >= 22) return "Very Large";
-  if (s >= 16) return "Large";
-  if (s >= 10) return "Medium";
+  if (s >= 26) return "Very Large";
+  if (s >= 18) return "Large";
+  if (s >= 11) return "Medium";
   if (s >= 5) return "Small";
   return "Micro";
 }
@@ -101,10 +119,13 @@ export function buildRequirementProfile(
 
   applyEffects(values, details, BASE, "Baseline production floor for any shippable game.");
 
-  const lowered = clusterTags.map((t) => t.toLowerCase());
+  // Normalize both sides identically (lowercase, hyphens → spaces) so rules match real
+  // Steam tags regardless of hyphenation ("Co-op" ↔ "Co op", "Souls-like" ↔ "Souls like").
+  const norm = (s: string) => s.toLowerCase().replace(/-/g, " ").replace(/\s+/g, " ").trim();
+  const clusterSet = new Set(clusterTags.map(norm));
   let matched = 0;
   for (const rule of RULES) {
-    if (lowered.includes(rule.tag.toLowerCase())) {
+    if (clusterSet.has(norm(rule.tag))) {
       applyEffects(values, details, rule.effects, rule.reason);
       matched += 1;
     }

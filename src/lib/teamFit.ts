@@ -135,19 +135,10 @@ export function computeTeamFit(
       code: "liveops",
       message: "Sustained LiveOps required but disallowed by team constraints.",
     });
-  // Duration / budget are SOFT: they already lower ScopeFit (§36) and are surfaced as
-  // risks below. A hard wall only for an extreme mismatch (≥ 2× the team's cap), so the
-  // finder can still rank markets a team could stretch to reach.
-  if (c.maxDevelopmentMonths != null && req.months >= c.maxDevelopmentMonths * 2)
-    hardBlockers.push({
-      code: "duration",
-      message: `Market scope (${rp.scopeClass}) needs ~${req.months} months — far beyond the team's ${c.maxDevelopmentMonths}-month cap.`,
-    });
-  if (c.maxBudget != null && req.budget >= c.maxBudget * 2)
-    hardBlockers.push({
-      code: "budget",
-      message: `Market scope (${rp.scopeClass}) needs ~€${req.budget.toLocaleString()} — far beyond the team's €${c.maxBudget.toLocaleString()} budget.`,
-    });
+  // Duration / budget are SOFT, never hard blockers: they lower ScopeFit (§36) and are
+  // surfaced as risks below. Hard blockers are reserved for capability/constraint walls
+  // a team genuinely cannot or will not cross — otherwise every large-scope market caps
+  // out and the finder loses its ranking signal.
 
   // ── Final Team Fit (§37) ───────────────────────────────────────────────
   const teamFit = clamp(0.75 * capabilityFit + 0.25 * scopeFit);

@@ -174,6 +174,7 @@ export function OpportunityMapPage() {
             color: "#c3cbe0",
             fontSize: 11,
           },
+          labelLayout: { hideOverlap: true },
           emphasis: {
             focus: "self",
             itemStyle: { borderColor: "#e6ebf5", borderWidth: 2 },
