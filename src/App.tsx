@@ -6,6 +6,7 @@ import { OpportunityFinderPage } from "@/pages/OpportunityFinderPage";
 import { TeamProfilePage } from "@/pages/TeamProfilePage";
 import { ComparePage } from "@/pages/ComparePage";
 import { MarketExplorerPage } from "@/pages/MarketExplorerPage";
+import { ConceptValidatorPage } from "@/pages/ConceptValidatorPage";
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
         <Route path="finder" element={<OpportunityFinderPage />} />
         <Route path="explorer" element={<MarketExplorerPage />} />
         <Route path="team" element={<TeamProfilePage />} />
+        <Route path="validator" element={<ConceptValidatorPage />} />
         <Route path="compare" element={<ComparePage />} />
       </Route>
     </Routes>

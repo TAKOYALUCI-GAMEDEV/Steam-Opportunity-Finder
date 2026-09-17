@@ -4,6 +4,7 @@ const NAV = [
   { to: "/", label: "Opportunity Map", end: true },
   { to: "/finder", label: "Opportunity Finder" },
   { to: "/explorer", label: "Market Explorer" },
+  { to: "/validator", label: "Concept Validator" },
   { to: "/team", label: "Team Profile" },
 ];
 
