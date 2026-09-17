@@ -1,0 +1,38 @@
+name: Refresh Steam data
+
+# Spec §15 collection schedule: refresh the committed real dataset weekly. Pushing the
+# updated data/generated/* triggers the Pages deploy. Run manually via workflow_dispatch.
+on:
+  schedule:
+    - cron: "17 6 * * 1" # Mondays 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run ingest
+      - name: Commit refreshed dataset
+        run: |
+          git config user.name "sof-ingest-bot"
+          git config user.email "actions@github.com"
+          if [[ -n "$(git status --porcelain data/generated)" ]]; then
+            git add data/generated
+            git commit -m "chore(data): weekly Steam refresh [skip ci]"
+            git push
+          else
+            echo "No dataset changes."
+          fi
