@@ -109,4 +109,12 @@ export const CLUSTER_SEEDS: ClusterSeed[] = [
     primaryTags: ["Horror", "Online Co-Op"],
     secondaryTags: ["Co-op", "Multiplayer", "Survival Horror", "First-Person"],
   },
+  {
+    slug: "creature-collector",
+    name: "Creature Collector RPG",
+    description:
+      "Monster-taming / creature-collection RPGs (the Pokémon fantasy). Content- and systems-heavy — lots of creatures, moves and balance — but proven, loyal demand.",
+    primaryTags: ["Creature Collector", "RPG"],
+    secondaryTags: ["Turn-Based", "Monster Taming", "Pixel Graphics", "Adventure"],
+  },
 ];

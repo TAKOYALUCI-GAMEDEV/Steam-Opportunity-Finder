@@ -102,6 +102,13 @@ export const SEED_APPS: Record<string, number[]> = {
     2881650, // Content Warning
     493520, // GTFO
   ],
+  "creature-collector": [
+    1321440, // Cassette Beasts
+    1218210, // Coromon
+    814370, // Monster Sanctuary
+    745920, // Temtem
+    1289810, // Siralim Ultimate
+  ],
 };
 
 export function allSeedAppIds(): number[] {

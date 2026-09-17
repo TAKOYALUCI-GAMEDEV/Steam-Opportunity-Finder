@@ -34,6 +34,8 @@ const KEYWORD_TAGS: [string[], string[]][] = [
   [["management", "manage", "run a business", "tycoon"], ["Management", "Economy", "Simulation"]],
   [["build", "building", "construct"], ["Building", "Base Building"]],
   [["dungeon", "hack and slash", "loot"], ["Hack and Slash", "Action Roguelike"]],
+  [["pokemon", "pokémon", "creature collect", "collect creatures", "monster tam", "catch monsters", "monster catch", "creature collector"], ["Creature Collector", "Monster Taming", "RPG"]],
+  [["jrpg", "turn based rpg", "turn-based rpg", "party based"], ["RPG", "Turn-Based", "JRPG"]],
 ];
 
 export interface QueryTag {
