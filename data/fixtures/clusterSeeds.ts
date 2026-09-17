@@ -53,4 +53,60 @@ export const CLUSTER_SEEDS: ClusterSeed[] = [
     primaryTags: ["Shop Keeper", "Management"],
     secondaryTags: ["Simulation", "Co-op", "Economy", "First-Person", "Singleplayer"],
   },
+  {
+    slug: "colony-sim",
+    name: "Colony Simulation",
+    description:
+      "Deep colony/base management with emergent stories and simulation. Systemic and AI-heavy; low art burden but high design complexity.",
+    primaryTags: ["Colony Sim", "Base Building"],
+    secondaryTags: ["Simulation", "Survival", "Strategy", "Management", "Sandbox"],
+  },
+  {
+    slug: "cozy-farm-sim",
+    name: "Cozy Farm & Life Sim",
+    description:
+      "Relaxing farming and life sims with light social loops. Broad, distributed demand; content-forward but low-tech.",
+    primaryTags: ["Farming Sim", "Life Sim"],
+    secondaryTags: ["Cozy", "Relaxing", "Simulation", "Pixel Graphics", "Singleplayer"],
+  },
+  {
+    slug: "tower-defense",
+    name: "Tower Defense",
+    description:
+      "Strategic lane/grid defense. Systemic and UX-driven with modest content; a classic fit for small strategy-minded teams.",
+    primaryTags: ["Tower Defense", "Strategy"],
+    secondaryTags: ["Strategy", "Casual", "Roguelike", "Singleplayer"],
+  },
+  {
+    slug: "metroidvania",
+    name: "Metroidvania",
+    description:
+      "Interconnected exploration-platformers with ability-gated progression. Handcrafted-content and animation heavy.",
+    primaryTags: ["Metroidvania", "Platformer"],
+    secondaryTags: ["Action", "Souls-like", "Pixel Graphics", "Exploration"],
+  },
+  {
+    slug: "action-roguelite",
+    name: "Action Roguelite",
+    description:
+      "Fast run-based action with procedural progression (survivors-likes, dungeon crawlers). Systemic, replay-driven, moderate content.",
+    primaryTags: ["Roguelite", "Action"],
+    secondaryTags: ["Roguelike", "Bullet Hell", "Fast-Paced", "Pixel Graphics"],
+  },
+  {
+    slug: "city-builder",
+    name: "City Builder",
+    description:
+      "Large-scale city and settlement building with logistics and economy. Systemic but production-heavy at the top end.",
+    primaryTags: ["City Builder", "Base Building"],
+    secondaryTags: ["Management", "Strategy", "Economy", "Simulation"],
+  },
+  {
+    slug: "coop-horror",
+    name: "Co-op Survival Horror",
+    description:
+      "Small-session online co-op horror — a fast-growing, breakout-prone market. Networking-dependent, which is a real gate for some teams.",
+    primaryTags: ["Horror", "Online Co-Op"],
+    secondaryTags: ["Co-op", "Multiplayer", "Survival Horror", "First-Person"],
+  },
 ];

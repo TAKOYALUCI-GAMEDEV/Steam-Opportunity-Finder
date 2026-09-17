@@ -53,6 +53,55 @@ export const SEED_APPS: Record<string, number[]> = {
     70400, // Recettear: An Item Shop's Tale
     606150, // Moonlighter
   ],
+  "colony-sim": [
+    294100, // RimWorld
+    457140, // Oxygen Not Included
+    975370, // Dwarf Fortress
+    1162750, // Songs of Syx
+    233860, // Kenshi
+  ],
+  "cozy-farm-sim": [
+    413150, // Stardew Valley
+    666140, // My Time at Portia
+    1084600, // My Time at Sandrock
+    1158160, // Coral Island (verified appid)
+    599140, // Graveyard Keeper
+  ],
+  "tower-defense": [
+    960090, // Bloons TD 6
+    246420, // Kingdom Rush
+    644930, // They Are Billions
+    65800, // Dungeon Defenders
+  ],
+  "metroidvania": [
+    367520, // Hollow Knight
+    387290, // Ori and the Blind Forest
+    1057090, // Ori and the Will of the Wisps
+    774361, // Blasphemous
+    588650, // Dead Cells
+  ],
+  "action-roguelite": [
+    1145360, // Hades
+    632360, // Risk of Rain 2
+    311690, // Enter the Gungeon
+    1217060, // Gunfire Reborn
+    1794680, // Vampire Survivors
+    1942280, // Brotato
+  ],
+  "city-builder": [
+    255710, // Cities: Skylines
+    323190, // Frostpunk
+    916440, // Anno 1800
+    1062090, // Timberborn
+    1336490, // Against the Storm
+  ],
+  "coop-horror": [
+    1966720, // Lethal Company
+    739630, // Phasmophobia
+    1274570, // DEVOUR
+    2881650, // Content Warning
+    493520, // GTFO
+  ],
 };
 
 export function allSeedAppIds(): number[] {
