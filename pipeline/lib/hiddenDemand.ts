@@ -54,14 +54,21 @@ function ageBucket(release: string | null, asOf: number): string {
 
 const yearOf = (r: string | null) => (r ? new Date(r).getUTCFullYear() : 0);
 
+// Minimal shape needed to place a game in a performance cohort.
+export interface CohortSample {
+  reviewTotal: number | null;
+  releaseDate: string | null;
+  price: number | null;
+}
+
 // Progressive cohort broadening (§6): narrowest cohort with enough peers wins; broader
 // cohorts lower confidence.
-function buildCohorts(games: Game[], asOf: number) {
+function buildCohorts(games: CohortSample[], asOf: number) {
   const levels = [
-    { name: "full", key: (g: Game) => `${yearOf(g.releaseDate)}|${priceBand(g.price)}|${g.price === 0 ? "F" : "P"}|${ageBucket(g.releaseDate, asOf)}`, conf: 90 },
-    { name: "noAge", key: (g: Game) => `${yearOf(g.releaseDate)}|${priceBand(g.price)}|${g.price === 0 ? "F" : "P"}`, conf: 70 },
-    { name: "noPrice", key: (g: Game) => `${yearOf(g.releaseDate)}|${g.price === 0 ? "F" : "P"}`, conf: 55 },
-    { name: "paid", key: (g: Game) => `${g.price === 0 ? "F" : "P"}`, conf: 40 },
+    { name: "full", key: (g: CohortSample) => `${yearOf(g.releaseDate)}|${priceBand(g.price)}|${g.price === 0 ? "F" : "P"}|${ageBucket(g.releaseDate, asOf)}`, conf: 90 },
+    { name: "noAge", key: (g: CohortSample) => `${yearOf(g.releaseDate)}|${priceBand(g.price)}|${g.price === 0 ? "F" : "P"}`, conf: 70 },
+    { name: "noPrice", key: (g: CohortSample) => `${yearOf(g.releaseDate)}|${g.price === 0 ? "F" : "P"}`, conf: 55 },
+    { name: "paid", key: (g: CohortSample) => `${g.price === 0 ? "F" : "P"}`, conf: 40 },
     { name: "all", key: () => "all", conf: 25 },
   ];
   const maps = levels.map((lv) => {
@@ -110,9 +117,15 @@ export function computeHiddenDemand(
   games: Game[],
   clusters: MarketCluster[],
   asOf: number,
+  baseline?: CohortSample[],
 ): void {
   const released = games.filter((g) => !g.comingSoon && g.reviewTotal != null);
-  const cohortFor = buildCohorts(released, asOf);
+  // Expected performance comes from a representative baseline (small games included)
+  // when available; otherwise from the in-dataset games (which inflates the baseline).
+  const cohortFor = buildCohorts(
+    baseline && baseline.length >= 100 ? baseline : released,
+    asOf,
+  );
 
   // Peer velocity medians by age bucket (§8).
   const velByAge = new Map<string, number[]>();

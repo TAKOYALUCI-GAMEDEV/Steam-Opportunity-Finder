@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import type { EChartsOption } from "echarts";
 import { EChart } from "@/components/EChart";
 import { useDataset } from "@/state/useDataset";
@@ -117,6 +117,29 @@ export function OpportunityMapPage() {
       };
     });
 
+    // Directly mark the sleeper opportunities (repeatable / first proof) with rings when
+    // highlighting Hidden Demand, so they're identifiable on the map — not just recolored.
+    const sleepers =
+      effectiveEncoding === "hiddenDemand"
+        ? clusters
+            .filter(
+              (c) =>
+                c.hiddenDemand?.sleeperMarketType === "repeatable_hidden_demand" ||
+                c.hiddenDemand?.sleeperMarketType === "first_proof_market",
+            )
+            .map((c) => ({
+              value: [c.supplyPressureScore.value, c.demandScore.value],
+              itemStyle: {
+                color: "transparent",
+                borderWidth: 3,
+                borderColor:
+                  c.hiddenDemand!.sleeperMarketType === "repeatable_hidden_demand"
+                    ? "#34d399"
+                    : "#38bdf8",
+              },
+            }))
+        : [];
+
     const opt: EChartsOption = {
       backgroundColor: "transparent",
       grid: { left: 56, right: 24, top: 24, bottom: 52 },
@@ -211,6 +234,14 @@ export function OpportunityMapPage() {
             label: { show: false },
             data: [{ xAxis: 50 }, { yAxis: 50 }] as any,
           },
+        },
+        {
+          type: "scatter",
+          silent: true,
+          symbol: "circle",
+          symbolSize: 42,
+          z: 5,
+          data: sleepers as any,
         },
       ],
     };
@@ -309,6 +340,26 @@ export function OpportunityMapPage() {
           </span>
         )}
       </div>
+
+      {effectiveEncoding === "hiddenDemand" && (
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-1 px-1 text-[11px] text-muted">
+          <span>Brightness = hidden demand.</span>
+          <span className="inline-flex items-center gap-1.5">
+            <span className="inline-block w-3 h-3 rounded-full border-2 border-emerald-400" />
+            Repeatable hidden demand
+          </span>
+          <span className="inline-flex items-center gap-1.5">
+            <span className="inline-block w-3 h-3 rounded-full border-2 border-sky-400" />
+            First proof
+          </span>
+          <span>
+            — the sleeper opportunities.{" "}
+            <Link to="/hidden" className="text-emerald-300 hover:underline">
+              Hidden Demand page →
+            </Link>
+          </span>
+        </div>
+      )}
 
       <div className="rounded-xl border border-edge bg-panel p-2 h-[64vh] min-h-[420px]">
         {loading && <div className="h-full grid place-items-center text-muted">Loading dataset…</div>}

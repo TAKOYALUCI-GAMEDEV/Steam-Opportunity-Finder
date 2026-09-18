@@ -33,6 +33,25 @@ async function fetchList(url: string): Promise<ListEntry[]> {
     }));
 }
 
+export interface ReviewedApp {
+  appid: number;
+  name: string;
+  reviews: number;
+  owners: number;
+}
+
+/** All apps in a genre with a review count, for building a representative baseline
+ *  (includes the long tail of small games, unlike top-by-owners). */
+export async function fetchGenreList(genre: string): Promise<ReviewedApp[]> {
+  const list = await fetchList(
+    `https://steamspy.com/api.php?request=genre&genre=${encodeURIComponent(genre)}`,
+  );
+  return list
+    .map((e) => ({ appid: e.appid, name: e.name, reviews: e.positive + e.negative, owners: ownersLower(e.owners) }))
+    .filter((e) => e.reviews >= 10)
+    .sort((a, b) => b.owners - a.owners);
+}
+
 /** Top `limit` apps in a genre, ranked by owner estimate (a rough popularity proxy). */
 export async function fetchGenreTop(genre: string, limit: number): Promise<number[]> {
   const list = await fetchList(

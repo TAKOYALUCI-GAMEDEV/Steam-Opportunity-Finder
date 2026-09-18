@@ -7,7 +7,7 @@
 import type { ClusterSeed } from "../../data/fixtures/clusterSeeds";
 import type { Dataset, Game, MarketCluster } from "../../src/types/dataset";
 import { buildClusterRaw, type ClusterRaw } from "./cluster";
-import { computeHiddenDemand } from "./hiddenDemand";
+import { computeHiddenDemand, type CohortSample } from "./hiddenDemand";
 import { buildRequirementProfile } from "./requirements";
 import { ANALYTICS_VERSION, computeClusterScores } from "./scoring";
 import { computeTagInfo } from "./tags";
@@ -22,6 +22,7 @@ export interface AssembleOptions {
   assign: (seed: ClusterSeed, games: Game[]) => Game[];
   asOf?: number; // default: latest release + 15d
   notes?: string;
+  baseline?: CohortSample[]; // representative review-performance baseline (Hidden Demand)
 }
 
 export interface AssembleResult {
@@ -94,7 +95,7 @@ export function assembleDataset(opts: AssembleOptions): AssembleResult {
 
   // Hidden Demand / Sleeper analysis (feature spec) — attaches cluster.hiddenDemand and
   // game.outperformance in place, over the whole game population.
-  computeHiddenDemand(games, clusters, asOf);
+  computeHiddenDemand(games, clusters, asOf, opts.baseline);
 
   const dataset: Dataset = {
     meta: {

@@ -5,9 +5,11 @@
 //   - data/generated/snapshots.jsonl (appended; enables real velocity/growth over time, §11)
 // Run: `npm run ingest`
 
-import { appendFileSync, mkdirSync, writeFileSync } from "node:fs";
+import { appendFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+
+import type { CohortSample } from "../lib/hiddenDemand";
 
 import { CLUSTER_SEEDS } from "../../data/fixtures/clusterSeeds";
 import type { Game } from "../../src/types/dataset";
@@ -72,11 +74,22 @@ async function main() {
     Object.entries(SEED_APPS).map(([slug, ids]) => [slug, new Set(ids)]),
   );
 
+  // Representative Hidden Demand baseline (built by `npm run baseline`), if present.
+  const baselinePath = resolve(__dirname, "../../data/generated/cohort-baseline.json");
+  let baseline: CohortSample[] | undefined;
+  if (existsSync(baselinePath)) {
+    baseline = (JSON.parse(readFileSync(baselinePath, "utf8")).games ?? []) as CohortSample[];
+    console.log(`▸ using cohort baseline: ${baseline.length} sampled games`);
+  } else {
+    console.log("▸ no cohort baseline (run `npm run baseline`); using in-dataset cohorts");
+  }
+
   const { dataset } = assembleDataset({
     games,
     seeds: CLUSTER_SEEDS,
     source: "steam",
     minGames: MIN_GAMES,
+    baseline,
     assign: (seed, gs) => {
       const cand = membership.get(seed.slug) ?? new Set();
       const curated = curatedSets.get(seed.slug) ?? new Set();
