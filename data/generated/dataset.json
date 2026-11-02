@@ -1,7 +1,7 @@
 {
   "meta": {
     "analyticsVersion": "market_v0.1",
-    "generatedAt": "2026-10-26T13:25:03.219Z",
+    "generatedAt": "2026-11-02T16:19:20.588Z",
     "source": "steam",
     "gameCount": 201,
     "clusterCount": 17,
@@ -80,11 +80,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 15660,
+      "currentPlayers": 18741,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:12:24.041Z",
+        "fetchedAt": "2026-11-02T16:06:44.364Z",
         "confidence": 60
       }
     },
@@ -160,11 +160,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 14384,
+      "currentPlayers": 17037,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:12:25.030Z",
+        "fetchedAt": "2026-11-02T16:06:45.124Z",
         "confidence": 60
       }
     },
@@ -220,11 +220,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 4299,
+      "currentPlayers": 3339,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:12:25.922Z",
+        "fetchedAt": "2026-11-02T16:06:46.133Z",
         "confidence": 60
       }
     },
@@ -284,11 +284,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 44,
+      "currentPlayers": 45,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:12:27.059Z",
+        "fetchedAt": "2026-11-02T16:06:47.324Z",
         "confidence": 60
       }
     },
@@ -354,11 +354,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 2273,
+      "currentPlayers": 2788,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:12:28.051Z",
+        "fetchedAt": "2026-11-02T16:06:48.367Z",
         "confidence": 60
       }
     },
@@ -420,11 +420,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 201,
+      "currentPlayers": 230,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:12:28.806Z",
+        "fetchedAt": "2026-11-02T16:06:49.393Z",
         "confidence": 60
       }
     },
@@ -487,11 +487,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1099,
+      "currentPlayers": 1086,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:12:29.842Z",
+        "fetchedAt": "2026-11-02T16:06:50.452Z",
         "confidence": 60
       }
     },
@@ -559,11 +559,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 45874,
+      "currentPlayers": 36348,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:12:30.572Z",
+        "fetchedAt": "2026-11-02T16:06:51.137Z",
         "confidence": 60
       }
     },
@@ -633,11 +633,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 6466,
+      "currentPlayers": 7750,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:12:31.256Z",
+        "fetchedAt": "2026-11-02T16:06:51.825Z",
         "confidence": 60
       }
     },
@@ -694,11 +694,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1157,
+      "currentPlayers": 1277,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:12:31.962Z",
+        "fetchedAt": "2026-11-02T16:06:52.549Z",
         "confidence": 60
       }
     },
@@ -767,11 +767,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 995,
+      "currentPlayers": 1068,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:12:33.044Z",
+        "fetchedAt": "2026-11-02T16:06:53.271Z",
         "confidence": 60
       }
     },
@@ -833,11 +833,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1215,
+      "currentPlayers": 1329,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:12:33.753Z",
+        "fetchedAt": "2026-11-02T16:06:54.467Z",
         "confidence": 60
       }
     },
@@ -897,11 +897,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 2139,
+      "currentPlayers": 2180,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:12:34.511Z",
+        "fetchedAt": "2026-11-02T16:06:55.461Z",
         "confidence": 60
       }
     },
@@ -956,11 +956,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 493,
+      "currentPlayers": 612,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:12:35.192Z",
+        "fetchedAt": "2026-11-02T16:06:56.159Z",
         "confidence": 60
       }
     },
@@ -1021,7 +1021,7 @@
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:12:35.870Z",
+        "fetchedAt": "2026-11-02T16:06:56.839Z",
         "confidence": 60
       }
     },
@@ -1080,11 +1080,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 950,
+      "currentPlayers": 1306,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:02.106Z",
+        "fetchedAt": "2026-11-02T16:07:23.044Z",
         "confidence": 60
       }
     },
@@ -1100,7 +1100,7 @@
       "releaseDate": "2026-03-12",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 24.49,
+      "price": 34.99,
       "currency": "USD",
       "genres": [
         "Indie",
@@ -1151,11 +1151,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 4218,
+      "currentPlayers": 4052,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:28.451Z",
+        "fetchedAt": "2026-11-02T16:07:49.267Z",
         "confidence": 60
       }
     },
@@ -1221,11 +1221,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 230,
+      "currentPlayers": 258,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:29.456Z",
+        "fetchedAt": "2026-11-02T16:07:50.210Z",
         "confidence": 60
       }
     },
@@ -1297,11 +1297,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 51448,
+      "currentPlayers": 55567,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:30.529Z",
+        "fetchedAt": "2026-11-02T16:07:50.943Z",
         "confidence": 60
       }
     },
@@ -1317,7 +1317,7 @@
       "releaseDate": "2018-02-08",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 39.99,
+      "price": 19.99,
       "currency": "USD",
       "genres": [
         "Action",
@@ -1377,11 +1377,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 89742,
+      "currentPlayers": 103596,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:31.229Z",
+        "fetchedAt": "2026-11-02T16:07:51.677Z",
         "confidence": 60
       }
     },
@@ -1447,11 +1447,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 16426,
+      "currentPlayers": 17502,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:31.911Z",
+        "fetchedAt": "2026-11-02T16:07:52.344Z",
         "confidence": 60
       }
     },
@@ -1511,11 +1511,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 2174,
+      "currentPlayers": 1767,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:32.613Z",
+        "fetchedAt": "2026-11-02T16:07:53.010Z",
         "confidence": 60
       }
     },
@@ -1531,7 +1531,7 @@
       "releaseDate": "2018-04-30",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 19.99,
+      "price": 3.99,
       "currency": "USD",
       "genres": [
         "Action",
@@ -1578,11 +1578,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 3305,
+      "currentPlayers": 11376,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:33.312Z",
+        "fetchedAt": "2026-11-02T16:07:53.766Z",
         "confidence": 60
       }
     },
@@ -1598,7 +1598,7 @@
       "releaseDate": "2024-02-22",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 29.99,
+      "price": 8.39,
       "currency": "USD",
       "genres": [
         "Action",
@@ -1647,11 +1647,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 7348,
+      "currentPlayers": 22243,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:34.005Z",
+        "fetchedAt": "2026-11-02T16:07:54.481Z",
         "confidence": 60
       }
     },
@@ -1667,7 +1667,7 @@
       "releaseDate": "2024-05-08",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 34.99,
+      "price": 15.74,
       "currency": "USD",
       "genres": [
         "Action",
@@ -1727,11 +1727,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 3346,
+      "currentPlayers": 5247,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:34.713Z",
+        "fetchedAt": "2026-11-02T16:07:55.140Z",
         "confidence": 60
       }
     },
@@ -1747,7 +1747,7 @@
       "releaseDate": "2026-10-15",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 35.99,
+      "price": 39.99,
       "currency": "USD",
       "genres": [
         "Action",
@@ -1802,11 +1802,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 53807,
+      "currentPlayers": 54272,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:35.421Z",
+        "fetchedAt": "2026-11-02T16:07:55.830Z",
         "confidence": 60
       }
     },
@@ -1866,11 +1866,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 3220,
+      "currentPlayers": 4127,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:36.600Z",
+        "fetchedAt": "2026-11-02T16:07:56.540Z",
         "confidence": 60
       }
     },
@@ -1886,7 +1886,7 @@
       "releaseDate": "2022-06-20",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 19.99,
+      "price": 13.39,
       "currency": "USD",
       "genres": [
         "Adventure",
@@ -1929,11 +1929,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 7542,
+      "currentPlayers": 10882,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:37.244Z",
+        "fetchedAt": "2026-11-02T16:07:57.282Z",
         "confidence": 60
       }
     },
@@ -1997,11 +1997,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 686009,
+      "currentPlayers": 461700,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:37.942Z",
+        "fetchedAt": "2026-11-02T16:07:57.974Z",
         "confidence": 60
       }
     },
@@ -2067,11 +2067,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 178454,
+      "currentPlayers": 121954,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:38.643Z",
+        "fetchedAt": "2026-11-02T16:07:58.695Z",
         "confidence": 60
       }
     },
@@ -2155,11 +2155,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 24611,
+      "currentPlayers": 24918,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:39.386Z",
+        "fetchedAt": "2026-11-02T16:07:59.344Z",
         "confidence": 60
       }
     },
@@ -2236,11 +2236,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 11094,
+      "currentPlayers": 15900,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:13:40.018Z",
+        "fetchedAt": "2026-11-02T16:08:00.056Z",
         "confidence": 60
       }
     },
@@ -2308,11 +2308,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 37820,
+      "currentPlayers": 31647,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:06.168Z",
+        "fetchedAt": "2026-11-02T16:08:26.088Z",
         "confidence": 60
       }
     },
@@ -2385,11 +2385,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 6566,
+      "currentPlayers": 8979,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:32.498Z",
+        "fetchedAt": "2026-11-02T16:08:52.169Z",
         "confidence": 60
       }
     },
@@ -2459,11 +2459,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 51185,
+      "currentPlayers": 63459,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:33.444Z",
+        "fetchedAt": "2026-11-02T16:08:53.694Z",
         "confidence": 60
       }
     },
@@ -2523,11 +2523,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 104764,
+      "currentPlayers": 89864,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:34.504Z",
+        "fetchedAt": "2026-11-02T16:08:54.884Z",
         "confidence": 60
       }
     },
@@ -2592,11 +2592,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 3824,
+      "currentPlayers": 5486,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:35.694Z",
+        "fetchedAt": "2026-11-02T16:08:55.493Z",
         "confidence": 60
       }
     },
@@ -2656,11 +2656,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 9191,
+      "currentPlayers": 12066,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:36.706Z",
+        "fetchedAt": "2026-11-02T16:08:56.161Z",
         "confidence": 60
       }
     },
@@ -2676,7 +2676,7 @@
       "releaseDate": "2016-07-22",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 19.99,
+      "price": 5.99,
       "currency": "USD",
       "genres": [
         "Adventure",
@@ -2735,11 +2735,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1842,
+      "currentPlayers": 2747,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:37.408Z",
+        "fetchedAt": "2026-11-02T16:08:56.882Z",
         "confidence": 60
       }
     },
@@ -2801,11 +2801,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 81,
+      "currentPlayers": 71,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:38.087Z",
+        "fetchedAt": "2026-11-02T16:08:57.620Z",
         "confidence": 60
       }
     },
@@ -2861,11 +2861,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 43,
+      "currentPlayers": 59,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:38.825Z",
+        "fetchedAt": "2026-11-02T16:08:58.299Z",
         "confidence": 60
       }
     },
@@ -2929,11 +2929,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 222,
+      "currentPlayers": 172,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:39.517Z",
+        "fetchedAt": "2026-11-02T16:08:59.082Z",
         "confidence": 60
       }
     },
@@ -2949,7 +2949,7 @@
       "releaseDate": "2022-04-21",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 29.99,
+      "price": 14.99,
       "currency": "USD",
       "genres": [
         "Action",
@@ -2999,11 +2999,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 2575,
+      "currentPlayers": 3473,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:40.619Z",
+        "fetchedAt": "2026-11-02T16:08:59.722Z",
         "confidence": 60
       }
     },
@@ -3065,11 +3065,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1663,
+      "currentPlayers": 1459,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:41.290Z",
+        "fetchedAt": "2026-11-02T16:09:00.415Z",
         "confidence": 60
       }
     },
@@ -3135,11 +3135,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 202,
+      "currentPlayers": 303,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:42.032Z",
+        "fetchedAt": "2026-11-02T16:09:01.111Z",
         "confidence": 60
       }
     },
@@ -3216,11 +3216,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 22455,
+      "currentPlayers": 26775,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:42.702Z",
+        "fetchedAt": "2026-11-02T16:09:01.948Z",
         "confidence": 60
       }
     },
@@ -3298,11 +3298,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 71619,
+      "currentPlayers": 77671,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:43.409Z",
+        "fetchedAt": "2026-11-02T16:09:02.931Z",
         "confidence": 60
       }
     },
@@ -3368,11 +3368,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 41532,
+      "currentPlayers": 46574,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:44.173Z",
+        "fetchedAt": "2026-11-02T16:09:04.031Z",
         "confidence": 60
       }
     },
@@ -3430,7 +3430,7 @@
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:14:44.806Z",
+        "fetchedAt": "2026-11-02T16:09:04.710Z",
         "confidence": 60
       }
     },
@@ -3495,11 +3495,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 326,
+      "currentPlayers": 403,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:11.025Z",
+        "fetchedAt": "2026-11-02T16:09:31.015Z",
         "confidence": 60
       }
     },
@@ -3576,11 +3576,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1557,
+      "currentPlayers": 1771,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:37.336Z",
+        "fetchedAt": "2026-11-02T16:09:57.106Z",
         "confidence": 60
       }
     },
@@ -3638,11 +3638,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 105,
+      "currentPlayers": 156,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:38.421Z",
+        "fetchedAt": "2026-11-02T16:09:58.167Z",
         "confidence": 60
       }
     },
@@ -3713,11 +3713,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 399,
+      "currentPlayers": 438,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:39.396Z",
+        "fetchedAt": "2026-11-02T16:09:59.172Z",
         "confidence": 60
       }
     },
@@ -3787,11 +3787,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1006,
+      "currentPlayers": 1018,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:40.509Z",
+        "fetchedAt": "2026-11-02T16:09:59.918Z",
         "confidence": 60
       }
     },
@@ -3807,7 +3807,7 @@
       "releaseDate": "2025-02-26",
       "comingSoon": false,
       "earlyAccess": true,
-      "price": 9.99,
+      "price": 6.49,
       "currency": "USD",
       "genres": [
         "Action",
@@ -3818,9 +3818,14 @@
         "Multi-player",
         "Co-op",
         "Online Co-op",
+        "Full controller support",
         "Camera Comfort",
         "Custom Volume Controls",
         "Playable without Timed Input",
+        "DualShock Controller Support",
+        "DualShock Controller Support",
+        "DualSense Controller Support",
+        "DualSense Controller Support",
         "Stereo Sound",
         "Steam Cloud",
         "Family Sharing"
@@ -3852,11 +3857,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 15057,
+      "currentPlayers": 50134,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:41.234Z",
+        "fetchedAt": "2026-11-02T16:10:00.949Z",
         "confidence": 60
       }
     },
@@ -3939,11 +3944,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1475,
+      "currentPlayers": 1534,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:41.938Z",
+        "fetchedAt": "2026-11-02T16:10:02.004Z",
         "confidence": 60
       }
     },
@@ -3999,11 +4004,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 2970,
+      "currentPlayers": 3619,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:42.705Z",
+        "fetchedAt": "2026-11-02T16:10:02.699Z",
         "confidence": 60
       }
     },
@@ -4069,11 +4074,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 798,
+      "currentPlayers": 780,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:43.323Z",
+        "fetchedAt": "2026-11-02T16:10:03.718Z",
         "confidence": 60
       }
     },
@@ -4142,11 +4147,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 9764,
+      "currentPlayers": 7918,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:44.187Z",
+        "fetchedAt": "2026-11-02T16:10:04.835Z",
         "confidence": 60
       }
     },
@@ -4207,11 +4212,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 141,
+      "currentPlayers": 143,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:45.173Z",
+        "fetchedAt": "2026-11-02T16:10:06.135Z",
         "confidence": 60
       }
     },
@@ -4227,7 +4232,7 @@
       "releaseDate": "2021-10-19",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 19.99,
+      "price": 7.99,
       "currency": "USD",
       "genres": [
         "Adventure",
@@ -4268,11 +4273,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1066,
+      "currentPlayers": 1769,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:45.825Z",
+        "fetchedAt": "2026-11-02T16:10:08.620Z",
         "confidence": 60
       }
     },
@@ -4288,7 +4293,7 @@
       "releaseDate": "2024-02-20",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 14.99,
+      "price": 11.99,
       "currency": "USD",
       "genres": [
         "Casual",
@@ -4337,11 +4342,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 6266,
+      "currentPlayers": 8200,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:46.516Z",
+        "fetchedAt": "2026-11-02T16:10:09.856Z",
         "confidence": 60
       }
     },
@@ -4357,7 +4362,7 @@
       "releaseDate": "2022-08-16",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 9.99,
+      "price": 19.99,
       "currency": "USD",
       "genres": [
         "Adventure",
@@ -4402,11 +4407,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 354,
+      "currentPlayers": 371,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:47.317Z",
+        "fetchedAt": "2026-11-02T16:10:10.919Z",
         "confidence": 60
       }
     },
@@ -4464,11 +4469,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 69,
+      "currentPlayers": 65,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:47.943Z",
+        "fetchedAt": "2026-11-02T16:10:11.972Z",
         "confidence": 60
       }
     },
@@ -4524,11 +4529,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 41,
+      "currentPlayers": 50,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:49.162Z",
+        "fetchedAt": "2026-11-02T16:10:12.962Z",
         "confidence": 60
       }
     },
@@ -4590,11 +4595,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 55,
+      "currentPlayers": 79,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:15:50.278Z",
+        "fetchedAt": "2026-11-02T16:10:14.216Z",
         "confidence": 60
       }
     },
@@ -4610,7 +4615,7 @@
       "releaseDate": "2022-12-01",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 59.99,
+      "price": 8.99,
       "currency": "USD",
       "genres": [
         "RPG",
@@ -4654,11 +4659,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 283,
+      "currentPlayers": 352,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:17.179Z",
+        "fetchedAt": "2026-11-02T16:10:40.673Z",
         "confidence": 60
       }
     },
@@ -4716,11 +4721,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 7,
+      "currentPlayers": 5,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:43.441Z",
+        "fetchedAt": "2026-11-02T16:10:57.666Z",
         "confidence": 60
       }
     },
@@ -4780,11 +4785,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 4023,
+      "currentPlayers": 2260,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:44.612Z",
+        "fetchedAt": "2026-11-02T16:10:58.730Z",
         "confidence": 60
       }
     },
@@ -4845,11 +4850,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 3433,
+      "currentPlayers": 3927,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:45.626Z",
+        "fetchedAt": "2026-11-02T16:10:59.827Z",
         "confidence": 60
       }
     },
@@ -4908,11 +4913,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 213,
+      "currentPlayers": 338,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:46.787Z",
+        "fetchedAt": "2026-11-02T16:11:00.815Z",
         "confidence": 60
       }
     },
@@ -4969,11 +4974,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 48,
+      "currentPlayers": 60,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:47.865Z",
+        "fetchedAt": "2026-11-02T16:11:01.933Z",
         "confidence": 60
       }
     },
@@ -5035,11 +5040,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 6,
+      "currentPlayers": 15,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:48.592Z",
+        "fetchedAt": "2026-11-02T16:11:03.157Z",
         "confidence": 60
       }
     },
@@ -5094,11 +5099,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 11035,
+      "currentPlayers": 9924,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:49.272Z",
+        "fetchedAt": "2026-11-02T16:11:04.341Z",
         "confidence": 60
       }
     },
@@ -5151,11 +5156,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 7,
+      "currentPlayers": 9,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:50.001Z",
+        "fetchedAt": "2026-11-02T16:11:05.738Z",
         "confidence": 60
       }
     },
@@ -5171,7 +5176,7 @@
       "releaseDate": "2023-01-12",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 14.99,
+      "price": 12.74,
       "currency": "USD",
       "genres": [
         "Indie",
@@ -5213,11 +5218,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1902,
+      "currentPlayers": 1292,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:50.757Z",
+        "fetchedAt": "2026-11-02T16:11:07.187Z",
         "confidence": 60
       }
     },
@@ -5277,11 +5282,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 2634,
+      "currentPlayers": 3086,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:51.903Z",
+        "fetchedAt": "2026-11-02T16:11:08.221Z",
         "confidence": 60
       }
     },
@@ -5297,7 +5302,7 @@
       "releaseDate": "2026-09-14",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 19.99,
+      "price": 16.99,
       "currency": "USD",
       "genres": [
         "Simulation"
@@ -5342,11 +5347,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 3128,
+      "currentPlayers": 4074,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:52.902Z",
+        "fetchedAt": "2026-11-02T16:11:09.668Z",
         "confidence": 60
       }
     },
@@ -5412,11 +5417,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 2750,
+      "currentPlayers": 1817,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:54.179Z",
+        "fetchedAt": "2026-11-02T16:11:10.798Z",
         "confidence": 60
       }
     },
@@ -5480,11 +5485,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 3470,
+      "currentPlayers": 3668,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:55.381Z",
+        "fetchedAt": "2026-11-02T16:11:11.800Z",
         "confidence": 60
       }
     },
@@ -5538,11 +5543,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 17,
+      "currentPlayers": 14,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:56.335Z",
+        "fetchedAt": "2026-11-02T16:11:12.594Z",
         "confidence": 60
       }
     },
@@ -5603,11 +5608,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 333,
+      "currentPlayers": 310,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:57.472Z",
+        "fetchedAt": "2026-11-02T16:11:13.641Z",
         "confidence": 60
       }
     },
@@ -5660,11 +5665,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 339,
+      "currentPlayers": 279,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:16:58.190Z",
+        "fetchedAt": "2026-11-02T16:11:27.182Z",
         "confidence": 60
       }
     },
@@ -5724,11 +5729,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 2,
+      "currentPlayers": 1,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:24.571Z",
+        "fetchedAt": "2026-11-02T16:11:53.670Z",
         "confidence": 60
       }
     },
@@ -5744,7 +5749,7 @@
       "releaseDate": "2022-02-15",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 5.99,
+      "price": 14.99,
       "currency": "USD",
       "genres": [
         "Casual",
@@ -5798,11 +5803,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 68,
+      "currentPlayers": 45,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:44.437Z",
+        "fetchedAt": "2026-11-02T16:12:00.634Z",
         "confidence": 60
       }
     },
@@ -5861,11 +5866,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 11,
+      "currentPlayers": 8,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:45.726Z",
+        "fetchedAt": "2026-11-02T16:12:01.730Z",
         "confidence": 60
       }
     },
@@ -5921,11 +5926,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 17,
+      "currentPlayers": 16,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:46.973Z",
+        "fetchedAt": "2026-11-02T16:12:02.436Z",
         "confidence": 60
       }
     },
@@ -5991,11 +5996,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 174,
+      "currentPlayers": 163,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:47.668Z",
+        "fetchedAt": "2026-11-02T16:12:03.125Z",
         "confidence": 60
       }
     },
@@ -6011,7 +6016,7 @@
       "releaseDate": "2024-10-04",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 7.99,
+      "price": 19.99,
       "currency": "USD",
       "genres": [
         "Simulation",
@@ -6051,11 +6056,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 3,
+      "currentPlayers": 5,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:48.376Z",
+        "fetchedAt": "2026-11-02T16:12:03.785Z",
         "confidence": 60
       }
     },
@@ -6119,11 +6124,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 14,
+      "currentPlayers": 16,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:49.229Z",
+        "fetchedAt": "2026-11-02T16:12:04.497Z",
         "confidence": 60
       }
     },
@@ -6192,11 +6197,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 7,
+      "currentPlayers": 9,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:50.625Z",
+        "fetchedAt": "2026-11-02T16:12:05.171Z",
         "confidence": 60
       }
     },
@@ -6259,7 +6264,7 @@
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:51.323Z",
+        "fetchedAt": "2026-11-02T16:12:05.891Z",
         "confidence": 60
       }
     },
@@ -6275,7 +6280,7 @@
       "releaseDate": "2019-01-31",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 3.99,
+      "price": 9.99,
       "currency": "USD",
       "genres": [
         "Casual",
@@ -6322,11 +6327,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1,
+      "currentPlayers": 6,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:52.070Z",
+        "fetchedAt": "2026-11-02T16:12:06.636Z",
         "confidence": 60
       }
     },
@@ -6342,7 +6347,7 @@
       "releaseDate": "2018-10-17",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 27.99,
+      "price": 34.99,
       "currency": "USD",
       "genres": [
         "Indie",
@@ -6391,11 +6396,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 36095,
+      "currentPlayers": 33369,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:52.731Z",
+        "fetchedAt": "2026-11-02T16:12:07.309Z",
         "confidence": 60
       }
     },
@@ -6449,11 +6454,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 9727,
+      "currentPlayers": 7748,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:53.461Z",
+        "fetchedAt": "2026-11-02T16:12:07.980Z",
         "confidence": 60
       }
     },
@@ -6512,11 +6517,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 862,
+      "currentPlayers": 943,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:54.204Z",
+        "fetchedAt": "2026-11-02T16:12:08.731Z",
         "confidence": 60
       }
     },
@@ -6575,11 +6580,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 4527,
+      "currentPlayers": 4693,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:54.845Z",
+        "fetchedAt": "2026-11-02T16:12:09.922Z",
         "confidence": 60
       }
     },
@@ -6638,11 +6643,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 717,
+      "currentPlayers": 806,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:55.558Z",
+        "fetchedAt": "2026-11-02T16:12:10.914Z",
         "confidence": 60
       }
     },
@@ -6700,11 +6705,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 472,
+      "currentPlayers": 593,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:17:56.270Z",
+        "fetchedAt": "2026-11-02T16:12:11.993Z",
         "confidence": 60
       }
     },
@@ -6761,11 +6766,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 489,
+      "currentPlayers": 520,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:18:09.398Z",
+        "fetchedAt": "2026-11-02T16:12:38.482Z",
         "confidence": 60
       }
     },
@@ -6823,11 +6828,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 2228,
+      "currentPlayers": 1778,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:18:35.559Z",
+        "fetchedAt": "2026-11-02T16:13:06.147Z",
         "confidence": 60
       }
     },
@@ -6888,11 +6893,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 58,
+      "currentPlayers": 49,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:18:49.271Z",
+        "fetchedAt": "2026-11-02T16:13:07.542Z",
         "confidence": 60
       }
     },
@@ -6951,11 +6956,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 197,
+      "currentPlayers": 250,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:18:50.720Z",
+        "fetchedAt": "2026-11-02T16:13:08.728Z",
         "confidence": 60
       }
     },
@@ -7021,11 +7026,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1390,
+      "currentPlayers": 1574,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:18:51.816Z",
+        "fetchedAt": "2026-11-02T16:13:10.149Z",
         "confidence": 60
       }
     },
@@ -7085,11 +7090,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 3284,
+      "currentPlayers": 2589,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:18:52.489Z",
+        "fetchedAt": "2026-11-02T16:13:11.353Z",
         "confidence": 60
       }
     },
@@ -7158,11 +7163,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 5001,
+      "currentPlayers": 2681,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:18:53.212Z",
+        "fetchedAt": "2026-11-02T16:13:12.359Z",
         "confidence": 60
       }
     },
@@ -7236,11 +7241,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1871,
+      "currentPlayers": 2069,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:18:53.913Z",
+        "fetchedAt": "2026-11-02T16:13:13.063Z",
         "confidence": 60
       }
     },
@@ -7303,11 +7308,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 4425,
+      "currentPlayers": 6046,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:18:55.045Z",
+        "fetchedAt": "2026-11-02T16:13:14.137Z",
         "confidence": 60
       }
     },
@@ -7374,11 +7379,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 75027,
+      "currentPlayers": 56799,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:18:55.739Z",
+        "fetchedAt": "2026-11-02T16:13:14.890Z",
         "confidence": 60
       }
     },
@@ -7441,11 +7446,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 436,
+      "currentPlayers": 299,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:18:56.420Z",
+        "fetchedAt": "2026-11-02T16:13:16.002Z",
         "confidence": 60
       }
     },
@@ -7461,7 +7466,7 @@
       "releaseDate": "2023-11-02",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 11.99,
+      "price": 39.99,
       "currency": "USD",
       "genres": [
         "Adventure",
@@ -7507,11 +7512,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1395,
+      "currentPlayers": 1238,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:18:57.165Z",
+        "fetchedAt": "2026-11-02T16:13:17.024Z",
         "confidence": 60
       }
     },
@@ -7579,11 +7584,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1599,
+      "currentPlayers": 1859,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:18:58.243Z",
+        "fetchedAt": "2026-11-02T16:13:18.091Z",
         "confidence": 60
       }
     },
@@ -7645,11 +7650,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1872,
+      "currentPlayers": 1908,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:18:58.918Z",
+        "fetchedAt": "2026-11-02T16:13:19.182Z",
         "confidence": 60
       }
     },
@@ -7719,11 +7724,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 3830,
+      "currentPlayers": 3901,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:19:00.066Z",
+        "fetchedAt": "2026-11-02T16:13:20.426Z",
         "confidence": 60
       }
     },
@@ -7786,11 +7791,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 8522,
+      "currentPlayers": 5120,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:19:00.833Z",
+        "fetchedAt": "2026-11-02T16:13:21.433Z",
         "confidence": 60
       }
     },
@@ -7851,11 +7856,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1226,
+      "currentPlayers": 1686,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:19:01.462Z",
+        "fetchedAt": "2026-11-02T16:13:22.703Z",
         "confidence": 60
       }
     },
@@ -7917,11 +7922,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 740,
+      "currentPlayers": 796,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:19:14.820Z",
+        "fetchedAt": "2026-11-02T16:13:50.130Z",
         "confidence": 60
       }
     },
@@ -7982,11 +7987,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 4491,
+      "currentPlayers": 6587,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:19:41.047Z",
+        "fetchedAt": "2026-11-02T16:14:07.486Z",
         "confidence": 60
       }
     },
@@ -8045,11 +8050,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 124,
+      "currentPlayers": 182,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:19:55.019Z",
+        "fetchedAt": "2026-11-02T16:14:08.804Z",
         "confidence": 60
       }
     },
@@ -8109,11 +8114,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 335,
+      "currentPlayers": 459,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:19:55.994Z",
+        "fetchedAt": "2026-11-02T16:14:10.050Z",
         "confidence": 60
       }
     },
@@ -8184,11 +8189,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 360,
+      "currentPlayers": 241,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:19:57.163Z",
+        "fetchedAt": "2026-11-02T16:14:11.494Z",
         "confidence": 60
       }
     },
@@ -8253,11 +8258,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 228,
+      "currentPlayers": 266,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:19:57.830Z",
+        "fetchedAt": "2026-11-02T16:14:12.536Z",
         "confidence": 60
       }
     },
@@ -8322,11 +8327,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 829,
+      "currentPlayers": 533,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:19:58.558Z",
+        "fetchedAt": "2026-11-02T16:14:13.852Z",
         "confidence": 60
       }
     },
@@ -8390,11 +8395,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 129,
+      "currentPlayers": 165,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:19:59.240Z",
+        "fetchedAt": "2026-11-02T16:14:14.937Z",
         "confidence": 60
       }
     },
@@ -8453,11 +8458,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 7845,
+      "currentPlayers": 8585,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:19:59.949Z",
+        "fetchedAt": "2026-11-02T16:14:15.988Z",
         "confidence": 60
       }
     },
@@ -8512,11 +8517,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 2567,
+      "currentPlayers": 1004,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:20:00.658Z",
+        "fetchedAt": "2026-11-02T16:14:17.370Z",
         "confidence": 60
       }
     },
@@ -8586,11 +8591,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 194,
+      "currentPlayers": 239,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:20:01.700Z",
+        "fetchedAt": "2026-11-02T16:14:18.283Z",
         "confidence": 60
       }
     },
@@ -8606,7 +8611,7 @@
       "releaseDate": "2024-07-25",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 44.99,
+      "price": 24.74,
       "currency": "USD",
       "genres": [
         "Action",
@@ -8665,11 +8670,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 26191,
+      "currentPlayers": 27278,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:20:02.846Z",
+        "fetchedAt": "2026-11-02T16:14:19.386Z",
         "confidence": 60
       }
     },
@@ -8724,11 +8729,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 3387,
+      "currentPlayers": 2594,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:20:03.537Z",
+        "fetchedAt": "2026-11-02T16:14:20.365Z",
         "confidence": 60
       }
     },
@@ -8794,11 +8799,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 25,
+      "currentPlayers": 36,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:20:04.288Z",
+        "fetchedAt": "2026-11-02T16:14:21.534Z",
         "confidence": 60
       }
     },
@@ -8861,11 +8866,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 8,
+      "currentPlayers": 5,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:20:04.935Z",
+        "fetchedAt": "2026-11-02T16:14:22.179Z",
         "confidence": 60
       }
     },
@@ -8927,11 +8932,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 259,
+      "currentPlayers": 250,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:20:05.633Z",
+        "fetchedAt": "2026-11-02T16:14:23.247Z",
         "confidence": 60
       }
     },
@@ -8995,11 +9000,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 114,
+      "currentPlayers": 109,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:20:06.334Z",
+        "fetchedAt": "2026-11-02T16:14:37.112Z",
         "confidence": 60
       }
     },
@@ -9074,11 +9079,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 706,
+      "currentPlayers": 542,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:20:19.669Z",
+        "fetchedAt": "2026-11-02T16:15:03.244Z",
         "confidence": 60
       }
     },
@@ -9139,11 +9144,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 6822,
+      "currentPlayers": 6816,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:20:45.970Z",
+        "fetchedAt": "2026-11-02T16:15:10.021Z",
         "confidence": 60
       }
     },
@@ -9202,11 +9207,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 573,
+      "currentPlayers": 432,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:00.481Z",
+        "fetchedAt": "2026-11-02T16:15:10.799Z",
         "confidence": 60
       }
     },
@@ -9265,11 +9270,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 4813,
+      "currentPlayers": 2098,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:01.665Z",
+        "fetchedAt": "2026-11-02T16:15:11.447Z",
         "confidence": 60
       }
     },
@@ -9285,7 +9290,7 @@
       "releaseDate": "2019-09-10",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 24.99,
+      "price": 6.24,
       "currency": "USD",
       "genres": [
         "Action",
@@ -9296,6 +9301,7 @@
         "Single-player",
         "Steam Achievements",
         "Full controller support",
+        "VR Supported",
         "Steam Trading Cards",
         "Steam Cloud",
         "Remote Play on Phone",
@@ -9330,11 +9336,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 588,
+      "currentPlayers": 720,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:02.762Z",
+        "fetchedAt": "2026-11-02T16:15:12.116Z",
         "confidence": 60
       }
     },
@@ -9396,11 +9402,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 4271,
+      "currentPlayers": 3246,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:03.890Z",
+        "fetchedAt": "2026-11-02T16:15:12.910Z",
         "confidence": 60
       }
     },
@@ -9416,7 +9422,7 @@
       "releaseDate": "2014-08-21",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 3.74,
+      "price": 14.99,
       "currency": "USD",
       "genres": [
         "Action",
@@ -9469,11 +9475,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 11,
+      "currentPlayers": 20,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:05.369Z",
+        "fetchedAt": "2026-11-02T16:15:13.588Z",
         "confidence": 60
       }
     },
@@ -9530,11 +9536,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 668,
+      "currentPlayers": 699,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:06.861Z",
+        "fetchedAt": "2026-11-02T16:15:14.263Z",
         "confidence": 60
       }
     },
@@ -9590,11 +9596,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 18,
+      "currentPlayers": 28,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:08.093Z",
+        "fetchedAt": "2026-11-02T16:15:14.957Z",
         "confidence": 60
       }
     },
@@ -9651,11 +9657,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 915,
+      "currentPlayers": 1070,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:09.122Z",
+        "fetchedAt": "2026-11-02T16:15:15.652Z",
         "confidence": 60
       }
     },
@@ -9713,11 +9719,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 243,
+      "currentPlayers": 156,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:09.809Z",
+        "fetchedAt": "2026-11-02T16:15:16.359Z",
         "confidence": 60
       }
     },
@@ -9733,7 +9739,7 @@
       "releaseDate": "2016-07-07",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 24.99,
+      "price": 2.49,
       "currency": "USD",
       "genres": [
         "Action",
@@ -9779,11 +9785,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 117,
+      "currentPlayers": 227,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:11.090Z",
+        "fetchedAt": "2026-11-02T16:15:17.061Z",
         "confidence": 60
       }
     },
@@ -9845,11 +9851,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 150,
+      "currentPlayers": 208,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:12.066Z",
+        "fetchedAt": "2026-11-02T16:15:17.773Z",
         "confidence": 60
       }
     },
@@ -9909,11 +9915,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 130,
+      "currentPlayers": 105,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:12.746Z",
+        "fetchedAt": "2026-11-02T16:15:18.533Z",
         "confidence": 60
       }
     },
@@ -9978,11 +9984,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 2087,
+      "currentPlayers": 1927,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:13.490Z",
+        "fetchedAt": "2026-11-02T16:15:19.151Z",
         "confidence": 60
       }
     },
@@ -10043,11 +10049,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 80,
+      "currentPlayers": 72,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:14.174Z",
+        "fetchedAt": "2026-11-02T16:15:19.890Z",
         "confidence": 60
       }
     },
@@ -10109,11 +10115,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 3756,
+      "currentPlayers": 3228,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:14.884Z",
+        "fetchedAt": "2026-11-02T16:15:45.982Z",
         "confidence": 60
       }
     },
@@ -10184,11 +10190,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 11334,
+      "currentPlayers": 9681,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:28.167Z",
+        "fetchedAt": "2026-11-02T16:16:12.191Z",
         "confidence": 60
       }
     },
@@ -10251,11 +10257,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 888,
+      "currentPlayers": 798,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:21:57.345Z",
+        "fetchedAt": "2026-11-02T16:16:13.297Z",
         "confidence": 60
       }
     },
@@ -10323,11 +10329,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1086,
+      "currentPlayers": 1030,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:22:02.289Z",
+        "fetchedAt": "2026-11-02T16:16:14.306Z",
         "confidence": 60
       }
     },
@@ -10390,11 +10396,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 4139,
+      "currentPlayers": 3401,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:22:04.104Z",
+        "fetchedAt": "2026-11-02T16:16:15.007Z",
         "confidence": 60
       }
     },
@@ -10460,11 +10466,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 10533,
+      "currentPlayers": 8348,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:22:06.381Z",
+        "fetchedAt": "2026-11-02T16:16:15.651Z",
         "confidence": 60
       }
     },
@@ -10524,11 +10530,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 50613,
+      "currentPlayers": 42908,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:22:08.752Z",
+        "fetchedAt": "2026-11-02T16:16:16.868Z",
         "confidence": 60
       }
     },
@@ -10597,11 +10603,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 8374,
+      "currentPlayers": 6855,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:22:10.795Z",
+        "fetchedAt": "2026-11-02T16:16:17.904Z",
         "confidence": 60
       }
     },
@@ -10617,7 +10623,7 @@
       "releaseDate": "2020-07-14",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 19.99,
+      "price": 9.44,
       "currency": "USD",
       "genres": [
         "Action",
@@ -10666,11 +10672,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 166,
+      "currentPlayers": 115,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:22:13.331Z",
+        "fetchedAt": "2026-11-02T16:16:19.020Z",
         "confidence": 60
       }
     },
@@ -10733,11 +10739,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 3481,
+      "currentPlayers": 3278,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:22:16.407Z",
+        "fetchedAt": "2026-11-02T16:16:20.058Z",
         "confidence": 60
       }
     },
@@ -10796,11 +10802,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 9200,
+      "currentPlayers": 8445,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:22:19.385Z",
+        "fetchedAt": "2026-11-02T16:16:21.331Z",
         "confidence": 60
       }
     },
@@ -10860,11 +10866,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 2339,
+      "currentPlayers": 2326,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:22:22.829Z",
+        "fetchedAt": "2026-11-02T16:16:22.416Z",
         "confidence": 60
       }
     },
@@ -10927,11 +10933,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1551,
+      "currentPlayers": 1421,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:22:26.607Z",
+        "fetchedAt": "2026-11-02T16:16:23.383Z",
         "confidence": 60
       }
     },
@@ -10997,11 +11003,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 33438,
+      "currentPlayers": 29346,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:22:30.118Z",
+        "fetchedAt": "2026-11-02T16:16:24.819Z",
         "confidence": 60
       }
     },
@@ -11062,11 +11068,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 2559,
+      "currentPlayers": 2827,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:22:33.252Z",
+        "fetchedAt": "2026-11-02T16:16:25.776Z",
         "confidence": 60
       }
     },
@@ -11121,11 +11127,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 269,
+      "currentPlayers": 322,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:22:36.618Z",
+        "fetchedAt": "2026-11-02T16:16:26.604Z",
         "confidence": 60
       }
     },
@@ -11185,11 +11191,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 583,
+      "currentPlayers": 511,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:22:39.645Z",
+        "fetchedAt": "2026-11-02T16:16:27.743Z",
         "confidence": 60
       }
     },
@@ -11250,11 +11256,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 2016,
+      "currentPlayers": 2180,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:22:42.106Z",
+        "fetchedAt": "2026-11-02T16:16:54.406Z",
         "confidence": 60
       }
     },
@@ -11328,11 +11334,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 9487,
+      "currentPlayers": 10758,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:01.103Z",
+        "fetchedAt": "2026-11-02T16:17:15.448Z",
         "confidence": 60
       }
     },
@@ -11348,7 +11354,7 @@
       "releaseDate": "2021-01-28",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 9.99,
+      "price": 4.99,
       "currency": "USD",
       "genres": [
         "Indie"
@@ -11397,11 +11403,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 677,
+      "currentPlayers": 1147,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:02.161Z",
+        "fetchedAt": "2026-11-02T16:17:17.027Z",
         "confidence": 60
       }
     },
@@ -11462,11 +11468,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 552,
+      "currentPlayers": 521,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:03.293Z",
+        "fetchedAt": "2026-11-02T16:17:18.221Z",
         "confidence": 60
       }
     },
@@ -11523,11 +11529,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 892,
+      "currentPlayers": 869,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:04.118Z",
+        "fetchedAt": "2026-11-02T16:17:19.200Z",
         "confidence": 60
       }
     },
@@ -11543,7 +11549,7 @@
       "releaseDate": "2023-04-26",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 19.99,
+      "price": 5.99,
       "currency": "USD",
       "genres": [
         "Indie",
@@ -11594,11 +11600,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 65,
+      "currentPlayers": 122,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:05.132Z",
+        "fetchedAt": "2026-11-02T16:17:20.346Z",
         "confidence": 60
       }
     },
@@ -11660,11 +11666,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 65,
+      "currentPlayers": 75,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:06.154Z",
+        "fetchedAt": "2026-11-02T16:17:21.115Z",
         "confidence": 60
       }
     },
@@ -11680,7 +11686,7 @@
       "releaseDate": "2020-12-08",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 19.99,
+      "price": 4.99,
       "currency": "USD",
       "genres": [
         "Action",
@@ -11735,11 +11741,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 86,
+      "currentPlayers": 110,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:07.255Z",
+        "fetchedAt": "2026-11-02T16:17:22.252Z",
         "confidence": 60
       }
     },
@@ -11755,7 +11761,7 @@
       "releaseDate": "2022-09-06",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 44.99,
+      "price": 8.99,
       "currency": "USD",
       "genres": [
         "Adventure",
@@ -11817,11 +11823,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 71,
+      "currentPlayers": 84,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:07.926Z",
+        "fetchedAt": "2026-11-02T16:17:23.268Z",
         "confidence": 60
       }
     },
@@ -11884,11 +11890,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 66,
+      "currentPlayers": 64,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:09.599Z",
+        "fetchedAt": "2026-11-02T16:17:23.987Z",
         "confidence": 60
       }
     },
@@ -11950,11 +11956,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 291,
+      "currentPlayers": 260,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:10.574Z",
+        "fetchedAt": "2026-11-02T16:17:25.190Z",
         "confidence": 60
       }
     },
@@ -11976,9 +11982,9 @@
         "Action",
         "Adventure",
         "Casual",
-        "Free To Play",
         "Massively Multiplayer",
-        "RPG"
+        "RPG",
+        "Free To Play"
       ],
       "categories": [
         "Single-player",
@@ -12019,11 +12025,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 114,
+      "currentPlayers": 163,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:11.283Z",
+        "fetchedAt": "2026-11-02T16:17:26.239Z",
         "confidence": 60
       }
     },
@@ -12096,11 +12102,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 710,
+      "currentPlayers": 716,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:12.529Z",
+        "fetchedAt": "2026-11-02T16:17:27.314Z",
         "confidence": 60
       }
     },
@@ -12158,11 +12164,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1217,
+      "currentPlayers": 1732,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:13.498Z",
+        "fetchedAt": "2026-11-02T16:17:28.358Z",
         "confidence": 60
       }
     },
@@ -12222,11 +12228,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1042,
+      "currentPlayers": 1044,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:14.613Z",
+        "fetchedAt": "2026-11-02T16:17:29.362Z",
         "confidence": 60
       }
     },
@@ -12283,11 +12289,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 134,
+      "currentPlayers": 146,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:15.284Z",
+        "fetchedAt": "2026-11-02T16:17:30.106Z",
         "confidence": 60
       }
     },
@@ -12346,11 +12352,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 186,
+      "currentPlayers": 180,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:28.741Z",
+        "fetchedAt": "2026-11-02T16:17:43.640Z",
         "confidence": 60
       }
     },
@@ -12416,11 +12422,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 51,
+      "currentPlayers": 37,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:23:55.507Z",
+        "fetchedAt": "2026-11-02T16:18:09.636Z",
         "confidence": 60
       }
     },
@@ -12477,11 +12483,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 10,
+      "currentPlayers": 14,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:03.079Z",
+        "fetchedAt": "2026-11-02T16:18:16.676Z",
         "confidence": 60
       }
     },
@@ -12545,11 +12551,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 324,
+      "currentPlayers": 284,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:04.193Z",
+        "fetchedAt": "2026-11-02T16:18:17.389Z",
         "confidence": 60
       }
     },
@@ -12615,11 +12621,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 728,
+      "currentPlayers": 793,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:05.100Z",
+        "fetchedAt": "2026-11-02T16:18:18.049Z",
         "confidence": 60
       }
     },
@@ -12683,11 +12689,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 3053,
+      "currentPlayers": 3247,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:06.090Z",
+        "fetchedAt": "2026-11-02T16:18:18.794Z",
         "confidence": 60
       }
     },
@@ -12753,11 +12759,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 84,
+      "currentPlayers": 117,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:07.327Z",
+        "fetchedAt": "2026-11-02T16:18:19.930Z",
         "confidence": 60
       }
     },
@@ -12773,7 +12779,7 @@
       "releaseDate": "2022-05-24",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 10.49,
+      "price": 34.99,
       "currency": "USD",
       "genres": [
         "Simulation"
@@ -12814,11 +12820,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 188,
+      "currentPlayers": 184,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:08.353Z",
+        "fetchedAt": "2026-11-02T16:18:20.563Z",
         "confidence": 60
       }
     },
@@ -12834,7 +12840,7 @@
       "releaseDate": "2021-09-15",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 19.99,
+      "price": 8.99,
       "currency": "USD",
       "genres": [
         "Casual",
@@ -12876,11 +12882,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 207,
+      "currentPlayers": 330,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:09.024Z",
+        "fetchedAt": "2026-11-02T16:18:21.284Z",
         "confidence": 60
       }
     },
@@ -12943,11 +12949,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 779,
+      "currentPlayers": 927,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:10.075Z",
+        "fetchedAt": "2026-11-02T16:18:22.046Z",
         "confidence": 60
       }
     },
@@ -12973,7 +12979,7 @@
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:11.548Z",
+        "fetchedAt": "2026-11-02T16:18:22.738Z",
         "confidence": 60
       }
     },
@@ -12989,7 +12995,7 @@
       "releaseDate": "2018-01-23",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 29.99,
+      "price": 7.49,
       "currency": "USD",
       "genres": [
         "Adventure",
@@ -13034,11 +13040,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 2434,
+      "currentPlayers": 4226,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:12.673Z",
+        "fetchedAt": "2026-11-02T16:18:23.777Z",
         "confidence": 60
       }
     },
@@ -13097,11 +13103,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 499,
+      "currentPlayers": 547,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:14.174Z",
+        "fetchedAt": "2026-11-02T16:18:24.986Z",
         "confidence": 60
       }
     },
@@ -13164,7 +13170,7 @@
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:15.325Z",
+        "fetchedAt": "2026-11-02T16:18:26.029Z",
         "confidence": 60
       }
     },
@@ -13180,7 +13186,7 @@
       "releaseDate": "2018-10-18",
       "comingSoon": false,
       "earlyAccess": false,
-      "price": 19.99,
+      "price": 13.39,
       "currency": "USD",
       "genres": [
         "Adventure",
@@ -13221,11 +13227,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 143,
+      "currentPlayers": 277,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:16.334Z",
+        "fetchedAt": "2026-11-02T16:18:26.695Z",
         "confidence": 60
       }
     },
@@ -13282,11 +13288,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 7,
+      "currentPlayers": 5,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:17.582Z",
+        "fetchedAt": "2026-11-02T16:18:27.723Z",
         "confidence": 60
       }
     },
@@ -13347,11 +13353,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 1159,
+      "currentPlayers": 1310,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:18.572Z",
+        "fetchedAt": "2026-11-02T16:18:28.427Z",
         "confidence": 60
       }
     },
@@ -13410,11 +13416,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 46,
+      "currentPlayers": 43,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:24:45.387Z",
+        "fetchedAt": "2026-11-02T16:18:54.587Z",
         "confidence": 60
       }
     },
@@ -13468,11 +13474,11 @@
       "reviewNegative": null,
       "reviewTotal": null,
       "reviewScorePercent": null,
-      "currentPlayers": 210,
+      "currentPlayers": 295,
       "reviewVelocity30d": null,
       "provenance": {
         "provider": "steam+steamspy",
-        "fetchedAt": "2026-10-26T13:25:03.214Z",
+        "fetchedAt": "2026-11-02T16:19:20.580Z",
         "confidence": 60
       }
     }
@@ -15407,7 +15413,7 @@
       "releasedGameCount": 16,
       "upcomingGameCount": 0,
       "demandScore": {
-        "value": 46.5,
+        "value": 47.9,
         "confidence": 54,
         "components": [
           {
@@ -15420,7 +15426,7 @@
             "key": "currentPlayers",
             "label": "Current Player Strength",
             "weight": 0.25,
-            "value": 55.9
+            "value": 61.8
           },
           {
             "key": "releaseAdjReviews",
@@ -15539,14 +15545,14 @@
         "analyticsVersion": "market_v0.1"
       },
       "marketAttractivenessScore": {
-        "value": 44.8,
+        "value": 45.3,
         "confidence": 48,
         "components": [
           {
             "key": "demand",
             "label": "Demand",
             "weight": 0.35,
-            "value": 46.5
+            "value": 47.9
           },
           {
             "key": "demandGrowth",
@@ -15570,14 +15576,14 @@
         "analyticsVersion": "market_v0.1"
       },
       "gapScore": {
-        "value": 45.6,
+        "value": 46.2,
         "confidence": 45,
         "components": [
           {
             "key": "demand",
             "label": "Demand",
             "weight": 0.4,
-            "value": 46.5
+            "value": 47.9
           },
           {
             "key": "demandGrowth",
@@ -15787,8 +15793,8 @@
         "confidence": 90,
         "scopeClass": "Medium"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -16330,8 +16336,8 @@
         "confidence": 90,
         "scopeClass": "Large"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -16814,8 +16820,8 @@
         "confidence": 77,
         "scopeClass": "Micro"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -17313,8 +17319,8 @@
         "confidence": 85,
         "scopeClass": "Micro"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -17827,8 +17833,8 @@
         "confidence": 90,
         "scopeClass": "Small"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -17989,7 +17995,7 @@
       "releasedGameCount": 15,
       "upcomingGameCount": 0,
       "demandScore": {
-        "value": 49.4,
+        "value": 50.9,
         "confidence": 54,
         "components": [
           {
@@ -18002,7 +18008,7 @@
             "key": "currentPlayers",
             "label": "Current Player Strength",
             "weight": 0.25,
-            "value": 67.6
+            "value": 73.5
           },
           {
             "key": "releaseAdjReviews",
@@ -18121,14 +18127,14 @@
         "analyticsVersion": "market_v0.1"
       },
       "marketAttractivenessScore": {
-        "value": 51.8,
+        "value": 52.3,
         "confidence": 48,
         "components": [
           {
             "key": "demand",
             "label": "Demand",
             "weight": 0.35,
-            "value": 49.4
+            "value": 50.9
           },
           {
             "key": "demandGrowth",
@@ -18152,14 +18158,14 @@
         "analyticsVersion": "market_v0.1"
       },
       "gapScore": {
-        "value": 51.3,
+        "value": 51.9,
         "confidence": 45,
         "components": [
           {
             "key": "demand",
             "label": "Demand",
             "weight": 0.4,
-            "value": 49.4
+            "value": 50.9
           },
           {
             "key": "demandGrowth",
@@ -18382,8 +18388,8 @@
         "confidence": 90,
         "scopeClass": "Small"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -18543,7 +18549,7 @@
       "releasedGameCount": 14,
       "upcomingGameCount": 0,
       "demandScore": {
-        "value": 47.9,
+        "value": 49.4,
         "confidence": 54,
         "components": [
           {
@@ -18556,7 +18562,7 @@
             "key": "currentPlayers",
             "label": "Current Player Strength",
             "weight": 0.25,
-            "value": 61.8
+            "value": 67.6
           },
           {
             "key": "releaseAdjReviews",
@@ -18675,14 +18681,14 @@
         "analyticsVersion": "market_v0.1"
       },
       "marketAttractivenessScore": {
-        "value": 51.3,
+        "value": 51.8,
         "confidence": 48,
         "components": [
           {
             "key": "demand",
             "label": "Demand",
             "weight": 0.35,
-            "value": 47.9
+            "value": 49.4
           },
           {
             "key": "demandGrowth",
@@ -18706,14 +18712,14 @@
         "analyticsVersion": "market_v0.1"
       },
       "gapScore": {
-        "value": 50.7,
+        "value": 51.3,
         "confidence": 45,
         "components": [
           {
             "key": "demand",
             "label": "Demand",
             "weight": 0.4,
-            "value": 47.9
+            "value": 49.4
           },
           {
             "key": "demandGrowth",
@@ -18890,8 +18896,8 @@
         "confidence": 85,
         "scopeClass": "Medium"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -19048,7 +19054,7 @@
       "releasedGameCount": 12,
       "upcomingGameCount": 0,
       "demandScore": {
-        "value": 52.4,
+        "value": 43.5,
         "confidence": 54,
         "components": [
           {
@@ -19061,7 +19067,7 @@
             "key": "currentPlayers",
             "label": "Current Player Strength",
             "weight": 0.25,
-            "value": 79.4
+            "value": 44.1
           },
           {
             "key": "releaseAdjReviews",
@@ -19180,14 +19186,14 @@
         "analyticsVersion": "market_v0.1"
       },
       "marketAttractivenessScore": {
-        "value": 52.8,
+        "value": 49.7,
         "confidence": 48,
         "components": [
           {
             "key": "demand",
             "label": "Demand",
             "weight": 0.35,
-            "value": 52.4
+            "value": 43.5
           },
           {
             "key": "demandGrowth",
@@ -19211,14 +19217,14 @@
         "analyticsVersion": "market_v0.1"
       },
       "gapScore": {
-        "value": 52.5,
+        "value": 48.9,
         "confidence": 45,
         "components": [
           {
             "key": "demand",
             "label": "Demand",
             "weight": 0.4,
-            "value": 52.4
+            "value": 43.5
           },
           {
             "key": "demandGrowth",
@@ -19406,8 +19412,8 @@
         "confidence": 90,
         "scopeClass": "Medium"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -19918,8 +19924,8 @@
         "confidence": 77,
         "scopeClass": "Medium"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -20407,8 +20413,8 @@
         "confidence": 77,
         "scopeClass": "Micro"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -20570,7 +20576,7 @@
       "releasedGameCount": 17,
       "upcomingGameCount": 0,
       "demandScore": {
-        "value": 53.8,
+        "value": 52.4,
         "confidence": 54,
         "components": [
           {
@@ -20583,7 +20589,7 @@
             "key": "currentPlayers",
             "label": "Current Player Strength",
             "weight": 0.25,
-            "value": 85.3
+            "value": 79.4
           },
           {
             "key": "releaseAdjReviews",
@@ -20702,14 +20708,14 @@
         "analyticsVersion": "market_v0.1"
       },
       "marketAttractivenessScore": {
-        "value": 45.1,
+        "value": 44.6,
         "confidence": 48,
         "components": [
           {
             "key": "demand",
             "label": "Demand",
             "weight": 0.35,
-            "value": 53.8
+            "value": 52.4
           },
           {
             "key": "demandGrowth",
@@ -20733,14 +20739,14 @@
         "analyticsVersion": "market_v0.1"
       },
       "gapScore": {
-        "value": 46.8,
+        "value": 46.3,
         "confidence": 45,
         "components": [
           {
             "key": "demand",
             "label": "Demand",
             "weight": 0.4,
-            "value": 53.8
+            "value": 52.4
           },
           {
             "key": "demandGrowth",
@@ -20953,8 +20959,8 @@
         "confidence": 90,
         "scopeClass": "Small"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -21105,7 +21111,7 @@
       "releasedGameCount": 5,
       "upcomingGameCount": 0,
       "demandScore": {
-        "value": 43.5,
+        "value": 46.5,
         "confidence": 40.5,
         "components": [
           {
@@ -21118,7 +21124,7 @@
             "key": "currentPlayers",
             "label": "Current Player Strength",
             "weight": 0.25,
-            "value": 44.1
+            "value": 55.9
           },
           {
             "key": "releaseAdjReviews",
@@ -21237,14 +21243,14 @@
         "analyticsVersion": "market_v0.1"
       },
       "marketAttractivenessScore": {
-        "value": 49.7,
+        "value": 50.8,
         "confidence": 36,
         "components": [
           {
             "key": "demand",
             "label": "Demand",
             "weight": 0.35,
-            "value": 43.5
+            "value": 46.5
           },
           {
             "key": "demandGrowth",
@@ -21268,14 +21274,14 @@
         "analyticsVersion": "market_v0.1"
       },
       "gapScore": {
-        "value": 48.9,
+        "value": 50.1,
         "confidence": 33.8,
         "components": [
           {
             "key": "demand",
             "label": "Demand",
             "weight": 0.4,
-            "value": 43.5
+            "value": 46.5
           },
           {
             "key": "demandGrowth",
@@ -21455,8 +21461,8 @@
         "confidence": 90,
         "scopeClass": "Large"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -21910,8 +21916,8 @@
         "confidence": 53,
         "scopeClass": "Micro"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -22386,8 +22392,8 @@
         "confidence": 69,
         "scopeClass": "Small"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -22871,8 +22877,8 @@
         "confidence": 85,
         "scopeClass": "Medium"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -23021,7 +23027,7 @@
       "releasedGameCount": 4,
       "upcomingGameCount": 0,
       "demandScore": {
-        "value": 50.9,
+        "value": 53.8,
         "confidence": 37.8,
         "components": [
           {
@@ -23034,7 +23040,7 @@
             "key": "currentPlayers",
             "label": "Current Player Strength",
             "weight": 0.25,
-            "value": 73.5
+            "value": 85.3
           },
           {
             "key": "releaseAdjReviews",
@@ -23153,14 +23159,14 @@
         "analyticsVersion": "market_v0.1"
       },
       "marketAttractivenessScore": {
-        "value": 52.3,
+        "value": 53.3,
         "confidence": 33.6,
         "components": [
           {
             "key": "demand",
             "label": "Demand",
             "weight": 0.35,
-            "value": 50.9
+            "value": 53.8
           },
           {
             "key": "demandGrowth",
@@ -23184,14 +23190,14 @@
         "analyticsVersion": "market_v0.1"
       },
       "gapScore": {
-        "value": 51.9,
+        "value": 53,
         "confidence": 31.5,
         "components": [
           {
             "key": "demand",
             "label": "Demand",
             "weight": 0.4,
-            "value": 50.9
+            "value": 53.8
           },
           {
             "key": "demandGrowth",
@@ -23356,8 +23362,8 @@
         "confidence": 77,
         "scopeClass": "Medium"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
@@ -23796,8 +23802,8 @@
         "confidence": 53,
         "scopeClass": "Small"
       },
-      "createdAt": "2026-10-26T13:25:03.219Z",
-      "updatedAt": "2026-10-26T13:25:03.219Z",
+      "createdAt": "2026-11-02T16:19:20.588Z",
+      "updatedAt": "2026-11-02T16:19:20.588Z",
       "hiddenDemand": {
         "activeSupply": 0,
         "reviewDensity": 0,
